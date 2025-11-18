@@ -1,0 +1,266 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1763476864
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_0
+timestamp 1763476864
+transform -1 0 668 0 1 18896
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_1
+timestamp 1763476864
+transform -1 0 668 0 1 38288
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_2
+timestamp 1763476864
+transform -1 0 668 0 1 716
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_3
+timestamp 1763476864
+transform -1 0 668 0 1 3140
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_4
+timestamp 1763476864
+transform -1 0 668 0 1 4352
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_5
+timestamp 1763476864
+transform -1 0 668 0 1 5564
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_6
+timestamp 1763476864
+transform -1 0 668 0 1 6776
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_7
+timestamp 1763476864
+transform -1 0 668 0 1 7988
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_8
+timestamp 1763476864
+transform -1 0 668 0 1 9200
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_9
+timestamp 1763476864
+transform -1 0 668 0 1 10412
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_10
+timestamp 1763476864
+transform -1 0 668 0 1 11624
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_11
+timestamp 1763476864
+transform -1 0 668 0 1 12836
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_12
+timestamp 1763476864
+transform -1 0 668 0 1 14048
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_13
+timestamp 1763476864
+transform -1 0 668 0 1 15260
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_14
+timestamp 1763476864
+transform -1 0 668 0 1 16472
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_15
+timestamp 1763476864
+transform -1 0 668 0 1 17684
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_16
+timestamp 1763476864
+transform -1 0 668 0 1 21320
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_17
+timestamp 1763476864
+transform -1 0 668 0 1 20108
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_18
+timestamp 1763476864
+transform -1 0 668 0 1 22532
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_19
+timestamp 1763476864
+transform -1 0 668 0 1 23744
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_20
+timestamp 1763476864
+transform -1 0 668 0 1 24956
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_21
+timestamp 1763476864
+transform -1 0 668 0 1 26168
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_22
+timestamp 1763476864
+transform -1 0 668 0 1 27380
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_23
+timestamp 1763476864
+transform -1 0 668 0 1 28592
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_24
+timestamp 1763476864
+transform -1 0 668 0 1 29804
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_25
+timestamp 1763476864
+transform -1 0 668 0 1 31016
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_26
+timestamp 1763476864
+transform -1 0 668 0 1 32228
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_27
+timestamp 1763476864
+transform -1 0 668 0 1 33440
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_28
+timestamp 1763476864
+transform -1 0 668 0 1 34652
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_29
+timestamp 1763476864
+transform -1 0 668 0 1 35864
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_30
+timestamp 1763476864
+transform -1 0 668 0 1 37076
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_31
+timestamp 1763476864
+transform -1 0 668 0 1 1928
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_32
+timestamp 1763476864
+transform -1 0 668 0 -1 38540
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_33
+timestamp 1763476864
+transform -1 0 668 0 -1 37328
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_34
+timestamp 1763476864
+transform -1 0 668 0 -1 36116
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_35
+timestamp 1763476864
+transform -1 0 668 0 -1 34904
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_36
+timestamp 1763476864
+transform -1 0 668 0 -1 33692
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_37
+timestamp 1763476864
+transform -1 0 668 0 -1 32480
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_38
+timestamp 1763476864
+transform -1 0 668 0 -1 31268
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_39
+timestamp 1763476864
+transform -1 0 668 0 -1 30056
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_40
+timestamp 1763476864
+transform -1 0 668 0 -1 28844
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_41
+timestamp 1763476864
+transform -1 0 668 0 -1 27632
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_42
+timestamp 1763476864
+transform -1 0 668 0 -1 26420
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_43
+timestamp 1763476864
+transform -1 0 668 0 -1 25208
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_44
+timestamp 1763476864
+transform -1 0 668 0 -1 23996
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_45
+timestamp 1763476864
+transform -1 0 668 0 -1 22784
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_46
+timestamp 1763476864
+transform -1 0 668 0 -1 20360
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_47
+timestamp 1763476864
+transform -1 0 668 0 -1 21572
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_48
+timestamp 1763476864
+transform -1 0 668 0 -1 19148
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_49
+timestamp 1763476864
+transform -1 0 668 0 -1 17936
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_50
+timestamp 1763476864
+transform -1 0 668 0 -1 16724
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_51
+timestamp 1763476864
+transform -1 0 668 0 -1 15512
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_52
+timestamp 1763476864
+transform -1 0 668 0 -1 14300
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_53
+timestamp 1763476864
+transform -1 0 668 0 -1 13088
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_54
+timestamp 1763476864
+transform -1 0 668 0 -1 11876
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_55
+timestamp 1763476864
+transform -1 0 668 0 -1 10664
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_56
+timestamp 1763476864
+transform -1 0 668 0 -1 9452
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_57
+timestamp 1763476864
+transform -1 0 668 0 -1 8240
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_58
+timestamp 1763476864
+transform -1 0 668 0 -1 7028
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_59
+timestamp 1763476864
+transform -1 0 668 0 -1 5816
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_60
+timestamp 1763476864
+transform -1 0 668 0 -1 4604
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_61
+timestamp 1763476864
+transform -1 0 668 0 -1 3392
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_62
+timestamp 1763476864
+transform -1 0 668 0 -1 968
+box 62 89 538 797
+use 018SRAM_cell1_cutPC_512x8m81  018SRAM_cell1_cutPC_512x8m81_63
+timestamp 1763476864
+transform -1 0 668 0 -1 2180
+box 62 89 538 797
+<< labels >>
+rlabel metal1 s 572 19623 572 19623 4 VDD
+rlabel metal1 s 570 20097 570 20097 4 VSS
+rlabel metal1 s 570 983 570 983 4 VSS
+rlabel metal1 s 567 232 567 232 4 VDD
+<< end >>

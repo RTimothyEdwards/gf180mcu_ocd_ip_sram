@@ -1,0 +1,54 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1763476864
+<< nwell >>
+rect -230 -86 495 1019
+<< pmos >>
+rect -56 0 0 933
+rect 104 0 160 933
+rect 265 0 321 933
+<< pdiff >>
+rect -144 920 -56 933
+rect -144 13 -131 920
+rect -85 13 -56 920
+rect -144 0 -56 13
+rect 0 920 104 933
+rect 0 13 29 920
+rect 75 13 104 920
+rect 0 0 104 13
+rect 160 920 265 933
+rect 160 13 189 920
+rect 235 13 265 920
+rect 160 0 265 13
+rect 321 920 409 933
+rect 321 13 350 920
+rect 396 13 409 920
+rect 321 0 409 13
+<< pdiffc >>
+rect -131 13 -85 920
+rect 29 13 75 920
+rect 189 13 235 920
+rect 350 13 396 920
+<< polysilicon >>
+rect -56 933 0 977
+rect 104 933 160 977
+rect 265 933 321 977
+rect -56 -44 0 0
+rect 104 -44 160 0
+rect 265 -44 321 0
+<< metal1 >>
+rect -131 920 -85 933
+rect -131 0 -85 13
+rect 29 920 75 933
+rect 29 0 75 13
+rect 189 920 235 933
+rect 189 0 235 13
+rect 350 920 396 933
+rect 350 0 396 13
+<< labels >>
+flabel pdiffc -96 466 -96 466 0 FreeSans 186 0 0 0 S
+flabel pdiffc 64 466 64 466 0 FreeSans 186 0 0 0 D
+flabel pdiffc 361 466 361 466 0 FreeSans 186 0 0 0 D
+flabel pdiffc 199 466 199 466 0 FreeSans 186 0 0 0 S
+<< end >>

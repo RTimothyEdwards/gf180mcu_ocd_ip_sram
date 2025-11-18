@@ -1,0 +1,17 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1763476864
+<< metal1 >>
+rect -118 322 119 351
+rect -118 -322 -92 322
+rect 92 -322 119 322
+rect -118 -351 119 -322
+<< via1 >>
+rect -92 -322 92 322
+<< metal2 >>
+rect -118 322 119 351
+rect -118 -322 -92 322
+rect 92 -322 119 322
+rect -118 -351 119 -322
+<< end >>
