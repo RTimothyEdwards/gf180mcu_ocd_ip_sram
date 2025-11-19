@@ -1,7 +1,9 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1763486358
+timestamp 1763589980
+<< error_p >>
+rect 7633 4957 7691 5018
 << metal1 >>
 rect -614 20863 -450 21129
 rect -661 20744 448 20863
@@ -12,20 +14,20 @@ rect -780 60735 15202 60987
 rect -741 28331 -581 28436
 rect 0 20799 448 20892
 use col_512a_512x8m81  col_512a_512x8m81_0
-timestamp 1763486358
+timestamp 1763589980
 transform 1 0 -9 0 1 -1003
-box -821 -1040 15976 61655
+box -821 525 15976 61655
 use dcap_103_novia_512x8m81  dcap_103_novia_512x8m81_0
 array 0 35 452 0 0 553
-timestamp 1763482574
+timestamp 1763564386
 transform 1 0 -578 0 1 20402
 box -205 -132 492 420
 use ldummy_512x4_512x8m81  ldummy_512x4_512x8m81_0
-timestamp 1763476864
+timestamp 1763564386
 transform 1 0 -6435 0 1 20894
 box 5692 172 22363 40429
 use via2_x2_512x8m81  via2_x2_512x8m81_0
-timestamp 1763476864
+timestamp 1763564386
 transform 1 0 -578 0 1 20152
 box -9 0 74 222
 << labels >>
@@ -179,12 +181,12 @@ rlabel metal1 s 9908 11149 9908 11149 4 pcb[1]
 port 89 nsew
 flabel metal1 s -565 21774 -565 21774 0 FreeSans 257 0 0 0 VDD
 port 74 nsew
-flabel metal1 s 6981 -2009 6981 -2009 0 FreeSans 420 0 0 0 WEN[2]
+flabel metal1 s 6981 -445 6981 -445 0 FreeSans 420 0 0 0 WEN[2]
 port 92 nsew
-flabel metal1 s 7540 -2009 7540 -2009 0 FreeSans 420 0 0 0 WEN[1]
+flabel metal1 s 7540 -445 7540 -445 0 FreeSans 420 0 0 0 WEN[1]
 port 93 nsew
-flabel metal1 s -216 -2007 -216 -2007 0 FreeSans 420 0 0 0 WEN[3]
+flabel metal1 s -216 -443 -216 -443 0 FreeSans 420 0 0 0 WEN[3]
 port 91 nsew
-flabel metal1 s 14769 -2005 14769 -2005 0 FreeSans 420 0 0 0 WEN[0]
+flabel metal1 s 14769 -441 14769 -441 0 FreeSans 420 0 0 0 WEN[0]
 port 94 nsew
 << end >>

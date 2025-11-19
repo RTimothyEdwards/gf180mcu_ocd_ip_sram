@@ -1,18 +1,18 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1763476864
+timestamp 1763564386
 << metal1 >>
 rect -44 731 38 732
 rect -44 711 44 731
-rect -44 -711 -26 711
-rect 26 -711 44 711
-rect -44 -732 44 -711
+rect -44 -411 -26 711
+rect 26 -411 44 711
+rect -44 -432 44 -411
 << via1 >>
-rect -26 -711 26 711
+rect -26 -411 26 711
 << metal2 >>
 rect -44 711 44 731
-rect -44 -711 -26 711
-rect 26 -711 44 711
-rect -44 -732 44 -711
+rect -44 -411 -26 711
+rect 26 -411 44 711
+rect -44 -432 44 -411
 << end >>

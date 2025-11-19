@@ -10,5 +10,4 @@ gds write gf180mcu_ocd_ip_sram__sram512x8m8wm1
 quit -noprompt
 EOF
 mv gf180mcu_ocd_ip_sram__sram512x8m8wm1.gds ..
-rm -r extfiles
 echo "Done!"

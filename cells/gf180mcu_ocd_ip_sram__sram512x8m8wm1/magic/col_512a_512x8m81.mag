@@ -1,21 +1,25 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1763486358
+timestamp 1763589980
+<< error_s >>
+rect 7642 5960 7700 6021
 << nwell >>
 rect -365 21493 15173 21547
 rect 7182 21393 7401 21493
 rect 14949 21393 15173 21493
 rect -363 18111 15173 21393
 rect 7571 18056 15173 18111
-rect -363 13654 15178 14975
+rect -363 14112 15178 14975
+rect 3305 7222 3364 7239
+rect 11073 7222 11116 7229
 << metal1 >>
-rect 10403 12267 10675 12364
-rect 10973 12267 11379 12364
-rect -275 -1032 -211 -980
-rect 7037 -1032 7093 -980
-rect 7491 -1032 7547 -980
-rect 14808 -1032 14859 -980
+rect 10403 12879 10675 12976
+rect 10973 12879 11379 12976
+rect -275 535 -44 587
+rect 7037 533 7093 585
+rect 7491 533 7547 585
+rect 14808 533 14859 585
 << metal2 >>
 rect -699 20267 -629 22826
 rect -417 20264 -347 22826
@@ -91,78 +95,78 @@ rect -771 22955 15976 23207
 rect -771 22409 15976 22661
 rect -821 21665 15523 22001
 rect -821 20111 15523 21377
-rect -461 16389 14939 16539
-rect -461 16150 14939 16301
-rect -461 15906 14939 16056
-rect -461 15665 14939 15816
-rect -461 15136 14939 15286
-rect -461 14890 14939 15041
-rect -461 14646 14939 14796
-rect -461 14400 14939 14551
-rect -461 13946 14939 14255
-rect -461 13168 14939 13487
-rect -461 10421 14939 12327
-rect -461 9427 14539 10220
-rect -461 7839 14939 9427
-rect -481 7232 14939 7734
-rect -481 6235 14939 6802
-rect -461 4961 14939 5883
-rect -461 4799 14619 4860
-rect -461 3546 14939 4500
-rect -461 2725 14939 3156
-rect -461 2252 14939 2650
-rect -461 1876 14939 2178
-rect -461 1461 14939 1780
-rect -487 681 15003 1000
-rect -487 235 15003 480
-rect -487 77 15003 138
-rect -487 -85 15003 -24
-rect -487 -418 15003 -173
-rect -487 -926 15003 -607
+rect -461 16504 14939 16654
+rect -461 16265 14939 16416
+rect -461 16021 14939 16171
+rect -461 15780 14939 15931
+rect -461 15553 14939 15703
+rect -461 15307 14939 15458
+rect -461 15063 14939 15213
+rect -461 14817 14939 14968
+rect -461 14363 14939 14672
+rect -461 13648 14939 13967
+rect -461 11041 14939 12947
+rect -461 10047 14539 10840
+rect -461 8983 14939 10047
+rect -481 8356 14939 8858
+rect -481 7425 14939 7992
+rect -461 6121 14939 7043
+rect -124 5960 919 6018
+rect -461 4706 14939 5660
+rect -461 4125 14939 4489
+rect -461 3720 14939 4061
+rect -461 3355 14939 3657
+rect -461 2940 14939 3259
+rect -487 2238 15003 2557
+rect -487 1792 15003 2037
+rect -487 1644 15003 1705
+rect -487 1481 15003 1542
+rect -487 1149 15003 1394
+rect -487 641 15003 960
 use Cell_array8x8_512x8m81  Cell_array8x8_512x8m81_0
-timestamp 1763476864
+timestamp 1763564386
 transform 1 0 -996 0 1 22638
 box 262 103 16314 39017
 use M3_M24310591302022_512x8m81  M3_M24310591302022_512x8m81_0
-timestamp 1763476864
-transform 1 0 14966 0 1 20965
+timestamp 1763564386
+transform 1 0 14966 0 1 20765
 box -35 -534 35 534
 use M3_M24310591302022_512x8m81  M3_M24310591302022_512x8m81_1
-timestamp 1763476864
+timestamp 1763564386
 transform 1 0 -379 0 1 20825
 box -35 -534 35 534
 use M3_M24310591302022_512x8m81  M3_M24310591302022_512x8m81_2
-timestamp 1763476864
+timestamp 1763564386
 transform 1 0 7430 0 1 20825
 box -35 -534 35 534
 use M3_M24310591302023_512x8m81  M3_M24310591302023_512x8m81_0
-timestamp 1763476864
+timestamp 1763564386
 transform 1 0 7152 0 1 21835
 box -35 -165 35 165
 use M3_M24310591302023_512x8m81  M3_M24310591302023_512x8m81_1
-timestamp 1763476864
+timestamp 1763564386
 transform 1 0 -659 0 1 21835
 box -35 -165 35 165
 use M3_M24310591302023_512x8m81  M3_M24310591302023_512x8m81_2
-timestamp 1763476864
+timestamp 1763564386
 transform 1 0 15250 0 1 21835
 box -35 -165 35 165
 use saout_m2_512x8m81  saout_m2_512x8m81_3
-timestamp 1763486358
+timestamp 1763589980
 transform 1 0 -591 0 1 1002
-box -188 -2042 5343 21797
+box -188 -475 5343 21797
 use saout_m2_512x8m81  saout_m2_512x8m81_4
-timestamp 1763486358
+timestamp 1763589980
 transform 1 0 7175 0 1 1002
-box -188 -2042 5343 21797
+box -188 -475 5343 21797
 use saout_R_m2_512x8m81  saout_R_m2_512x8m81_0
-timestamp 1763486358
+timestamp 1763588528
 transform -1 0 15175 0 1 1007
-box -188 -2047 5343 21793
+box -188 -482 5343 21793
 use saout_R_m2_512x8m81  saout_R_m2_512x8m81_1
-timestamp 1763486358
+timestamp 1763588528
 transform -1 0 7409 0 1 1007
-box -188 -2047 5343 21793
+box -188 -482 5343 21793
 << labels >>
 flabel metal3 s -219 21842 -219 21842 0 FreeSans 313 0 0 0 VSS
 port 76 nsew
@@ -450,59 +454,56 @@ rlabel metal2 s 4034 21313 4034 21313 4 b[22]
 port 84 nsew
 flabel metal3 s -219 20551 -219 20551 0 FreeSans 313 0 0 0 VDD
 port 10 nsew
-rlabel metal3 s 567 16439 567 16439 4 ypass[7]
-port 7 nsew
-rlabel metal3 s 567 16203 567 16203 4 ypass[6]
-port 73 nsew
-rlabel metal3 s 567 15962 567 15962 4 ypass[5]
-port 6 nsew
-rlabel metal3 s 567 15720 567 15720 4 ypass[4]
+rlabel metal3 s 567 15835 567 15835 4 ypass[4]
 port 5 nsew
-rlabel metal3 s 567 15216 567 15216 4 ypass[3]
+rlabel metal3 s 567 16077 567 16077 4 ypass[5]
+port 6 nsew
+rlabel metal3 s 567 16318 567 16318 4 ypass[6]
+port 73 nsew
+rlabel metal3 s 567 16554 567 16554 4 ypass[7]
+port 7 nsew
+rlabel metal3 s 567 15633 567 15633 4 ypass[3]
 port 4 nsew
-rlabel metal3 s 567 14974 567 14974 4 ypass[2]
+rlabel metal3 s 567 15391 567 15391 4 ypass[2]
 port 74 nsew
-rlabel metal3 s 567 14732 567 14732 4 ypass[1]
+rlabel metal3 s 567 15149 567 15149 4 ypass[1]
 port 3 nsew
-rlabel metal3 s 567 14486 567 14486 4 ypass[0]
+rlabel metal3 s 567 14903 567 14903 4 ypass[0]
 port 2 nsew
-flabel metal3 s -219 13373 -219 13373 0 FreeSans 313 0 0 0 VSS
+flabel metal3 s -219 14516 -219 14516 0 FreeSans 313 0 0 0 VDD
+port 10 nsew
+flabel metal3 s -219 13853 -219 13853 0 FreeSans 313 0 0 0 VSS
 port 76 nsew
-flabel metal3 s -219 14099 -219 14099 0 FreeSans 313 0 0 0 VDD
-port 10 nsew
-flabel metal3 s -219 6630 -219 6630 0 FreeSans 313 0 0 0 VDD
-port 10 nsew
-flabel metal3 s -219 11130 -219 11130 0 FreeSans 313 0 0 0 VDD
-port 10 nsew
-flabel metal3 s -219 9347 -219 9347 0 FreeSans 313 0 0 0 VSS
+flabel metal3 s -219 9967 -219 9967 0 FreeSans 313 0 0 0 VSS
 port 76 nsew
-rlabel metal3 s 616 2379 616 2379 4 men
+flabel metal3 s -219 11750 -219 11750 0 FreeSans 313 0 0 0 VDD
+port 10 nsew
+flabel metal3 s -219 7820 -219 7820 0 FreeSans 313 0 0 0 VDD
+port 10 nsew
+flabel metal3 s -219 6659 -219 6659 0 FreeSans 313 0 0 0 VSS
+port 76 nsew
+flabel metal3 s -219 5214 -219 5214 0 FreeSans 313 0 0 0 VDD
+port 10 nsew
+flabel metal3 s -219 4313 -219 4313 0 FreeSans 313 0 0 0 VSS
+port 76 nsew
+rlabel metal3 s 616 3790 616 3790 4 men
 port 8 nsew
-flabel metal3 s -219 4837 -219 4837 0 FreeSans 313 0 0 0 GWE
-port 9 nsew
-flabel metal3 s -219 2980 -219 2980 0 FreeSans 313 0 0 0 VSS
+flabel metal3 s -219 3530 -219 3530 0 FreeSans 313 0 0 0 VSS
 port 76 nsew
-flabel metal3 s -219 4054 -219 4054 0 FreeSans 313 0 0 0 VDD
+flabel metal3 s -219 3105 -219 3105 0 FreeSans 313 0 0 0 VDD
 port 10 nsew
-flabel metal3 s -219 5499 -219 5499 0 FreeSans 313 0 0 0 VSS
-port 76 nsew
-flabel metal3 s -219 1626 -219 1626 0 FreeSans 313 0 0 0 VDD
+flabel metal3 s -219 2393 -219 2393 0 FreeSans 313 0 0 0 VDD
 port 10 nsew
-flabel metal3 s -219 2051 -219 2051 0 FreeSans 313 0 0 0 VSS
-port 76 nsew
-flabel metal3 s -219 836 -219 836 0 FreeSans 313 0 0 0 VDD
+flabel metal3 s -219 774 -219 774 0 FreeSans 313 0 0 0 VDD
 port 10 nsew
-flabel metal3 s -219 -793 -219 -793 0 FreeSans 313 0 0 0 VDD
-port 10 nsew
-flabel metal1 s -247 -1005 -247 -1005 0 FreeSans 420 0 0 0 WEN[3]
+flabel metal1 s -247 562 -247 562 0 FreeSans 420 0 0 0 WEN[3]
 port 153 nsew
-flabel metal1 s 7057 -1007 7057 -1007 0 FreeSans 420 0 0 0 WEN[2]
+flabel metal1 s 7057 558 7057 558 0 FreeSans 420 0 0 0 WEN[2]
 port 154 nsew
-flabel metal1 s 7514 -1007 7514 -1007 0 FreeSans 420 0 0 0 WEN[1]
+flabel metal1 s 7514 558 7514 558 0 FreeSans 420 0 0 0 WEN[1]
 port 155 nsew
-flabel metal1 s 14832 -1007 14832 -1007 0 FreeSans 420 0 0 0 WEN[0]
+flabel metal1 s 14832 558 14832 558 0 FreeSans 420 0 0 0 WEN[0]
 port 156 nsew
-<< properties >>
-string FIXED_BBOX 10765 21047 10842 22844
-string path 50.175 142.140 50.175 448.230 
+flabel metal3 s -109 5987 -109 5987 0 FreeSans 313 0 0 0 GWE
+port 9 nsew
 << end >>

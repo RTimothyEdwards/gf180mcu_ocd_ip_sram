@@ -14,4 +14,5 @@ ext2spice lvs
 ext2spice -p extfiles
 quit -noprompt
 EOF
+rm -rf extfiles
 echo "Done"

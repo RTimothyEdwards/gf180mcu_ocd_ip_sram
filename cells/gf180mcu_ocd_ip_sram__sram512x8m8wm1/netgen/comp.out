@@ -67,9 +67,9 @@ Flattening unmatched subcell nmos_5p04310591302016_512x8m81 in circuit gf180mcu_
 Flattening unmatched subcell din_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell nmos_1p2$$46883884_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(6 instances)
 Flattening unmatched subcell nmos_5p0431059130205_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(6 instances)
-Flattening unmatched subcell pmos_5p0431059130209_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell pmos_1p2$$46885932_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell pmos_5p0431059130206_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
+Flattening unmatched subcell pmos_5p0431059130209_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell nmos_1p2$$46563372_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
 Flattening unmatched subcell nmos_5p0431059130208_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
 Flattening unmatched subcell pmos_1p2$$46273580_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
@@ -203,9 +203,9 @@ Flattening unmatched subcell nmos_5p04310591302016_512x8m81 in circuit gf180mcu_
 Flattening unmatched subcell din_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell nmos_1p2$$46883884_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(6 instances)
 Flattening unmatched subcell nmos_5p0431059130205_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(6 instances)
-Flattening unmatched subcell pmos_5p0431059130209_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell pmos_1p2$$46885932_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell pmos_5p0431059130206_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
+Flattening unmatched subcell pmos_5p0431059130209_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell nmos_1p2$$46563372_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
 Flattening unmatched subcell nmos_5p0431059130208_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
 Flattening unmatched subcell pmos_1p2$$46273580_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
@@ -337,9 +337,9 @@ Flattening unmatched subcell nmos_5p04310591302016_512x8m81 in circuit gf180mcu_
 Flattening unmatched subcell din_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell nmos_1p2$$46883884_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(6 instances)
 Flattening unmatched subcell nmos_5p0431059130205_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(6 instances)
-Flattening unmatched subcell pmos_5p0431059130209_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell pmos_1p2$$46885932_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell pmos_5p0431059130206_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
+Flattening unmatched subcell pmos_5p0431059130209_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell nmos_1p2$$46563372_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
 Flattening unmatched subcell nmos_5p0431059130208_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
 Flattening unmatched subcell pmos_1p2$$46273580_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
@@ -487,9 +487,9 @@ Flattening unmatched subcell nmos_5p04310591302016_512x8m81 in circuit gf180mcu_
 Flattening unmatched subcell din_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell nmos_1p2$$46883884_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(6 instances)
 Flattening unmatched subcell nmos_5p0431059130205_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(6 instances)
-Flattening unmatched subcell pmos_5p0431059130209_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell pmos_1p2$$46885932_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell pmos_5p0431059130206_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
+Flattening unmatched subcell pmos_5p0431059130209_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(2 instances)
 Flattening unmatched subcell nmos_1p2$$46563372_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
 Flattening unmatched subcell nmos_5p0431059130208_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
 Flattening unmatched subcell pmos_1p2$$46273580_512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(4 instances)
@@ -959,13 +959,9 @@ Flattening unmatched subcell ICV_4 in circuit gf180mcu_ocd_ip_sram__sram512x8m8w
 Flattening unmatched subcell ICV_3 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (1)(16 instances)
 Flattening unmatched subcell ICV_2 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (1)(32 instances)
 
-Cell gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0) disconnected node: WEN[2]
-Cell gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0) disconnected node: WEN[1]
 Cell gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0) disconnected node: WEN[0]
 Class gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0):  Merged 2297 parallel devices.
 Class gf180mcu_ocd_ip_sram__sram512x8m8wm1 (1):  Merged 69 parallel devices.
-Cell gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0) disconnected node: WEN[2]
-Cell gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0) disconnected node: WEN[1]
 Cell gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0) disconnected node: WEN[0]
 Subcircuit summary:
 Circuit 1: gf180mcu_ocd_ip_sram__sram512x8m8wm1                              |Circuit 2: gf180mcu_ocd_ip_sram__sram512x8m8wm1                              
@@ -1007,22 +1003,20 @@ WEN[5]                                                                       |WE
 WEN[6]                                                                       |WEN[6]                                                                       
 WEN[4]                                                                       |WEN[4]                                                                       
 WEN[3]                                                                       |WEN[3]                                                                       
+WEN[2]                                                                       |WEN[2]                                                                       
+WEN[1]                                                                       |WEN[1]                                                                       
 A[8]                                                                         |A[8]                                                                         
 A[6]                                                                         |A[6]                                                                         
 A[7]                                                                         |A[7]                                                                         
-A[2]                                                                         |A[2]                                                                         
-A[5]                                                                         |A[5]                                                                         
 A[1]                                                                         |A[1]                                                                         
 A[4]                                                                         |A[4]                                                                         
+A[2]                                                                         |A[2]                                                                         
+A[5]                                                                         |A[5]                                                                         
 A[0]                                                                         |A[0]                                                                         
 A[3]                                                                         |A[3]                                                                         
 VSS_uq15                                                                     |VSS **Mismatch**                                                             
-VDD                                                                          |VDD                                                                          
-(no pin, node is /lcol4_512_512x8m81_0/col_512a_512x8m81_0/WEN[1])           |WEN[2]                                                                       
-(no pin, node is /lcol4_512_512x8m81_0/col_512a_512x8m81_0/WEN[2])           |WEN[1]                                                                       
+VDD_uq0                                                                      |VDD **Mismatch**                                                             
 (no pin, node is /lcol4_512_512x8m81_0/col_512a_512x8m81_0/WEN[3])           |WEN[0]                                                                       
-WEN[2]                                                                       |(no matching pin)                                                            
-WEN[1]                                                                       |(no matching pin)                                                            
 WEN[0]                                                                       |(no matching pin)                                                            
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Cell pin lists for gf180mcu_ocd_ip_sram__sram512x8m8wm1 and gf180mcu_ocd_ip_sram__sram512x8m8wm1 altered to match.

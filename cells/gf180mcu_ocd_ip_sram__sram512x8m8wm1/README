@@ -33,3 +33,11 @@ Work converting the 5V SRAM to 3.3V.
    Copy the core cell from magic/.  Copy everything else from magic_scaled/.
 
 9. Rework layout to get it DRC clean.
+
+10. Rework layout to get it LVS clean.
+
+11. Copy everything into the new empty git repository and push.
+
+12. Rework layout to remove excess space in the Y direction in the
+   bottom half of the layout; repeat steps 9 through 11.
+
