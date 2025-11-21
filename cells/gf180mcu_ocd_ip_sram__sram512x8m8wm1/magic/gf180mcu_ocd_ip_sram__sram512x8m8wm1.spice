@@ -16583,8 +16583,8 @@ Xalatch_512x8m81_0 alatch_512x8m81_0/enb alatch_512x8m81_0/en alatch_512x8m81_0/
 .ends
 
 .subckt xpredec1_512x8m81 A[2] men x[7] x[6] x[5] x[4] x[2] x[1] x[0] A[1] A[0] clk
-+ vdd_uq0 w_5024_6624# vdd x[3] pmos_1p2$$47109164_512x8m81_0/pmos_5p04310591302062_512x8m81_0/w_n202_n86#
-+ vss xpredec1_bot_512x8m81_2/alatch_512x8m81_0/vdd xpredec1_xa_512x8m81_7/m3_n46_n5510#
++ vdd_uq0 w_5024_6624# vdd x[3] vss pmos_1p2$$47109164_512x8m81_0/pmos_5p04310591302062_512x8m81_0/w_n202_n86#
++ xpredec1_bot_512x8m81_2/alatch_512x8m81_0/vdd xpredec1_xa_512x8m81_7/m3_n46_n5510#
 Xxpredec1_xa_512x8m81_0 xpredec1_bot_512x8m81_0/pmos_1p2$$47337516_512x8m81_0/pmos_5p04310591302070_512x8m81_0/D
 + xpredec1_bot_512x8m81_2/pmos_1p2$$47337516_512x8m81_0/pmos_5p04310591302070_512x8m81_0/D
 + xpredec1_xa_512x8m81_7/m3_n46_n5510# xpredec1_bot_512x8m81_0/pmos_1p2$$47337516_512x8m81_1/pmos_5p04310591302070_512x8m81_0/D
@@ -16888,8 +16888,8 @@ X3 a_3416_6773# clk nmos_5p04310591302040_512x8m81_1/S vdd_uq2 pfet_03v3 ad=0.16
 + xpredec1_512x8m81_0/vdd VSUBS
 Xxpredec1_512x8m81_0 A[2] men xa[7] xa[6] xa[5] xa[4] xa[2] xa[1] xa[0] A[1] A[0]
 + xpredec1_512x8m81_0/clk xpredec1_512x8m81_0/vdd xpredec1_512x8m81_0/w_5024_6624#
-+ xpredec1_512x8m81_0/vdd xa[3] xpredec1_512x8m81_0/pmos_1p2$$47109164_512x8m81_0/pmos_5p04310591302062_512x8m81_0/w_n202_n86#
-+ VSUBS xpredec1_512x8m81_0/xpredec1_bot_512x8m81_2/alatch_512x8m81_0/vdd xpredec0_512x8m81_1/vdd
++ xpredec1_512x8m81_0/vdd xa[3] VSUBS xpredec1_512x8m81_0/pmos_1p2$$47109164_512x8m81_0/pmos_5p04310591302062_512x8m81_0/w_n202_n86#
++ xpredec1_512x8m81_0/xpredec1_bot_512x8m81_2/alatch_512x8m81_0/vdd xpredec0_512x8m81_1/vdd
 + xpredec1_512x8m81
 Xxpredec0_512x8m81_0 xpredec0_512x8m81_0/vss A[3] xb[1] xb[2] xb[3] A[4] xpredec0_512x8m81_1/clk
 + xpredec0_512x8m81_0/vss_uq0 xpredec0_512x8m81_0/vdd_uq0 xpredec1_512x8m81_0/vdd

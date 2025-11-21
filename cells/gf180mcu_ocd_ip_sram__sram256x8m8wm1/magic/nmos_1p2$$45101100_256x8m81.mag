@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1763564386
+timestamp 1763766357
 << error_s >>
 rect -201 0 -155 106
 rect -41 0 5 106
@@ -21,7 +21,7 @@ rect 195 -34 251 0
 rect 356 -34 411 0
 rect 516 -34 572 0
 use nmos_5p04310591302036_256x8m81  nmos_5p04310591302036_256x8m81_0
-timestamp 1763564386
+timestamp 1763766357
 transform 1 0 -14 0 1 0
 box -200 -44 674 150
 << end >>
