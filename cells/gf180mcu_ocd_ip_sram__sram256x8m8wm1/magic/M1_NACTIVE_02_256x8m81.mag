@@ -1,0 +1,17 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1763564386
+<< nsubdiff >>
+rect -54 24 607 56
+rect -54 -23 -23 24
+rect 576 -23 607 24
+rect -54 -56 607 -23
+<< nsubdiffcont >>
+rect -23 -23 576 24
+<< metal1 >>
+rect -40 24 594 42
+rect -40 -23 -23 24
+rect 576 -23 594 24
+rect -40 -42 594 -23
+<< end >>

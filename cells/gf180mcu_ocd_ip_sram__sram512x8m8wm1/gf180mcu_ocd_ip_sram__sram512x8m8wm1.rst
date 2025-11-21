@@ -15,13 +15,13 @@ gf180mcu_ocd_ip_sram__sram512x8m8wm1
 
 **Features**
 
-- Uses 180nm 3.3V CMOS 6 transistors bitcell
+- Uses 180nm 3.3V CMOS 6 transistors 6.605um^2 bitcell
 
 - 512 words X 8 bits, mux 8 Instance
 
 - Periphery circuitry uses 3.3V transistors
 
-- Operating voltage is 1.62V to 3.30V
+- Operating voltage is 1.62V to 3.63V
 
 - Operating temperature is -40 degC to 125 degC
 

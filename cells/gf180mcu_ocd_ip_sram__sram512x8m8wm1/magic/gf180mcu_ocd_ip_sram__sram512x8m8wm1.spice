@@ -16927,78 +16927,74 @@ Xprexdec_top_512x8m81_0 A[5] A[9] xb[3] xc[1] xc[2] xb[1] xb[2] xb[0] xa[1] xa[2
 
 .subckt gf180mcu_ocd_ip_sram__sram512x8m8wm1 A[8] A[7] A[6] A[5] A[4] A[3] A[2] A[1]
 + A[0] CEN CLK D[7] D[6] D[5] D[4] D[3] D[2] D[1] D[0] GWEN Q[7] Q[6] Q[5] Q[4] Q[3]
-+ Q[2] Q[1] Q[0] WEN[7] WEN[6] WEN[5] WEN[4] WEN[3] WEN[2] WEN[1] WEN[0] VSS_uq15
-+ VDD_uq0
++ Q[2] Q[1] Q[0] VDD VSS WEN[7] WEN[6] WEN[5] WEN[4] WEN[3] WEN[2] WEN[1] WEN[0]
 Xlcol4_512_512x8m81_0 xdec64_512x8m81_0/LWL[33] lcol4_512_512x8m81_0/WL[33] xdec64_512x8m81_0/LWL[35]
-+ lcol4_512_512x8m81_0/WL[38] VSS_uq15 VSS_uq15 xdec64_512x8m81_0/LWL[37] VSS_uq15
-+ VSS_uq15 lcol4_512_512x8m81_0/WL[43] xdec64_512x8m81_0/LWL[46] lcol4_512_512x8m81_0/WL[45]
-+ xdec64_512x8m81_0/LWL[48] xdec64_512x8m81_0/LWL[49] xdec64_512x8m81_0/LWL[50] xdec64_512x8m81_0/LWL[51]
-+ xdec64_512x8m81_0/LWL[52] xdec64_512x8m81_0/LWL[53] xdec64_512x8m81_0/LWL[54] xdec64_512x8m81_0/LWL[55]
-+ xdec64_512x8m81_0/LWL[56] xdec64_512x8m81_0/LWL[57] lcol4_512_512x8m81_0/WL[56]
-+ lcol4_512_512x8m81_0/WL[58] VSS_uq15 xdec64_512x8m81_0/LWL[63] VSS_uq15 VDD_uq0
-+ lcol4_512_512x8m81_0/WL[20] xdec64_512x8m81_0/LWL[20] lcol4_512_512x8m81_0/WL[18]
-+ xdec64_512x8m81_0/LWL[18] VSS_uq15 xdec64_512x8m81_0/LWL[16] VSS_uq15 lcol4_512_512x8m81_0/WL[13]
-+ VSS_uq15 xdec64_512x8m81_0/LWL[11] VSS_uq15 lcol4_512_512x8m81_0/WL[8] lcol4_512_512x8m81_0/WL[6]
-+ lcol4_512_512x8m81_0/WL[31] xdec64_512x8m81_0/LWL[31] xdec64_512x8m81_0/LWL[30]
-+ xdec64_512x8m81_0/LWL[29] lcol4_512_512x8m81_0/din[1] lcol4_512_512x8m81_0/din[3]
-+ lcol4_512_512x8m81_0/din[2] lcol4_512_512x8m81_0/q[1] lcol4_512_512x8m81_0/q[2]
-+ lcol4_512_512x8m81_0/q[3] lcol4_512_512x8m81_0/pcb[2] lcol4_512_512x8m81_0/pcb[3]
-+ lcol4_512_512x8m81_0/pcb[0] lcol4_512_512x8m81_0/pcb[1] WEN[0] WEN[1] WEN[2] WEN[3]
-+ xdec64_512x8m81_0/xdec32_468_512x8m81_0/LWL[30] xdec64_512x8m81_0/LWL[47] Q[2] D[1]
-+ rcol4_512_512x8m81_0/GWE xdec64_512x8m81_0/LWL[10] D[2] xdec64_512x8m81_0/LWL[12]
++ lcol4_512_512x8m81_0/WL[38] VSS VSS xdec64_512x8m81_0/LWL[37] VSS VSS lcol4_512_512x8m81_0/WL[43]
++ xdec64_512x8m81_0/LWL[46] lcol4_512_512x8m81_0/WL[45] xdec64_512x8m81_0/LWL[48]
++ xdec64_512x8m81_0/LWL[49] xdec64_512x8m81_0/LWL[50] xdec64_512x8m81_0/LWL[51] xdec64_512x8m81_0/LWL[52]
++ xdec64_512x8m81_0/LWL[53] xdec64_512x8m81_0/LWL[54] xdec64_512x8m81_0/LWL[55] xdec64_512x8m81_0/LWL[56]
++ xdec64_512x8m81_0/LWL[57] lcol4_512_512x8m81_0/WL[56] lcol4_512_512x8m81_0/WL[58]
++ VSS xdec64_512x8m81_0/LWL[63] VSS VDD lcol4_512_512x8m81_0/WL[20] xdec64_512x8m81_0/LWL[20]
++ lcol4_512_512x8m81_0/WL[18] xdec64_512x8m81_0/LWL[18] VSS xdec64_512x8m81_0/LWL[16]
++ VSS lcol4_512_512x8m81_0/WL[13] VSS xdec64_512x8m81_0/LWL[11] VSS lcol4_512_512x8m81_0/WL[8]
++ lcol4_512_512x8m81_0/WL[6] lcol4_512_512x8m81_0/WL[31] xdec64_512x8m81_0/LWL[31]
++ xdec64_512x8m81_0/LWL[30] xdec64_512x8m81_0/LWL[29] lcol4_512_512x8m81_0/din[1]
++ lcol4_512_512x8m81_0/din[3] lcol4_512_512x8m81_0/din[2] lcol4_512_512x8m81_0/q[1]
++ lcol4_512_512x8m81_0/q[2] lcol4_512_512x8m81_0/q[3] lcol4_512_512x8m81_0/pcb[2]
++ lcol4_512_512x8m81_0/pcb[3] lcol4_512_512x8m81_0/pcb[0] lcol4_512_512x8m81_0/pcb[1]
++ WEN[0] WEN[1] WEN[2] WEN[3] xdec64_512x8m81_0/xdec32_468_512x8m81_0/LWL[30] xdec64_512x8m81_0/LWL[47]
++ Q[2] D[1] rcol4_512_512x8m81_0/GWE xdec64_512x8m81_0/LWL[10] D[2] xdec64_512x8m81_0/LWL[12]
 + xdec64_512x8m81_0/LWL[13] xdec64_512x8m81_0/LWL[14] xdec64_512x8m81_0/LWL[15] xdec64_512x8m81_0/LWL[32]
 + xdec64_512x8m81_0/LWL[0] D[3] xdec64_512x8m81_0/LWL[1] xdec64_512x8m81_0/LWL[17]
 + xdec64_512x8m81_0/LWL[34] xdec64_512x8m81_0/LWL[2] Q[1] D[0] xdec64_512x8m81_0/LWL[3]
 + xdec64_512x8m81_0/LWL[19] xdec64_512x8m81_0/LWL[36] xdec64_512x8m81_0/LWL[4] WEN[3]
-+ xdec64_512x8m81_0/LWL[5] VDD_uq0 xdec64_512x8m81_0/LWL[38] xdec64_512x8m81_0/LWL[6]
++ xdec64_512x8m81_0/LWL[5] VDD xdec64_512x8m81_0/LWL[38] xdec64_512x8m81_0/LWL[6]
 + xdec64_512x8m81_0/LWL[39] xdec64_512x8m81_0/LWL[7] rcol4_512_512x8m81_0/GWE Q[0]
 + xdec64_512x8m81_0/LWL[8] xdec64_512x8m81_0/LWL[9] xdec64_512x8m81_0/LWL[58] xdec64_512x8m81_0/LWL[59]
-+ xdec64_512x8m81_0/men VDD_uq0 VDD_uq0 xdec64_512x8m81_0/LWL[21] control_512x8_512x8m81_0/LYS[7]
-+ VDD_uq0 rcol4_512_512x8m81_0/GWE xdec64_512x8m81_0/LWL[22] lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[1]
-+ VDD_uq0 xdec64_512x8m81_0/LWL[23] xdec64_512x8m81_0/LWL[40] rcol4_512_512x8m81_0/GWE
++ xdec64_512x8m81_0/men VDD VDD xdec64_512x8m81_0/LWL[21] control_512x8_512x8m81_0/LYS[7]
++ VDD rcol4_512_512x8m81_0/GWE xdec64_512x8m81_0/LWL[22] lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[1]
++ VDD xdec64_512x8m81_0/LWL[23] xdec64_512x8m81_0/LWL[40] rcol4_512_512x8m81_0/GWE
 + lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[2] control_512x8_512x8m81_0/IGWEN
 + xdec64_512x8m81_0/LWL[24] xdec64_512x8m81_0/LWL[41] control_512x8_512x8m81_0/VDD_uq4
-+ VDD_uq0 xdec64_512x8m81_0/LWL[25] VDD_uq0 Q[3] xdec64_512x8m81_0/LWL[42] lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[4]
++ VDD xdec64_512x8m81_0/LWL[25] VDD Q[3] xdec64_512x8m81_0/LWL[42] lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[4]
 + rcol4_512_512x8m81_0/GWE xdec64_512x8m81_0/LWL[26] lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[5]
-+ xdec64_512x8m81_0/LWL[43] xdec64_512x8m81_0/LWL[60] VDD_uq0 xdec64_512x8m81_0/LWL[27]
-+ VDD_uq0 lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[6] xdec64_512x8m81_0/LWL[44]
++ xdec64_512x8m81_0/LWL[43] xdec64_512x8m81_0/LWL[60] VDD xdec64_512x8m81_0/LWL[27]
++ VDD lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[6] xdec64_512x8m81_0/LWL[44]
 + lcol4_512_512x8m81_0/WL[59] xdec64_512x8m81_0/LWL[28] lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[7]
-+ xdec64_512x8m81_0/LWL[45] VSS_uq15 lcol4_512_512x8m81
++ xdec64_512x8m81_0/LWL[45] VSS lcol4_512_512x8m81
 Xrcol4_512_512x8m81_0 xdec64_512x8m81_0/RWL[33] rcol4_512_512x8m81_0/WL[33] rcol4_512_512x8m81_0/WL[35]
-+ xdec64_512x8m81_0/RWL[37] VSS_uq15 xdec64_512x8m81_0/RWL[46] xdec64_512x8m81_0/RWL[48]
++ xdec64_512x8m81_0/RWL[37] VSS xdec64_512x8m81_0/RWL[46] xdec64_512x8m81_0/RWL[48]
 + xdec64_512x8m81_0/RWL[52] xdec64_512x8m81_0/RWL[54] xdec64_512x8m81_0/RWL[56] rcol4_512_512x8m81_0/WL[56]
 + xdec64_512x8m81_0/RWL[61] xdec64_512x8m81_0/RWL[53] xdec64_512x8m81_0/RWL[26] xdec64_512x8m81_0/RWL[24]
 + xdec64_512x8m81_0/RWL[23] rcol4_512_512x8m81_0/WL[20] xdec64_512x8m81_0/RWL[31]
-+ VSS_uq15 VSS_uq15 xdec64_512x8m81_0/RWL[16] rcol4_512_512x8m81_0/WL[38] rcol4_512_512x8m81_0/WL[45]
-+ VSS_uq15 VSS_uq15 rcol4_512_512x8m81_0/WL[31] VSS_uq15 VSS_uq15 xdec64_512x8m81_0/RWL[18]
-+ xdec64_512x8m81_0/RWL[20] rcol4_512_512x8m81_0/WL[58] rcol4_512_512x8m81_0/WL[60]
-+ rcol4_512_512x8m81_0/WL[62] xdec64_512x8m81_0/RWL[55] xdec64_512x8m81_0/RWL[49]
-+ xdec64_512x8m81_0/RWL[57] VSS_uq15 xdec64_512x8m81_0/RWL[7] rcol4_512_512x8m81_0/WL[8]
-+ xdec64_512x8m81_0/RWL[9] xdec64_512x8m81_0/RWL[1] VSS_uq15 rcol4_512_512x8m81_0/WL[13]
-+ rcol4_512_512x8m81_0/WL[6] rcol4_512_512x8m81_0/tblhl rcol4_512_512x8m81_0/GWE xdec64_512x8m81_0/RWL[11]
-+ rcol4_512_512x8m81_0/din[7] rcol4_512_512x8m81_0/q[5] rcol4_512_512x8m81_0/q[6]
-+ rcol4_512_512x8m81_0/q[7] rcol4_512_512x8m81_0/din[5] rcol4_512_512x8m81_0/din[6]
-+ rcol4_512_512x8m81_0/q[4] rcol4_512_512x8m81_0/pcb[6] rcol4_512_512x8m81_0/pcb[7]
-+ rcol4_512_512x8m81_0/pcb[4] WEN[7] WEN[4] rcol4_512_512x8m81_0/pcb[5] WEN[6] WEN[5]
-+ xdec64_512x8m81_0/RWL[32] xdec64_512x8m81_0/RWL[60] xdec64_512x8m81_0/RWL[8] xdec64_512x8m81_0/RWL[45]
-+ control_512x8_512x8m81_0/RYS[1] xdec64_512x8m81_0/RWL[39] xdec64_512x8m81_0/RWL[6]
-+ xdec64_512x8m81_0/RWL[38] control_512x8_512x8m81_0/RYS[6] xdec64_512x8m81_0/men
-+ xdec64_512x8m81_0/RWL[62] xdec64_512x8m81_0/RWL[10] D[7] D[4] xdec64_512x8m81_0/RWL[47]
-+ Q[4] VDD_uq0 control_512x8_512x8m81_0/RYS[7] xdec64_512x8m81_0/RWL[41] xdec64_512x8m81_0/RWL[40]
-+ control_512x8_512x8m81_0/RYS[2] xdec64_512x8m81_0/RWL[25] xdec64_512x8m81_0/RWL[2]
-+ rcol4_512_512x8m81_0/saout_R_m2_512x8m81_1/sa_512x8m81_0/pcb D[6] rcol4_512_512x8m81_0/saout_R_m2_512x8m81_1/sa_512x8m81_0/pcb
-+ control_512x8_512x8m81_0/IGWEN xdec64_512x8m81_0/RWL[34] xdec64_512x8m81_0/RWL[12]
-+ xdec64_512x8m81_0/RWL[63] xdec64_512x8m81_0/RWL[17] control_512x8_512x8m81_0/RYS[0]
-+ xdec64_512x8m81_0/RWL[28] xdec64_512x8m81_0/RWL[42] xdec64_512x8m81_0/RWL[27] xdec64_512x8m81_0/DRWL
-+ xdec64_512x8m81_0/RWL[4] control_512x8_512x8m81_0/RYS[5] xdec64_512x8m81_0/RWL[3]
-+ xdec64_512x8m81_0/RWL[21] Q[7] VSS_uq15 xdec64_512x8m81_0/RWL[50] xdec64_512x8m81_0/RWL[14]
-+ xdec64_512x8m81_0/RWL[19] control_512x8_512x8m81_0/RYS[4] VDD_uq0 xdec64_512x8m81_0/RWL[13]
-+ VDD_uq0 Q[6] VDD_uq0 Q[5] xdec64_512x8m81_0/RWL[59] xdec64_512x8m81_0/RWL[30] xdec64_512x8m81_0/RWL[58]
-+ xdec64_512x8m81_0/RWL[44] xdec64_512x8m81_0/RWL[43] VDD_uq0 xdec64_512x8m81_0/RWL[29]
-+ xdec64_512x8m81_0/RWL[0] xdec64_512x8m81_0/RWL[5] control_512x8_512x8m81_0/RYS[3]
++ VSS VSS xdec64_512x8m81_0/RWL[16] rcol4_512_512x8m81_0/WL[38] rcol4_512_512x8m81_0/WL[45]
++ VSS VSS rcol4_512_512x8m81_0/WL[31] VSS VSS xdec64_512x8m81_0/RWL[18] xdec64_512x8m81_0/RWL[20]
++ rcol4_512_512x8m81_0/WL[58] rcol4_512_512x8m81_0/WL[60] rcol4_512_512x8m81_0/WL[62]
++ xdec64_512x8m81_0/RWL[55] xdec64_512x8m81_0/RWL[49] xdec64_512x8m81_0/RWL[57] VSS
++ xdec64_512x8m81_0/RWL[7] rcol4_512_512x8m81_0/WL[8] xdec64_512x8m81_0/RWL[9] xdec64_512x8m81_0/RWL[1]
++ VSS rcol4_512_512x8m81_0/WL[13] rcol4_512_512x8m81_0/WL[6] rcol4_512_512x8m81_0/tblhl
++ rcol4_512_512x8m81_0/GWE xdec64_512x8m81_0/RWL[11] rcol4_512_512x8m81_0/din[7] rcol4_512_512x8m81_0/q[5]
++ rcol4_512_512x8m81_0/q[6] rcol4_512_512x8m81_0/q[7] rcol4_512_512x8m81_0/din[5]
++ rcol4_512_512x8m81_0/din[6] rcol4_512_512x8m81_0/q[4] rcol4_512_512x8m81_0/pcb[6]
++ rcol4_512_512x8m81_0/pcb[7] rcol4_512_512x8m81_0/pcb[4] WEN[7] WEN[4] rcol4_512_512x8m81_0/pcb[5]
++ WEN[6] WEN[5] xdec64_512x8m81_0/RWL[32] xdec64_512x8m81_0/RWL[60] xdec64_512x8m81_0/RWL[8]
++ xdec64_512x8m81_0/RWL[45] control_512x8_512x8m81_0/RYS[1] xdec64_512x8m81_0/RWL[39]
++ xdec64_512x8m81_0/RWL[6] xdec64_512x8m81_0/RWL[38] control_512x8_512x8m81_0/RYS[6]
++ xdec64_512x8m81_0/men xdec64_512x8m81_0/RWL[62] xdec64_512x8m81_0/RWL[10] D[7] D[4]
++ xdec64_512x8m81_0/RWL[47] Q[4] VDD control_512x8_512x8m81_0/RYS[7] xdec64_512x8m81_0/RWL[41]
++ xdec64_512x8m81_0/RWL[40] control_512x8_512x8m81_0/RYS[2] xdec64_512x8m81_0/RWL[25]
++ xdec64_512x8m81_0/RWL[2] rcol4_512_512x8m81_0/saout_R_m2_512x8m81_1/sa_512x8m81_0/pcb
++ D[6] rcol4_512_512x8m81_0/saout_R_m2_512x8m81_1/sa_512x8m81_0/pcb control_512x8_512x8m81_0/IGWEN
++ xdec64_512x8m81_0/RWL[34] xdec64_512x8m81_0/RWL[12] xdec64_512x8m81_0/RWL[63] xdec64_512x8m81_0/RWL[17]
++ control_512x8_512x8m81_0/RYS[0] xdec64_512x8m81_0/RWL[28] xdec64_512x8m81_0/RWL[42]
++ xdec64_512x8m81_0/RWL[27] xdec64_512x8m81_0/DRWL xdec64_512x8m81_0/RWL[4] control_512x8_512x8m81_0/RYS[5]
++ xdec64_512x8m81_0/RWL[3] xdec64_512x8m81_0/RWL[21] Q[7] VSS xdec64_512x8m81_0/RWL[50]
++ xdec64_512x8m81_0/RWL[14] xdec64_512x8m81_0/RWL[19] control_512x8_512x8m81_0/RYS[4]
++ VDD xdec64_512x8m81_0/RWL[13] VDD Q[6] VDD Q[5] xdec64_512x8m81_0/RWL[59] xdec64_512x8m81_0/RWL[30]
++ xdec64_512x8m81_0/RWL[58] xdec64_512x8m81_0/RWL[44] xdec64_512x8m81_0/RWL[43] VDD
++ xdec64_512x8m81_0/RWL[29] xdec64_512x8m81_0/RWL[0] xdec64_512x8m81_0/RWL[5] control_512x8_512x8m81_0/RYS[3]
 + xdec64_512x8m81_0/RWL[51] xdec64_512x8m81_0/RWL[36] xdec64_512x8m81_0/RWL[22] D[5]
-+ xdec64_512x8m81_0/RWL[35] xdec64_512x8m81_0/RWL[15] VDD_uq0 VDD_uq0 VSS_uq15 VDD_uq0
-+ rcol4_512_512x8m81
++ xdec64_512x8m81_0/RWL[35] xdec64_512x8m81_0/RWL[15] VDD VDD VSS VDD rcol4_512_512x8m81
 Xxdec64_512x8m81_0 xdec64_512x8m81_0/DRWL xdec64_512x8m81_0/RWL[33] xdec64_512x8m81_0/RWL[34]
 + xdec64_512x8m81_0/RWL[35] xdec64_512x8m81_0/RWL[36] xdec64_512x8m81_0/RWL[37] xdec64_512x8m81_0/RWL[38]
 + xdec64_512x8m81_0/RWL[39] xdec64_512x8m81_0/RWL[42] xdec64_512x8m81_0/RWL[44] xdec64_512x8m81_0/RWL[45]
@@ -17034,26 +17030,25 @@ Xxdec64_512x8m81_0 xdec64_512x8m81_0/DRWL xdec64_512x8m81_0/RWL[33] xdec64_512x8
 + xdec64_512x8m81_0/LWL[0] xdec64_512x8m81_0/LWL[45] xdec64_512x8m81_0/RWL[15] xdec64_512x8m81_0/LWL[58]
 + xdec64_512x8m81_0/RWL[10] xdec64_512x8m81_0/LWL[29] xdec64_512x8m81_0/LWL[38] xdec64_512x8m81_0/RWL[48]
 + xdec64_512x8m81_0/RWL[18] xdec64_512x8m81_0/LWL[5] xdec64_512x8m81_0/RWL[47] xdec64_512x8m81_0/LWL[30]
-+ xdec64_512x8m81_0/RWL[55] VDD_uq0 xdec64_512x8m81_0/LWL[56] xdec64_512x8m81_0/RWL[8]
++ xdec64_512x8m81_0/RWL[55] VDD xdec64_512x8m81_0/LWL[56] xdec64_512x8m81_0/RWL[8]
 + xdec64_512x8m81_0/LWL[55] xdec64_512x8m81_0/LWL[36] xdec64_512x8m81_0/RWL[46] xdec64_512x8m81_0/LWL[16]
-+ xdec64_512x8m81_0/LWL[63] VSS_uq15 xdec64_512x8m81_0/LWL[28] xdec64_512x8m81
++ xdec64_512x8m81_0/LWL[63] VSS xdec64_512x8m81_0/LWL[28] xdec64_512x8m81
 Xcontrol_512x8_512x8m81_0 control_512x8_512x8m81_0/RYS[7] control_512x8_512x8m81_0/RYS[6]
 + control_512x8_512x8m81_0/RYS[5] control_512x8_512x8m81_0/RYS[4] control_512x8_512x8m81_0/RYS[3]
 + control_512x8_512x8m81_0/RYS[2] control_512x8_512x8m81_0/RYS[1] control_512x8_512x8m81_0/RYS[0]
-+ VSS_uq15 control_512x8_512x8m81_0/LYS[1] control_512x8_512x8m81_0/LYS[2] control_512x8_512x8m81_0/LYS[3]
++ VSS control_512x8_512x8m81_0/LYS[1] control_512x8_512x8m81_0/LYS[2] control_512x8_512x8m81_0/LYS[3]
 + control_512x8_512x8m81_0/LYS[6] control_512x8_512x8m81_0/LYS[5] control_512x8_512x8m81_0/LYS[4]
 + control_512x8_512x8m81_0/LYS[7] control_512x8_512x8m81_0/IGWEN xdec64_512x8m81_0/xb[3]
 + xdec64_512x8m81_0/xb[2] xdec64_512x8m81_0/xb[0] xdec64_512x8m81_0/xa[7] xdec64_512x8m81_0/xa[6]
 + xdec64_512x8m81_0/xa[5] xdec64_512x8m81_0/xa[4] xdec64_512x8m81_0/xa[2] A[0] xdec64_512x8m81_0/xb[1]
 + control_512x8_512x8m81_0/xc[3] xdec64_512x8m81_0/xc[1] control_512x8_512x8m81_0/xc[2]
-+ xdec64_512x8m81_0/xa[1] VSS_uq15 A[7] CLK A[2] A[1] A[6] A[3] A[4] A[5] A[8] GWEN
-+ control_512x8_512x8m81_0/VSS_uq2 control_512x8_512x8m81_0/VSS_uq5 control_512x8_512x8m81_0/VDD_uq0
-+ control_512x8_512x8m81_0/VDD_uq5 VDD_uq0 xdec64_512x8m81_0/men CEN lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[1]
++ xdec64_512x8m81_0/xa[1] VSS A[7] CLK A[2] A[1] A[6] A[3] A[4] A[5] A[8] GWEN control_512x8_512x8m81_0/VSS_uq2
++ control_512x8_512x8m81_0/VSS_uq5 control_512x8_512x8m81_0/VDD_uq0 control_512x8_512x8m81_0/VDD_uq5
++ VDD xdec64_512x8m81_0/men CEN lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[1]
 + lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[2] xdec64_512x8m81_0/xc[0] control_512x8_512x8m81_0/VDD_uq4
 + lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[4] lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[5]
 + lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[6] lcol4_512_512x8m81_0/col_512a_512x8m81_0/ypass[7]
-+ xdec64_512x8m81_0/xa[0] xdec64_512x8m81_0/xa[3] VDD_uq0 VDD_uq0 VDD_uq0 VDD_uq0
-+ VDD_uq0 VDD_uq0 rcol4_512_512x8m81_0/GWE VDD_uq0 VSS_uq15 rcol4_512_512x8m81_0/tblhl
-+ control_512x8_512x8m81
++ xdec64_512x8m81_0/xa[0] xdec64_512x8m81_0/xa[3] VDD VDD VDD VDD VDD VDD rcol4_512_512x8m81_0/GWE
++ VDD VSS rcol4_512_512x8m81_0/tblhl control_512x8_512x8m81
 .ends
 

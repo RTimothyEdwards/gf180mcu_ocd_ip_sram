@@ -1,0 +1,98 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1763564386
+<< nwell >>
+rect -330 -86 1038 291
+<< pmos >>
+rect -156 0 -100 205
+rect 4 0 60 205
+rect 165 0 221 205
+rect 325 0 381 205
+rect 486 0 542 205
+rect 646 0 702 205
+rect 808 0 864 205
+<< pdiff >>
+rect -244 192 -156 205
+rect -244 13 -231 192
+rect -185 13 -156 192
+rect -244 0 -156 13
+rect -100 192 4 205
+rect -100 13 -71 192
+rect -25 13 4 192
+rect -100 0 4 13
+rect 60 192 165 205
+rect 60 13 89 192
+rect 135 13 165 192
+rect 60 0 165 13
+rect 221 192 325 205
+rect 221 13 250 192
+rect 296 13 325 192
+rect 221 0 325 13
+rect 381 192 486 205
+rect 381 13 410 192
+rect 456 13 486 192
+rect 381 0 486 13
+rect 542 192 646 205
+rect 542 13 571 192
+rect 617 13 646 192
+rect 542 0 646 13
+rect 702 192 808 205
+rect 702 13 732 192
+rect 778 13 808 192
+rect 702 0 808 13
+rect 864 192 952 205
+rect 864 13 893 192
+rect 939 13 952 192
+rect 864 0 952 13
+<< pdiffc >>
+rect -231 13 -185 192
+rect -71 13 -25 192
+rect 89 13 135 192
+rect 250 13 296 192
+rect 410 13 456 192
+rect 571 13 617 192
+rect 732 13 778 192
+rect 893 13 939 192
+<< polysilicon >>
+rect -156 205 -100 249
+rect 4 205 60 249
+rect 165 205 221 249
+rect 325 205 381 249
+rect 486 205 542 249
+rect 646 205 702 249
+rect 808 205 864 249
+rect -156 -44 -100 0
+rect 4 -44 60 0
+rect 165 -44 221 0
+rect 325 -44 381 0
+rect 486 -44 542 0
+rect 646 -44 702 0
+rect 808 -44 864 0
+<< metal1 >>
+rect -231 192 -185 205
+rect -231 0 -185 13
+rect -71 192 -25 205
+rect -71 0 -25 13
+rect 89 192 135 205
+rect 89 0 135 13
+rect 250 192 296 205
+rect 250 0 296 13
+rect 410 192 456 205
+rect 410 0 456 13
+rect 571 192 617 205
+rect 571 0 617 13
+rect 732 192 778 205
+rect 732 0 778 13
+rect 893 192 939 205
+rect 893 0 939 13
+<< labels >>
+flabel pdiffc 273 102 273 102 0 FreeSans 186 0 0 0 D
+flabel pdiffc 124 102 124 102 0 FreeSans 186 0 0 0 S
+flabel pdiffc -36 102 -36 102 0 FreeSans 186 0 0 0 D
+flabel pdiffc -196 102 -196 102 0 FreeSans 186 0 0 0 S
+flabel pdiffc 421 102 421 102 0 FreeSans 186 0 0 0 S
+flabel pdiffc 582 102 582 102 0 FreeSans 186 0 0 0 D
+flabel pdiffc 742 102 742 102 0 FreeSans 186 0 0 0 S
+flabel pdiffc 904 102 904 102 0 FreeSans 186 0 0 0 D
+<< end >>

@@ -1,0 +1,30 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1763564386
+<< nwell >>
+rect -133 275 737 277
+rect -133 272 462 275
+rect -188 -41 140 272
+rect 141 -41 462 272
+rect -188 -50 462 -41
+rect -133 -66 462 -50
+rect 463 -66 737 275
+<< polysilicon >>
+rect -154 211 -99 245
+rect 6 211 62 245
+rect 167 211 223 245
+rect 327 211 383 245
+rect 488 211 544 245
+rect 648 211 704 245
+rect -154 -34 -99 0
+rect 6 -34 62 0
+rect 167 -34 223 0
+rect 327 -34 383 0
+rect 488 -34 544 0
+rect 648 -34 704 0
+use pmos_5p04310591302018_256x8m81  pmos_5p04310591302018_256x8m81_0
+timestamp 1763564386
+transform 1 0 -14 0 1 0
+box -314 -86 892 297
+<< end >>
