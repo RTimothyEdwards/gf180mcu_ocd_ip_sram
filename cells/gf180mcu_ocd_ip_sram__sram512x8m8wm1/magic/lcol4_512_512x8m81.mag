@@ -1,12 +1,16 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1763765945
+timestamp 1763778736
 << error_p >>
 rect 7633 4957 7691 5018
 << metal1 >>
 rect -614 20863 -450 21129
 rect -661 20744 448 20863
+rect -284 -468 -50 -416
+rect 6850 -470 7084 -418
+rect 7482 -468 7716 -416
+rect 14616 -470 14850 -418
 << metal2 >>
 rect -575 15667 -513 20968
 << metal3 >>

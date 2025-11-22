@@ -10325,13 +10325,13 @@ XCell_array8x8_256x8m81_0 saout_m2_256x8m81_4/mux821_256x8m81_0/ypass_gate_256x8
 + col_256a_256x8m81_0/WL[8] col_256a_256x8m81_0/saout_R_m2_256x8m81_1/GWE col_256a_256x8m81_0/GWE
 + col_256a_256x8m81_0/saout_R_m2_256x8m81_1/q col_256a_256x8m81_0/WL[21] col_256a_256x8m81_0/saout_R_m2_256x8m81_1/datain
 + WL[21] WL[22] WL[23] WL[24] col_256a_256x8m81_0/saout_m2_256x8m81_4/q WL[25] WL[26]
-+ col_256a_256x8m81_0/WEN[0] col_256a_256x8m81_0/saout_R_m2_256x8m81_0/datain WL[27]
-+ col_256a_256x8m81_0/saout_m2_256x8m81_4/outbuf_oe_256x8m81_0/GWE WL[28] col_256a_256x8m81_0/saout_R_m2_256x8m81_0/q
-+ col_256a_256x8m81_0/WL[10] col_256a_256x8m81_0/men col_256a_256x8m81_0/saout_R_m2_256x8m81_0/GWE
-+ WL[11] col_256a_256x8m81_0/VDD_uq2 col_256a_256x8m81_0/WL[12] col_256a_256x8m81_0/WL[13]
-+ WL[29] col_256a_256x8m81_0/ypass[0] col_256a_256x8m81_0/WL[14] col_256a_256x8m81_0/VDD
-+ WL[30] col_256a_256x8m81_0/ypass[1] WL[0] col_256a_256x8m81_0/saout_m2_256x8m81_4/GWE
-+ col_256a_256x8m81_0/saout_m2_256x8m81_3/q col_256a_256x8m81_0/WL[15] WL[1] col_256a_256x8m81_0/saout_m2_256x8m81_4/datain
++ col_256a_256x8m81_0/saout_R_m2_256x8m81_0/datain WL[27] col_256a_256x8m81_0/saout_m2_256x8m81_4/outbuf_oe_256x8m81_0/GWE
++ WL[28] col_256a_256x8m81_0/saout_R_m2_256x8m81_0/q col_256a_256x8m81_0/WL[10] col_256a_256x8m81_0/men
++ col_256a_256x8m81_0/saout_R_m2_256x8m81_0/GWE WL[11] col_256a_256x8m81_0/VDD_uq2
++ col_256a_256x8m81_0/WL[12] col_256a_256x8m81_0/WL[13] WL[29] col_256a_256x8m81_0/ypass[0]
++ col_256a_256x8m81_0/WL[14] col_256a_256x8m81_0/VDD WL[30] col_256a_256x8m81_0/ypass[1]
++ WL[0] col_256a_256x8m81_0/saout_m2_256x8m81_4/GWE col_256a_256x8m81_0/saout_m2_256x8m81_3/q
++ col_256a_256x8m81_0/WL[15] WL[1] col_256a_256x8m81_0/saout_m2_256x8m81_4/datain
 + col_256a_256x8m81_0/ypass[2] WL[15] col_256a_256x8m81_0/ypass[3] WL[2] col_256a_256x8m81_0/WL[17]
 + WL[3] col_256a_256x8m81_0/ypass[4] WL[17] VDD col_256a_256x8m81_0/ypass[5] WL[4]
 + col_256a_256x8m81_0/VDD_uq5 col_256a_256x8m81_0/WL[19] col_256a_256x8m81_0/VDD_uq1
@@ -10473,9 +10473,9 @@ Xcol_256a_256x8m81_0 col_256a_256x8m81_0/ypass[0] col_256a_256x8m81_0/ypass[1] c
 + col_256a_256x8m81_0/bb[30] col_256a_256x8m81_0/bb[31] col_256a_256x8m81_0/b[30]
 + col_256a_256x8m81_0/b[27] col_256a_256x8m81_0/b[12] col_256a_256x8m81_0/b[0] col_256a_256x8m81_0/b[3]
 + col_256a_256x8m81_0/b[18] col_256a_256x8m81_0/pcb[0] col_256a_256x8m81_0/pcb[1]
-+ col_256a_256x8m81_0/pcb[3] col_256a_256x8m81_0/pcb[2] col_256a_256x8m81_0/WEN[3]
-+ WEN[2] WEN[1] col_256a_256x8m81_0/saout_R_m2_256x8m81_0/q col_256a_256x8m81_0/saout_R_m2_256x8m81_0/GWE
-+ col_256a_256x8m81_0/saout_m2_256x8m81_4/outbuf_oe_256x8m81_0/GWE col_256a_256x8m81_0/saout_m2_256x8m81_4/mux821_256x8m81_0/ypass_gate_256x8m81_6/bb
++ col_256a_256x8m81_0/pcb[3] col_256a_256x8m81_0/pcb[2] WEN[3] WEN[2] WEN[1] col_256a_256x8m81_0/saout_R_m2_256x8m81_0/q
++ col_256a_256x8m81_0/saout_R_m2_256x8m81_0/GWE col_256a_256x8m81_0/saout_m2_256x8m81_4/outbuf_oe_256x8m81_0/GWE
++ col_256a_256x8m81_0/saout_m2_256x8m81_4/mux821_256x8m81_0/ypass_gate_256x8m81_6/bb
 + col_256a_256x8m81_0/saout_m2_256x8m81_3/q col_256a_256x8m81_0/saout_m2_256x8m81_4/datain
 + col_256a_256x8m81_0/saout_m2_256x8m81_4/GWE col_256a_256x8m81_0/saout_m2_256x8m81_3/b[3]
 + col_256a_256x8m81_0/bb[4] col_256a_256x8m81_0/b[25] col_256a_256x8m81_0/men col_256a_256x8m81_0/saout_R_m2_256x8m81_1/mux821_256x8m81_0/ypass_gate_256x8m81_7/b
@@ -10516,7 +10516,7 @@ Xcol_256a_256x8m81_0 col_256a_256x8m81_0/ypass[0] col_256a_256x8m81_0/ypass[1] c
 + WL[25] col_256a_256x8m81_0/b[5] WL[28] col_256a_256x8m81_0/WL[6] WL[9] col_256a_256x8m81_0/saout_m2_256x8m81_3/bb[3]
 + col_256a_256x8m81_0/VDD col_256a_256x8m81_0/b[9] col_256a_256x8m81_0/saout_m2_256x8m81_4/mux821_256x8m81_0/ypass_gate_256x8m81_3/b
 + col_256a_256x8m81_0/saout_m2_256x8m81_4/mux821_256x8m81_0/ypass_gate_256x8m81_7/b
-+ col_256a_256x8m81_0/WEN[0] col_256a_256x8m81_0/saout_m2_256x8m81_4/mux821_256x8m81_0/ypass_gate_256x8m81_1/bb
++ WEN[0] col_256a_256x8m81_0/saout_m2_256x8m81_4/mux821_256x8m81_0/ypass_gate_256x8m81_1/bb
 + col_256a_256x8m81_0/saout_R_m2_256x8m81_0/bb[4] col_256a_256x8m81_0/saout_R_m2_256x8m81_0/mux821_256x8m81_0/ypass_gate_256x8m81_4/b
 + col_256a_256x8m81_0/VDD_uq5 VSUBS col_256a_256x8m81
 .ends
@@ -10594,7 +10594,7 @@ Xlcol4_256_256x8m81_0 lcol4_256_256x8m81_0/WL[20] xdec64_256x8m81_0/LWL[20] lcol
 + rcol4_256_256x8m81_0/GWE rcol4_256_256x8m81_0/GWE Q[1] xdec64_256x8m81_0/LWL[21]
 + D[1] xdec64_256x8m81_0/LWL[22] xdec64_256x8m81_0/LWL[23] xdec64_256x8m81_0/LWL[24]
 + xdec64_256x8m81_0/LWL[25] Q[2] xdec64_256x8m81_0/LWL[26] xdec64_256x8m81_0/LWL[27]
-+ WEN[3] D[3] xdec64_256x8m81_0/LWL[28] rcol4_256_256x8m81_0/GWE xdec64_256x8m81_0/LWL[29]
++ D[3] xdec64_256x8m81_0/LWL[28] rcol4_256_256x8m81_0/GWE xdec64_256x8m81_0/LWL[29]
 + Q[3] xdec64_256x8m81_0/LWL[10] xdec64_256x8m81_0/men rcol4_256_256x8m81_0/GWE xdec64_256x8m81_0/LWL[11]
 + VDD xdec64_256x8m81_0/LWL[12] xdec64_256x8m81_0/LWL[13] xdec64_256x8m81_0/LWL[30]
 + control_256x8_256x8m81_0/LYS[7] xdec64_256x8m81_0/LWL[14] VDD xdec64_256x8m81_0/LWL[31]

@@ -937,10 +937,8 @@ Flattening unmatched subcell ICV_1 in circuit gf180mcu_ocd_ip_sram__sram256x8m8w
 Flattening unmatched subcell ICV_2 in circuit gf180mcu_ocd_ip_sram__sram256x8m8wm1 (1)(8 instances)
 Flattening unmatched subcell ICV_1 in circuit gf180mcu_ocd_ip_sram__sram256x8m8wm1 (1)(16 instances)
 
-Cell gf180mcu_ocd_ip_sram__sram256x8m8wm1 (0) disconnected node: WEN[0]
 Class gf180mcu_ocd_ip_sram__sram256x8m8wm1 (0):  Merged 1913 parallel devices.
 Class gf180mcu_ocd_ip_sram__sram256x8m8wm1 (1):  Merged 69 parallel devices.
-Cell gf180mcu_ocd_ip_sram__sram256x8m8wm1 (0) disconnected node: WEN[0]
 Subcircuit summary:
 Circuit 1: gf180mcu_ocd_ip_sram__sram256x8m8wm1                              |Circuit 2: gf180mcu_ocd_ip_sram__sram256x8m8wm1                              
 -----------------------------------------------------------------------------|-----------------------------------------------------------------------------
@@ -980,6 +978,7 @@ D[7]                                                                         |D[
 WEN[3]                                                                       |WEN[3]                                                                       
 WEN[2]                                                                       |WEN[2]                                                                       
 WEN[1]                                                                       |WEN[1]                                                                       
+WEN[0]                                                                       |WEN[0]                                                                       
 WEN[5]                                                                       |WEN[5]                                                                       
 WEN[6]                                                                       |WEN[6]                                                                       
 WEN[4]                                                                       |WEN[4]                                                                       
@@ -993,10 +992,9 @@ A[5]                                                                         |A[
 A[0]                                                                         |A[0]                                                                         
 A[3]                                                                         |A[3]                                                                         
 VSS                                                                          |VSS                                                                          
-(no pin, node is /lcol4_256_256x8m81_0/col_256a_256x8m81_0/WEN[3])           |WEN[0]                                                                       
-WEN[0]                                                                       |(no matching pin)                                                            
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
-Cell pin lists for gf180mcu_ocd_ip_sram__sram256x8m8wm1 and gf180mcu_ocd_ip_sram__sram256x8m8wm1 altered to match.
+Cell pin lists are equivalent.
 Device classes gf180mcu_ocd_ip_sram__sram256x8m8wm1 and gf180mcu_ocd_ip_sram__sram256x8m8wm1 are equivalent.
 
-Final result: Top level cell failed pin matching.
+Final result: Circuits match uniquely.
+.
