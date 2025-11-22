@@ -1,0 +1,77 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1763766357
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_0
+timestamp 1763766357
+transform -1 0 7819 0 1 177
+box 62 89 538 797
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_1
+timestamp 1763766357
+transform -1 0 8691 0 1 177
+box 62 89 538 797
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_2
+timestamp 1763766357
+transform -1 0 8255 0 1 177
+box 62 89 538 797
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_3
+timestamp 1763766357
+transform -1 0 9127 0 1 177
+box 62 89 538 797
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_4
+timestamp 1763766357
+transform -1 0 9563 0 1 177
+box 62 89 538 797
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_5
+timestamp 1763766357
+transform -1 0 9999 0 1 177
+box 62 89 538 797
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_6
+timestamp 1763766357
+transform -1 0 10435 0 1 177
+box 62 89 538 797
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_7
+timestamp 1763766357
+transform -1 0 6527 0 1 177
+box 62 89 538 797
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_8
+timestamp 1763766357
+transform -1 0 6091 0 1 177
+box 62 89 538 797
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_9
+timestamp 1763766357
+transform -1 0 5655 0 1 177
+box 62 89 538 797
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_10
+timestamp 1763766357
+transform -1 0 5219 0 1 177
+box 62 89 538 797
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_11
+timestamp 1763766357
+transform -1 0 4347 0 1 177
+box 62 89 538 797
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_12
+timestamp 1763766357
+transform -1 0 4783 0 1 177
+box 62 89 538 797
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_13
+timestamp 1763766357
+transform -1 0 3911 0 1 177
+box 62 89 538 797
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_14
+timestamp 1763766357
+transform -1 0 3475 0 1 177
+box 62 89 538 797
+use 018SRAM_cell1_dummy_3v256x8m81  018SRAM_cell1_dummy_3v256x8m81_15
+timestamp 1763766357
+transform -1 0 7383 0 1 177
+box 62 89 538 797
+use 018SRAM_strap1_3v256x8m81  018SRAM_strap1_3v256x8m81_0
+timestamp 1763766357
+transform -1 0 6956 0 1 177
+box 91 55 511 797
+use 018SRAM_strap1_3v256x8m81  018SRAM_strap1_3v256x8m81_1
+timestamp 1763766357
+transform 1 0 10262 0 1 177
+box 91 55 511 797
+<< end >>
