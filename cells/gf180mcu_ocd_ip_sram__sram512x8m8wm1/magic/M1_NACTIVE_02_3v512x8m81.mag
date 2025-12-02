@@ -1,9 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1763765945
-<< error_p >>
-rect -54 -56 607 56
+timestamp 1764525316
 << nsubdiff >>
 rect -54 24 607 56
 rect -54 -23 -23 24

@@ -1,13 +1,13 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1763765945
+timestamp 1764626446
 use 018SRAM_cell1_3v512x8m81  018SRAM_cell1_3v512x8m81_0
-timestamp 1763765945
+timestamp 1764626446
 transform 1 0 0 0 -1 900
-box 62 89 538 797
+box 30 89 570 797
 use 018SRAM_cell1_3v512x8m81  018SRAM_cell1_3v512x8m81_1
-timestamp 1763765945
+timestamp 1764626446
 transform 1 0 0 0 1 648
-box 62 89 538 797
+box 30 89 570 797
 << end >>
