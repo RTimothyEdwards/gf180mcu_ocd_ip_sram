@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1764624214
+timestamp 1764692000
 << error_s >>
 rect 376 1808 415 1809
 rect 449 1808 488 1809
@@ -53,8 +53,6 @@ rect 3553 6773 3665 6798
 rect 2958 6798 3004 6919
 rect 3280 6798 3326 6919
 rect 3595 6798 3642 6919
-<< nsubdiff >>
-rect 2793 5637 2899 5639
 << polysilicon >>
 rect 3420 7357 3479 7444
 rect 3035 6933 3091 7259

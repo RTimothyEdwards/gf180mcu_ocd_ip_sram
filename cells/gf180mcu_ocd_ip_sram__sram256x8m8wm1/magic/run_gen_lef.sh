@@ -2,8 +2,11 @@
 #
 # Run layout LEF generation on the 256B SRAM
 #
+echo ${PDK_ROOT:=/usr/share/pdk} > /dev/null
+echo ${PDK:=gf180mcuD} > /dev/null
+
 echo "Generating LEF abstract view for gf180mcu_ocd_ip_sram__sram256x8m8wm1"
-magic -dnull -noconsole -rcfile /usr/share/pdk/gf180mcuD/libs.tech/magic/gf180mcuD.magicrc << EOF
+magic -dnull -noconsole -rcfile ${PDK_ROOT}/${PDK}/libs.tech/magic/${PDK}.magicrc << EOF
 load gf180mcu_ocd_ip_sram__sram256x8m8wm1
 select top cell
 lef write -hide 6um

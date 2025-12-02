@@ -1,19 +1,19 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1763766357
+timestamp 1764696963
 << nwell >>
-rect -154 -501 1372 159
+rect -54 -501 1372 159
 << nsubdiff >>
-rect -54 16 1271 56
-rect -54 -359 -16 16
+rect 46 16 1271 56
+rect 46 -359 84 16
 rect 1233 -359 1271 16
-rect -54 -399 1271 -359
+rect 46 -399 1271 -359
 << nsubdiffcont >>
-rect -16 -359 1233 16
+rect 84 -359 1233 16
 << metal1 >>
-rect -40 16 1257 42
-rect -40 -359 -16 16
+rect 60 16 1257 42
+rect 60 -359 84 16
 rect 1233 -359 1257 16
-rect -40 -385 1257 -359
+rect 60 -385 1257 -359
 << end >>

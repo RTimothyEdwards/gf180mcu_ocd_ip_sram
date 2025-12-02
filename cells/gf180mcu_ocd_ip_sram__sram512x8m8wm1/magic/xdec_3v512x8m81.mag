@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1764623439
+timestamp 1764692000
 << nwell >>
 rect 407 -103 2148 777
 rect 3304 -49 5064 754
@@ -592,4 +592,6 @@ rlabel metal3 s 366 12 366 12 4 vss
 port 1 nsew
 rlabel metal3 s 366 36 366 36 2 vss
 port 1 nsew
+<< properties >>
+string MASKHINTS_NPLUS 6420 -29 6880 685
 << end >>

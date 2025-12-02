@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1764525316
+timestamp 1764692000
 << nwell >>
 rect -78 150 771 835
 rect -78 -189 637 150
@@ -21,8 +21,6 @@ rect 21 249 67 736
 rect 626 249 672 735
 << psubdiff >>
 rect 8 928 670 1001
-<< nsubdiff >>
-rect 38 36 520 138
 << polysilicon >>
 rect 96 749 597 843
 rect 96 191 597 236
@@ -58,9 +56,9 @@ rect -2 0 92 810
 rect 307 0 401 1028
 rect 600 0 694 1028
 use M1_NACTIVE_01_R270_3v512x8m81  M1_NACTIVE_01_R270_3v512x8m81_0
-timestamp 1764525316
+timestamp 1764692000
 transform 1 0 282 0 1 102
-box -284 -54 284 53
+box -370 -140 370 139
 use M1_PACTIVE_R270_3v512x8m81  M1_PACTIVE_R270_3v512x8m81_0
 timestamp 1764525316
 transform 1 0 342 0 1 964
