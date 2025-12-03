@@ -121,7 +121,8 @@ assign mem_1 = mem[1];
 assign mem_2 = mem[2];
 assign mem_3 = mem[3];
 
-always @(CEN) cen_dly = #100 CEN;
+// always @(CEN) cen_dly = #100 CEN;
+always_comb cen_dly <= #100 CEN;
 always @(CEN or cen_dly) begin
   if (!CEN & cen_dly) cen_fell = 1'b1;
 end
@@ -344,7 +345,8 @@ always @(posedge clk_dly) begin
       qo_reg = qo_reg ^ cdx;
     end
   end //write
-  else if (read_flag) begin     //read
+  // else if (read_flag) begin     //read
+  else if (read_flag_dly) begin     //read
     if (no_st_viol) begin 	//read, no viol
       qo_reg = mem[marked_a];
     end
@@ -472,7 +474,7 @@ initial begin			//initialization
   clk_dly        = 0;
   write_flag_dly = 0;
   read_flag_dly  = 0;
-  cen_dly        = 0;
+  // cen_dly     = 0;
   cen_fell       = 0;
   cen_not_rst    = 0;
 
