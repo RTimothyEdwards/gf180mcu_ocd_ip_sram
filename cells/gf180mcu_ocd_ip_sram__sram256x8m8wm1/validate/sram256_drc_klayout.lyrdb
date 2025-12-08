@@ -2901,6 +2901,18 @@
    <categories>
    </categories>
   </category>
+  <category>
+   <name>CUP.2</name>
+   <description>CUP.2 : Minimum width of the metal (#{metal_name}) line used for bond pads: 1</description>
+   <categories>
+   </categories>
+  </category>
+  <category>
+   <name>CUP.3</name>
+   <description>CUP.3 : Minimum space of the metal (#{metal_name}) line used for bond pads (slots): 1</description>
+   <categories>
+   </categories>
+  </category>
  </categories>
  <cells>
   <cell>
