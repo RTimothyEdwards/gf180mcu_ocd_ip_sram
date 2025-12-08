@@ -44,15 +44,17 @@
 `timescale 1 ps / 1 ps
 
 module gf180mcu_ocd_ip_sram__sram512x8m8wm1 (
+`ifdef USE_POWER_PINS
+	VDD,
+	VSS,
+`endif
 	CLK,
 	CEN,
 	GWEN,
 	WEN,
 	A,
 	D,
-	Q,
-	VDD,
-	VSS
+	Q
 );
 
 input           CLK;
@@ -62,8 +64,10 @@ input   [7:0]  	WEN;    //Write Enable
 input   [8:0]   A;
 input   [7:0]  	D;
 output	[7:0]	Q;
+`ifdef USE_POWER_PINS
 inout		VDD;
 inout		VSS;
+`endif
 
 reg	[7:0]	mem[511:0];
 reg	[7:0]	qo_reg;
