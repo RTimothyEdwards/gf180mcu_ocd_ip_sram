@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1765213130
+timestamp 1765405258
 << error_s >>
 rect 467 4958 525 5019
 << nwell >>
@@ -375,8 +375,6 @@ flabel metal3 s 322 16817 322 16817 0 FreeSans 420 0 0 0 VSS
 port 14 nsew
 rlabel metal1 s 1260 12099 1260 12099 4 pcb
 port 34 nsew
-rlabel metal1 s 488 6764 488 6764 4 datain
-port 32 nsew
 flabel metal3 s 322 10195 322 10195 0 FreeSans 420 0 0 0 VDD
 port 12 nsew
 flabel metal3 s 322 6915 322 6915 0 FreeSans 420 0 0 0 VDD
