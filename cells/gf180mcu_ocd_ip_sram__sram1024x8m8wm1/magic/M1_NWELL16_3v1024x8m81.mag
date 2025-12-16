@@ -1,0 +1,19 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1764525316
+<< nwell >>
+rect -1648 -158 1647 159
+<< nsubdiff >>
+rect -1548 23 1548 56
+rect -1548 -23 -1417 23
+rect 1317 -23 1548 23
+rect -1548 -56 1548 -23
+<< nsubdiffcont >>
+rect -1417 -23 1317 23
+<< metal1 >>
+rect -1535 23 1534 42
+rect -1535 -23 -1417 23
+rect 1317 -23 1534 23
+rect -1535 -42 1534 -23
+<< end >>

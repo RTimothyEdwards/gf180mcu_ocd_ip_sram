@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1764700137
+timestamp 1765833452
 << nwell >>
 rect 341 1390 1141 1714
 rect -9 772 1140 1390
@@ -76,15 +76,15 @@ timestamp 1763766357
 transform 1 0 1130 0 1 768
 box -67 -48 67 47
 use M1_POLY24310591302019_3v256x8m81  M1_POLY24310591302019_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 1136 0 1 1707
 box -36 -80 36 78
 use M1_POLY24310591302031_3v256x8m81  M1_POLY24310591302031_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 977 0 1 1390
 box -36 -36 36 36
 use M1_POLY24310591302031_3v256x8m81  M1_POLY24310591302031_3v256x8m81_1
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 291 0 1 1407
 box -36 -36 36 36
 use M1_PSUB$$45110316_3v256x8m81  M1_PSUB$$45110316_3v256x8m81_0
@@ -156,15 +156,15 @@ timestamp 1763766357
 transform 1 0 414 0 1 476
 box -130 -44 262 213
 use nmos_1p2_157_3v256x8m81  nmos_1p2_157_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833452
 transform 1 0 900 0 1 472
 box -102 -44 130 255
 use nmos_5p0431059130208_3v256x8m81  nmos_5p0431059130208_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 527 0 -1 1915
 box -88 -44 144 133
 use nmos_5p0431059130208_3v256x8m81  nmos_5p0431059130208_3v256x8m81_1
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 886 0 -1 1915
 box -88 -44 144 133
 use pmos_1p2$$47331372_3v256x8m81  pmos_1p2$$47331372_3v256x8m81_0
@@ -172,22 +172,20 @@ timestamp 1763766357
 transform 1 0 414 0 1 877
 box -216 -86 348 509
 use pmos_1p2_160_3v256x8m81  pmos_1p2_160_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833452
 transform 1 0 900 0 1 925
 box -188 -86 216 297
 use pmos_1p2_161_3v256x8m81  pmos_1p2_161_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833452
 transform 1 0 900 0 -1 1615
 box -188 -86 216 175
 use pmos_1p2_161_3v256x8m81  pmos_1p2_161_3v256x8m81_1
-timestamp 1764700137
+timestamp 1765833452
 transform 1 0 541 0 -1 1615
 box -188 -86 216 175
 << labels >>
 rlabel metal1 s 1138 1723 1138 1723 4 enb
 port 3 nsew
-rlabel metal1 s 1142 1442 1142 1442 4 en
-port 4 nsew
 rlabel metal1 s 991 559 991 559 4 a
 port 6 nsew
 rlabel metal1 s 483 499 483 499 4 ab
@@ -198,4 +196,6 @@ rlabel metal3 s 109 1156 109 1156 4 vdd
 port 2 nsew
 rlabel metal3 s 141 1597 141 1597 4 vss
 port 1 nsew
+rlabel metal1 s 1132 912 1132 912 4 en
+port 4 nsew
 << end >>

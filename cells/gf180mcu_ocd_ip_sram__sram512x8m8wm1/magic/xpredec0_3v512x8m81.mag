@@ -1,8 +1,10 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1764692000
+timestamp 1765921053
 << error_s >>
+rect 607 8003 643 8005
+rect 1887 8003 1923 8005
 rect 376 1808 415 1809
 rect 449 1808 488 1809
 rect 574 1808 613 1809
@@ -303,19 +305,19 @@ timestamp 1764525316
 transform 1 0 2613 0 1 569
 box -74 1247 1270 5997
 use xpredec0_xa_3v512x8m81  xpredec0_xa_3v512x8m81_0
-timestamp 1764624214
+timestamp 1765921053
 transform -1 0 2817 0 1 23
 box 107 1783 1129 7982
 use xpredec0_xa_3v512x8m81  xpredec0_xa_3v512x8m81_1
-timestamp 1764624214
+timestamp 1765921053
 transform -1 0 1537 0 1 23
 box 107 1783 1129 7982
 use xpredec0_xa_3v512x8m81  xpredec0_xa_3v512x8m81_2
-timestamp 1764624214
+timestamp 1765921053
 transform 1 0 947 0 1 23
 box 107 1783 1129 7982
 use xpredec0_xa_3v512x8m81  xpredec0_xa_3v512x8m81_3
-timestamp 1764624214
+timestamp 1765921053
 transform 1 0 -333 0 1 23
 box 107 1783 1129 7982
 << labels >>

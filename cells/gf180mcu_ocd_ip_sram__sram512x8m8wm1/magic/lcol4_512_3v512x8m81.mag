@@ -1,9 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1765213032
-<< error_s >>
-rect 7633 4957 7691 5018
+timestamp 1765926520
 << metal1 >>
 rect -614 20863 -450 21160
 rect -661 20744 448 20863
@@ -17,12 +15,21 @@ rect 7482 -468 7716 -416
 rect 14616 -470 14850 -418
 << metal2 >>
 rect -575 15667 -513 20968
+rect -273 1791 -208 1991
+rect 345 1786 411 1986
+rect 6399 1909 6465 2109
+rect 7011 1909 7076 2109
+rect 7493 1791 7558 1991
+rect 8111 1786 8177 1986
+rect 14165 1909 14231 2109
+rect 14777 1909 14842 2109
 << metal3 >>
 rect -780 60735 15202 60987
 rect -741 28331 -581 28436
 rect 0 20799 448 20892
+rect 640 4957 14060 5018
 use col_512a_3v512x8m81  col_512a_3v512x8m81_0
-timestamp 1765213032
+timestamp 1765924161
 transform 1 0 -9 0 1 -1003
 box -821 525 15976 61655
 use dcap_103_novia_3v512x8m81  dcap_103_novia_3v512x8m81_0
@@ -167,18 +174,6 @@ rlabel metal3 s 490 39107 490 39107 4 WL[27]
 port 63 nsew
 rlabel metal3 s 490 38477 490 38477 4 WL[26]
 port 64 nsew
-rlabel metal2 s 6786 72 6786 72 4 din[1]
-port 79 nsew
-rlabel metal2 s 14340 72 14340 72 4 din[3]
-port 80 nsew
-rlabel metal2 s 7232 72 7232 72 4 din[2]
-port 81 nsew
-rlabel metal2 s 6197 72 6197 72 4 q[1]
-port 83 nsew
-rlabel metal2 s 7833 72 7833 72 4 q[2]
-port 84 nsew
-rlabel metal2 s 13755 72 13755 72 4 q[3]
-port 85 nsew
 rlabel metal1 s 3983 11149 3983 11149 4 pcb[2]
 port 86 nsew
 rlabel metal1 s 2562 11149 2562 11149 4 pcb[3]
@@ -197,4 +192,18 @@ flabel metal1 s -216 -443 -216 -443 0 FreeSans 420 0 0 0 WEN[3]
 port 91 nsew
 flabel metal1 s 14769 -441 14769 -441 0 FreeSans 420 0 0 0 WEN[0]
 port 94 nsew
+rlabel metal2 s 14810 1932 14810 1932 4 din[3]
+port 80 nsew
+rlabel metal2 s 14195 1922 14195 1922 4 q[3]
+port 85 nsew
+rlabel metal2 s 8143 1882 8143 1882 4 q[2]
+port 84 nsew
+rlabel metal2 s 7522 1822 7522 1822 4 din[2]
+port 81 nsew
+rlabel metal2 s 7036 1942 7036 1942 4 din[1]
+port 79 nsew
+rlabel metal2 s 6437 1922 6437 1922 4 q[1]
+port 83 nsew
+rlabel metal2 s 370 1880 370 1880 4 q[0]
+rlabel metal2 -240 1830 -240 1830 4 din[0]
 << end >>

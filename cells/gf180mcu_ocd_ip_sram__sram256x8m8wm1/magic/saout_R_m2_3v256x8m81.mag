@@ -1,9 +1,14 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1765213130
+timestamp 1765901156
 << nwell >>
-rect 225 20099 4028 20386
+rect 225 20120 4028 20386
+rect 225 20100 510 20120
+rect 530 20100 810 20120
+rect 830 20100 950 20120
+rect 970 20100 4028 20120
+rect 225 20099 4028 20100
 rect 225 18646 3458 20099
 rect 225 17041 4028 18646
 rect 1585 6968 2050 7101
@@ -85,242 +90,204 @@ rect 3845 10033 4055 11939
 rect 418 4947 1518 5018
 rect 3938 3699 4055 4653
 use din_3v256x8m81  din_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833452
 transform 1 0 226 0 1 6403
 box -156 560 1824 6415
 use M2_M1$$45012012_3v256x8m81  M2_M1$$45012012_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 1789 0 1 12247
 box -562 -46 562 46
 use M2_M1$$45013036_3v256x8m81  M2_M1$$45013036_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 2870 0 1 12247
 box -266 -46 266 46
 use M2_M1431059130200_3v256x8m81  M2_M1431059130200_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform 0 -1 3614 1 0 5360
 box -63 -34 63 34
 use M2_M1431059130200_3v256x8m81  M2_M1431059130200_3v256x8m81_1
-timestamp 1764700137
+timestamp 1765833244
 transform 0 -1 3273 1 0 5360
 box -63 -34 63 34
 use M2_M1431059130200_3v256x8m81  M2_M1431059130200_3v256x8m81_2
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 669 0 1 1817
 box -63 -34 63 34
 use M2_M1431059130208_3v256x8m81  M2_M1431059130208_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 2126 0 1 265
 box -34 -63 34 63
 use m2_saout01_3v256x8m81  m2_saout01_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 480 0 1 20286
 box -102 -44 3491 1507
 use M3_M2$$43370540_3v256x8m81  M3_M2$$43370540_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 2870 0 1 12247
 box -266 -46 266 46
 use M3_M2$$44741676_3v256x8m81  M3_M2$$44741676_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 1759 0 1 12247
 box -562 -46 562 46
 use M3_M2431059130207_3v256x8m81  M3_M2431059130207_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 1554 0 1 4982
 box -63 -35 63 35
 use mux821_3v256x8m81  mux821_3v256x8m81_0
-timestamp 1765211997
+timestamp 1765901156
 transform 1 0 387 0 1 12003
 box -575 634 4956 8484
 use outbuf_oe_3v256x8m81  outbuf_oe_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833452
 transform 1 0 442 0 1 5364
 box -372 -251 3623 2214
 use sa_3v256x8m81  sa_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833452
 transform 1 0 442 0 1 6965
 box -249 376 3523 5747
 use sacntl_2_3v256x8m81  sacntl_2_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833452
 transform 1 0 442 0 1 1526
 box -371 244 3623 3958
 use via1_2_x2_3v256x8m81  via1_2_x2_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 1451 0 1 9580
 box -9 0 73 215
 use via1_2_x2_3v256x8m81  via1_2_x2_3v256x8m81_1
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 1451 0 1 9238
 box -9 0 73 215
 use via1_2_x2_3v256x8m81  via1_2_x2_3v256x8m81_2
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 1451 0 1 8797
 box -9 0 73 215
 use via1_R90_3v256x8m81  via1_R90_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform -1 0 3940 0 1 13819
 box 0 0 65 89
 use via1_R90_3v256x8m81  via1_R90_3v256x8m81_1
-timestamp 1764700137
+timestamp 1765833244
 transform 0 -1 439 1 0 12051
 box 0 0 65 89
 use via1_R90_3v256x8m81  via1_R90_3v256x8m81_2
-timestamp 1764700137
+timestamp 1765833244
 transform 0 -1 258 1 0 18907
 box 0 0 65 89
 use via1_R90_3v256x8m81  via1_R90_3v256x8m81_3
-timestamp 1764700137
+timestamp 1765833244
 transform -1 0 495 0 -1 13915
 box 0 0 65 89
 use via1_x2_3v256x8m81  via1_x2_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform -1 0 1644 0 -1 12118
 box -8 0 72 222
 use via1_x2_3v256x8m81  via1_x2_3v256x8m81_1
-timestamp 1764700137
+timestamp 1765833244
 transform -1 0 1103 0 -1 6172
 box -8 0 72 222
 use via1_x2_3v256x8m81  via1_x2_3v256x8m81_2
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 1579 0 1 3838
 box -8 0 72 222
 use via1_x2_3v256x8m81  via1_x2_3v256x8m81_3
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 3741 0 1 8512
 box -8 0 72 222
 use via1_x2_3v256x8m81  via1_x2_3v256x8m81_4
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 322 0 1 7272
 box -8 0 72 222
 use via1_x2_R90_3v256x8m81  via1_x2_R90_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform 0 -1 3592 1 0 12370
 box -8 0 72 215
 use via1_x2_R90_3v256x8m81  via1_x2_R90_3v256x8m81_1
-timestamp 1764700137
+timestamp 1765833244
 transform 0 -1 1377 1 0 13824
 box -8 0 72 215
 use via1_x2_R90_3v256x8m81  via1_x2_R90_3v256x8m81_2
-timestamp 1764700137
+timestamp 1765833244
 transform 0 -1 2275 1 0 13830
 box -8 0 72 215
 use via1_x2_R90_3v256x8m81  via1_x2_R90_3v256x8m81_3
-timestamp 1764700137
+timestamp 1765833244
 transform 0 -1 3179 1 0 13830
 box -8 0 72 215
 use via1_x2_R90_3v256x8m81  via1_x2_R90_3v256x8m81_4
-timestamp 1764700137
+timestamp 1765833244
 transform 0 -1 647 1 0 7617
 box -8 0 72 215
 use via2_3v256x8m81  via2_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform -1 0 619 0 1 13847
 box 0 0 65 92
 use via2_3v256x8m81  via2_3v256x8m81_1
-timestamp 1764700137
+timestamp 1765833244
 transform -1 0 1207 0 1 14097
 box 0 0 65 92
 use via2_3v256x8m81  via2_3v256x8m81_2
-timestamp 1764700137
+timestamp 1765833244
 transform -1 0 1396 0 1 14326
 box 0 0 65 92
 use via2_3v256x8m81  via2_3v256x8m81_3
-timestamp 1764700137
+timestamp 1765833244
 transform -1 0 3011 0 1 15025
 box 0 0 65 92
 use via2_3v256x8m81  via2_3v256x8m81_4
-timestamp 1764700137
+timestamp 1765833244
 transform -1 0 3200 0 1 15266
 box 0 0 65 92
 use via2_3v256x8m81  via2_3v256x8m81_5
-timestamp 1764700137
+timestamp 1765833244
 transform -1 0 3948 0 1 15489
 box 0 0 65 92
 use via2_3v256x8m81  via2_3v256x8m81_6
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 2044 0 1 14584
 box 0 0 65 92
 use via2_3v256x8m81  via2_3v256x8m81_7
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 2229 0 1 14796
 box 0 0 65 92
 use via2_x2_3v256x8m81  via2_x2_3v256x8m81_0
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 271 0 1 16432
 box -9 0 74 222
 use via2_x2_3v256x8m81  via2_x2_3v256x8m81_1
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 26 0 1 16432
 box -9 0 74 222
 use via2_x2_3v256x8m81  via2_x2_3v256x8m81_2
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 1709 0 1 9580
 box -9 0 74 222
 use via2_x2_3v256x8m81  via2_x2_3v256x8m81_3
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 1709 0 1 9238
 box -9 0 74 222
 use via2_x2_3v256x8m81  via2_x2_3v256x8m81_4
-timestamp 1764700137
+timestamp 1765833244
 transform 1 0 1709 0 1 8797
 box -9 0 74 222
 use wen_wm1_3v256x8m81  wen_wm1_3v256x8m81_0
-timestamp 1765213130
+timestamp 1765833452
 transform 1 0 225 0 1 -458
 box -139 -24 3471 2300
 << labels >>
 rlabel metal3 s 653 20226 653 20226 4 vdd
 port 10 nsew
-rlabel metal2 s 3850 20107 3850 20107 4 b[7]
-port 15 nsew
 rlabel metal2 s 3124 20107 3124 20107 4 b[6]
 port 16 nsew
-rlabel metal2 s 2979 20107 2979 20107 4 b[5]
-port 17 nsew
-rlabel metal2 s 2259 20107 2259 20107 4 b[4]
-port 18 nsew
 rlabel metal2 s 2116 20107 2116 20107 4 b[3]
 port 19 nsew
-rlabel metal2 s 1388 20107 1388 20107 4 b[2]
-port 20 nsew
-rlabel metal2 s 1246 20107 1246 20107 4 b[1]
-port 21 nsew
-rlabel metal2 s 515 20108 515 20108 4 b[0]
-port 22 nsew
-rlabel metal2 s 3416 20108 3416 20108 4 bb[6]
-port 23 nsew
 rlabel metal2 s 3557 20113 3557 20113 4 bb[7]
 port 24 nsew
 rlabel metal2 s 2688 20108 2688 20108 4 bb[5]
 port 25 nsew
 rlabel metal2 s 2548 20108 2548 20108 4 bb[4]
 port 27 nsew
-rlabel metal2 s 1822 20113 1822 20113 4 bb[3]
-port 28 nsew
-rlabel metal2 s 1683 20111 1683 20111 4 bb[2]
-port 29 nsew
-rlabel metal2 s 813 20107 813 20107 4 bb[0]
-port 30 nsew
-rlabel metal2 s 957 20107 957 20107 4 bb[1]
-port 31 nsew
-rlabel metal3 s 567 14477 567 14477 4 ypass[4]
-port 4 nsew
-rlabel metal3 s 567 15149 567 15149 4 ypass[7]
-port 7 nsew
-rlabel metal3 s 567 14926 567 14926 4 ypass[6]
-port 6 nsew
-rlabel metal3 s 567 14704 567 14704 4 ypass[5]
-port 5 nsew
-rlabel metal3 s 567 14019 567 14019 4 ypass[3]
-port 3 nsew
-rlabel metal3 s 567 13796 567 13796 4 ypass[2]
-port 2 nsew
-rlabel metal3 s 567 13574 567 13574 4 ypass[1]
-port 1 nsew
 rlabel metal3 s 664 15745 664 15745 4 vss
 port 9 nsew
-rlabel metal3 s 567 13349 567 13349 4 ypass[0]
-port 11 nsew
 rlabel metal1 s 695 19292 695 19292 4 pcb
 port 32 nsew
 rlabel metal1 s 695 19291 695 19291 4 pcb
@@ -373,6 +340,44 @@ rlabel metal3 s 308 3135 308 3135 4 vss
 port 9 nsew
 flabel metal1 s 396 -445 396 -445 0 FreeSans 420 0 0 0 WEN
 port 33 nsew
+rlabel metal3 s 377 14144 377 14144 4 ypass[1]
+port 1 nsew
+rlabel metal3 s 377 13919 377 13919 4 ypass[0]
+port 11 nsew
+rlabel metal3 s 377 14589 377 14589 4 ypass[3]
+port 3 nsew
+rlabel metal3 s 377 14366 377 14366 4 ypass[2]
+port 2 nsew
+rlabel metal3 s 377 14867 377 14867 4 ypass[4]
+port 4 nsew
+rlabel metal3 s 377 15316 377 15316 4 ypass[6]
+port 6 nsew
+rlabel metal3 s 377 15094 377 15094 4 ypass[5]
+port 5 nsew
+rlabel metal3 s 377 15539 377 15539 4 ypass[7]
+port 7 nsew
+rlabel metal2 s 3940 20107 3940 20107 4 b[7]
+port 15 nsew
+rlabel metal2 s 3456 20118 3456 20118 4 bb[6]
+port 23 nsew
+rlabel metal2 s 3009 20107 3009 20107 4 b[5]
+port 17 nsew
+rlabel metal2 s 2229 20107 2229 20107 4 b[4]
+port 18 nsew
+rlabel metal2 s 1782 20113 1782 20113 4 bb[3]
+port 28 nsew
+rlabel metal2 s 1663 20111 1663 20111 4 bb[2]
+port 29 nsew
+rlabel metal2 s 1328 20107 1328 20107 4 b[2]
+port 20 nsew
+rlabel metal2 s 1216 20107 1216 20107 4 b[1]
+port 21 nsew
+rlabel metal2 s 877 20107 877 20107 4 bb[1]
+port 31 nsew
+rlabel metal2 s 753 20107 753 20107 4 bb[0]
+port 30 nsew
+rlabel metal2 s 425 20108 425 20108 4 b[0]
+port 22 nsew
 << properties >>
 string path 10.130 4.930 10.130 -9.675 15.190 -9.675 15.190 -12.125 
 << end >>

@@ -1,0 +1,129 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1764525316
+<< nmos >>
+rect -252 0 -196 179
+rect -92 0 -36 179
+rect 69 0 125 179
+rect 229 0 285 179
+rect 390 0 446 179
+rect 550 0 606 179
+rect 711 0 767 179
+rect 871 0 927 179
+rect 1032 0 1088 179
+rect 1192 0 1248 179
+<< ndiff >>
+rect -340 166 -252 179
+rect -340 13 -327 166
+rect -281 13 -252 166
+rect -340 0 -252 13
+rect -196 166 -92 179
+rect -196 13 -167 166
+rect -121 13 -92 166
+rect -196 0 -92 13
+rect -36 166 69 179
+rect -36 13 -7 166
+rect 39 13 69 166
+rect -36 0 69 13
+rect 125 166 229 179
+rect 125 13 154 166
+rect 200 13 229 166
+rect 125 0 229 13
+rect 285 166 390 179
+rect 285 13 314 166
+rect 360 13 390 166
+rect 285 0 390 13
+rect 446 166 550 179
+rect 446 13 475 166
+rect 521 13 550 166
+rect 446 0 550 13
+rect 606 166 711 179
+rect 606 13 635 166
+rect 681 13 711 166
+rect 606 0 711 13
+rect 767 166 871 179
+rect 767 13 796 166
+rect 842 13 871 166
+rect 767 0 871 13
+rect 927 166 1032 179
+rect 927 13 956 166
+rect 1002 13 1032 166
+rect 927 0 1032 13
+rect 1088 166 1192 179
+rect 1088 13 1117 166
+rect 1163 13 1192 166
+rect 1088 0 1192 13
+rect 1248 166 1336 179
+rect 1248 13 1277 166
+rect 1323 13 1336 166
+rect 1248 0 1336 13
+<< ndiffc >>
+rect -327 13 -281 166
+rect -167 13 -121 166
+rect -7 13 39 166
+rect 154 13 200 166
+rect 314 13 360 166
+rect 475 13 521 166
+rect 635 13 681 166
+rect 796 13 842 166
+rect 956 13 1002 166
+rect 1117 13 1163 166
+rect 1277 13 1323 166
+<< polysilicon >>
+rect -252 179 -196 223
+rect -92 179 -36 223
+rect 69 179 125 223
+rect 229 179 285 223
+rect 390 179 446 223
+rect 550 179 606 223
+rect 711 179 767 223
+rect 871 179 927 223
+rect 1032 179 1088 223
+rect 1192 179 1248 223
+rect -252 -44 -196 0
+rect -92 -44 -36 0
+rect 69 -44 125 0
+rect 229 -44 285 0
+rect 390 -44 446 0
+rect 550 -44 606 0
+rect 711 -44 767 0
+rect 871 -44 927 0
+rect 1032 -44 1088 0
+rect 1192 -44 1248 0
+<< metal1 >>
+rect -327 166 -281 179
+rect -327 0 -281 13
+rect -167 166 -121 179
+rect -167 0 -121 13
+rect -7 166 39 179
+rect -7 0 39 13
+rect 154 166 200 179
+rect 154 0 200 13
+rect 314 166 360 179
+rect 314 0 360 13
+rect 475 166 521 179
+rect 475 0 521 13
+rect 635 166 681 179
+rect 635 0 681 13
+rect 796 166 842 179
+rect 796 0 842 13
+rect 956 166 1002 179
+rect 956 0 1002 13
+rect 1117 166 1163 179
+rect 1117 0 1163 13
+rect 1277 166 1323 179
+rect 1277 0 1323 13
+<< labels >>
+flabel ndiffc 498 89 498 89 0 FreeSans 93 0 0 0 D
+flabel ndiffc 349 89 349 89 0 FreeSans 93 0 0 0 S
+flabel ndiffc 189 89 189 89 0 FreeSans 93 0 0 0 D
+flabel ndiffc 28 89 28 89 0 FreeSans 93 0 0 0 S
+flabel ndiffc -132 89 -132 89 0 FreeSans 93 0 0 0 D
+flabel ndiffc -292 89 -292 89 0 FreeSans 93 0 0 0 S
+flabel ndiffc 646 89 646 89 0 FreeSans 93 0 0 0 S
+flabel ndiffc 807 89 807 89 0 FreeSans 93 0 0 0 D
+flabel ndiffc 1128 89 1128 89 0 FreeSans 93 0 0 0 D
+flabel ndiffc 1289 89 1289 89 0 FreeSans 93 0 0 0 S
+flabel ndiffc 967 89 967 89 0 FreeSans 93 0 0 0 S
+<< end >>

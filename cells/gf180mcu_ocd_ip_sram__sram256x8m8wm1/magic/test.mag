@@ -1,0 +1,19 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1765899468
+<< error_s >>
+rect 1800 877 1807 1146
+use ypass_gate_3v256x8m81  ypass_gate_3v256x8m81_0
+timestamp 1765833452
+transform 1 0 130 0 1 -4031
+box -130 4011 633 11861
+use ypass_gate_3v256x8m81_0  ypass_gate_3v256x8m81_0_0
+timestamp 1765833452
+transform 1 0 1955 0 1 -954
+box -155 914 651 8659
+use ypass_gate_a_3v256x8m81  ypass_gate_a_3v256x8m81_0
+timestamp 1765896142
+transform 1 0 1060 0 1 -4047
+box -130 4017 627 11860
+<< end >>

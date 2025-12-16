@@ -1,0 +1,107 @@
+magic
+tech gf180mcuD
+magscale 1 10
+timestamp 1764525316
+<< nmos >>
+rect -198 0 -142 318
+rect -38 0 18 318
+rect 124 0 180 318
+rect 284 0 340 318
+rect 446 0 502 318
+rect 606 0 662 318
+rect 768 0 824 318
+rect 928 0 984 318
+<< ndiff >>
+rect -287 305 -198 318
+rect -287 13 -273 305
+rect -227 13 -198 305
+rect -287 0 -198 13
+rect -142 305 -38 318
+rect -142 13 -113 305
+rect -67 13 -38 305
+rect -142 0 -38 13
+rect 18 305 124 318
+rect 18 13 48 305
+rect 94 13 124 305
+rect 18 0 124 13
+rect 180 305 284 318
+rect 180 13 209 305
+rect 255 13 284 305
+rect 180 0 284 13
+rect 340 305 446 318
+rect 340 13 370 305
+rect 416 13 446 305
+rect 340 0 446 13
+rect 502 305 606 318
+rect 502 13 531 305
+rect 577 13 606 305
+rect 502 0 606 13
+rect 662 305 768 318
+rect 662 13 692 305
+rect 738 13 768 305
+rect 662 0 768 13
+rect 824 305 928 318
+rect 824 13 853 305
+rect 899 13 928 305
+rect 824 0 928 13
+rect 984 305 1074 318
+rect 984 13 1014 305
+rect 1060 13 1074 305
+rect 984 0 1074 13
+<< ndiffc >>
+rect -273 13 -227 305
+rect -113 13 -67 305
+rect 48 13 94 305
+rect 209 13 255 305
+rect 370 13 416 305
+rect 531 13 577 305
+rect 692 13 738 305
+rect 853 13 899 305
+rect 1014 13 1060 305
+<< polysilicon >>
+rect -198 318 -142 363
+rect -38 318 18 363
+rect 124 318 180 363
+rect 284 318 340 363
+rect 446 318 502 363
+rect 606 318 662 363
+rect 768 318 824 363
+rect 928 318 984 363
+rect -198 -45 -142 0
+rect -38 -45 18 0
+rect 124 -45 180 0
+rect 284 -45 340 0
+rect 446 -45 502 0
+rect 606 -45 662 0
+rect 768 -45 824 0
+rect 928 -45 984 0
+<< metal1 >>
+rect -273 305 -227 318
+rect -273 0 -227 13
+rect -113 305 -67 318
+rect -113 0 -67 13
+rect 48 305 94 318
+rect 48 0 94 13
+rect 209 305 255 318
+rect 209 0 255 13
+rect 370 305 416 318
+rect 370 0 416 13
+rect 531 305 577 318
+rect 531 0 577 13
+rect 692 305 738 318
+rect 692 0 738 13
+rect 853 305 899 318
+rect 853 0 899 13
+rect 1014 305 1060 318
+rect 1014 0 1060 13
+<< labels >>
+flabel ndiffc -238 159 -238 159 0 FreeSans 93 0 0 0 S
+flabel ndiffc -78 159 -78 159 0 FreeSans 93 0 0 0 D
+flabel ndiffc 82 159 82 159 0 FreeSans 93 0 0 0 S
+flabel ndiffc 244 159 244 159 0 FreeSans 93 0 0 0 D
+flabel ndiffc 392 159 392 159 0 FreeSans 93 0 0 0 S
+flabel ndiffc 542 159 542 159 0 FreeSans 93 0 0 0 D
+flabel ndiffc 702 159 702 159 0 FreeSans 93 0 0 0 S
+flabel ndiffc 864 159 864 159 0 FreeSans 93 0 0 0 D
+flabel ndiffc 1025 159 1025 159 0 FreeSans 93 0 0 0 S
+<< end >>

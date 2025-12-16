@@ -1,0 +1,43 @@
+Work converting the 5V SRAM to 3.3V.
+
+1. Removed the DUALGATE layer from the 5V SRAM using klayout
+
+2. Read the result into magic (see directory magic_orig).  This is a
+   DRC-clean layout where all devices have been converted to 3.3V.
+   It has the same layout as the 5V SRAM and so does not save any
+   area.
+
+3. Copied files to magic/.
+
+4. Reworked the core SRAM cell for minimum area.  Transistors scale
+   from 0.6um to 0.28um, a scale factor of 14/30.  The reworked
+   core is of course unable to get to less than half size because
+   the contacts don't scale.  Ultimately got it to approximately
+   0.7x the original size (which is about 1/2 area).
+
+   Will rework the remaining cells using two tactics:
+
+5. Make a version scaled by 14/30 (see directory magic_scaled2).
+   All transistors in this directory will be the correct size for
+   the final layout
+
+6. Make a version scaled by 7/10 (see directory magic_scaled).
+   All layout except transistors will be approximately the correct
+   size for the final layout
+
+7. Edit transistors from magic_scaled2 to bring the contact size and
+   spacing back to DRC clean values.  Also edit all contact cells.
+
+8. Create new composite directory (see directory magic_final).
+   Copy transistors and contacts from magic_scaled2 into this directory.
+   Copy the core cell from magic/.  Copy everything else from magic_scaled/.
+
+9. Rework layout to get it DRC clean.
+
+10. Rework layout to get it LVS clean.
+
+11. Copy everything into the new empty git repository and push.
+
+12. Rework layout to remove excess space in the Y direction in the
+   bottom half of the layout; repeat steps 9 through 11.
+
