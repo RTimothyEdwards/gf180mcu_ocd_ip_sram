@@ -1,7 +1,0 @@
-* SPICE stub file
-.subckt gf180mcu_ocd_ip_sram__sram512x8m8wm1 A[8] A[7] A[6] A[5] A[4] A[3] A[2]
-+ A[1] A[0] CEN CLK D[7] D[6] D[5] D[4] D[3] D[2] D[1] D[0] GWEN Q[7] Q[6]
-+ Q[5] Q[4] Q[3] Q[2] Q[1] Q[0] VDD VSS WEN[7] WEN[6] WEN[5] WEN[4] WEN[3]
-+ WEN[2] WEN[1] WEN[0]
-
-.ends

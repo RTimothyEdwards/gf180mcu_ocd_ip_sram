@@ -8582,26 +8582,26 @@ Xoutbuf_oe_3v512x8m81_0 sa_3v512x8m81_0/qp sa_3v512x8m81_0/qn sa_3v512x8m81_0/se
 .ends
 
 .subckt saout_R_m2_3v512x8m81 ypass[1] ypass[2] ypass[4] ypass[5] ypass[0] GWEN datain
-+ b[6] b[1] b[0] bb[7] q bb[4] vss_uq6 vdd_uq0 vdd_uq1 vdd_uq3 vdd_uq5 bb[2] b[4]
-+ b[5] WEN bb[6] GWE bb[0] ypass[7] ypass[6] b[7] bb[5] b[2] men bb[1] bb[3] b[3]
-+ vdd_uq2 vdd_uq4 vdd_uq7 vdd_uq6 pcb mux821_3v512x8m81_0/ypass_gate_3v512x8m81_7/vdd_uq0
-+ vss vdd ypass[3]
-Xdin_3v512x8m81_0 vss datain men vdd_uq7 sa_3v512x8m81_0/db sa_3v512x8m81_0/d sa_3v512x8m81_0/wep
-+ vdd_uq4 pcb vss din_3v512x8m81
++ b[6] b[1] b[0] bb[7] q bb[4] vss_uq6 vdd_uq0 vdd_uq1 vdd_uq4 bb[2] b[4] b[5] WEN
++ bb[6] GWE bb[0] ypass[7] ypass[6] b[7] bb[5] b[2] men bb[1] bb[3] b[3] vdd_uq2 vdd_uq3
++ vdd_uq6 vdd_uq5 pcb mux821_3v512x8m81_0/ypass_gate_3v512x8m81_7/vdd_uq0 vss vdd
++ ypass[3]
+Xdin_3v512x8m81_0 vss datain men vdd_uq6 sa_3v512x8m81_0/db sa_3v512x8m81_0/d sa_3v512x8m81_0/wep
++ vdd_uq3 pcb vss din_3v512x8m81
 Xwen_wm1_3v512x8m81_0 GWEN men sa_3v512x8m81_0/wep vdd_uq2 WEN vdd_uq1 vss wen_wm1_3v512x8m81
 Xmux821_3v512x8m81_0 bb[6] b[5] sa_3v512x8m81_0/db sa_3v512x8m81_0/d sa_3v512x8m81_0/d
 + b[1] ypass[7] bb[1] bb[2] sa_3v512x8m81_0/db sa_3v512x8m81_0/db b[6] sa_3v512x8m81_0/d
 + bb[7] sa_3v512x8m81_0/d ypass[6] b[2] ypass[4] ypass[2] b[3] ypass[5] b[7] ypass[3]
 + bb[3] bb[4] sa_3v512x8m81_0/d ypass[1] b[0] ypass[0] sa_3v512x8m81_0/db sa_3v512x8m81_0/d
 + sa_3v512x8m81_0/d pcb vss sa_3v512x8m81_0/d ypass[3] ypass[6] ypass[0] ypass[2]
-+ vdd_uq6 ypass[5] mux821_3v512x8m81_0/ypass_gate_3v512x8m81_7/vdd_uq0 ypass[7] ypass[1]
++ vdd_uq5 ypass[5] mux821_3v512x8m81_0/ypass_gate_3v512x8m81_7/vdd_uq0 ypass[7] ypass[1]
 + b[4] bb[0] bb[5] ypass[4] mux821_3v512x8m81
 Xsa_3v512x8m81_0 sa_3v512x8m81_0/qp sa_3v512x8m81_0/qn sa_3v512x8m81_0/wep sa_3v512x8m81_0/se
-+ pcb sa_3v512x8m81_0/db vss vdd_uq4 sa_3v512x8m81_0/d vdd_uq7 sa_3v512x8m81
++ pcb sa_3v512x8m81_0/db vss vdd_uq3 sa_3v512x8m81_0/d vdd_uq6 sa_3v512x8m81
 Xsacntl_2_3v512x8m81_0 pcb sa_3v512x8m81_0/se vdd_uq0 men sacntl_2_3v512x8m81_0/pmos_5p04310591302027_3v512x8m81_1/S_uq0
 + sacntl_2_3v512x8m81_0/pmos_5p04310591302027_3v512x8m81_2/S_uq0 vdd vss sacntl_2_3v512x8m81
 Xoutbuf_oe_3v512x8m81_0 sa_3v512x8m81_0/qp sa_3v512x8m81_0/qn sa_3v512x8m81_0/se q
-+ GWE vss vdd_uq7 outbuf_oe_3v512x8m81
++ GWE vss vdd_uq6 outbuf_oe_3v512x8m81
 .ends
 
 .subckt col_512a_3v512x8m81 WL[3] ypass[0] ypass[1] ypass[3] ypass[4] ypass[5] WL[32]
@@ -8611,15 +8611,13 @@ Xoutbuf_oe_3v512x8m81_0 sa_3v512x8m81_0/qp sa_3v512x8m81_0/qn sa_3v512x8m81_0/se
 + din[3] din[2] din[0] q[0] q[1] q[2] q[3] b[17] b[14] b[11] bb[16] b[15] b[12] b[0]
 + b[18] pcb[0] pcb[1] pcb[3] pcb[2] WEN[3] WEN[2] WEN[1] WEN[0] VDD_uq5 WL[58] WL[0]
 + saout_m2_3v512x8m81_4/GWEN bb[18] m3_n771_22409# WL[59] men WL[40] bb[17] WL[23]
-+ b[1] WL[1] bb[21] WL[26] WL[61] bb[22] WL[4] b[28] WL[56] saout_m2_3v512x8m81_4/GWE
-+ b[4] WL[39] b[5] WL[20] WL[47] bb[23] bb[26] b[7] bb[27] b[8] b[6] WL[41] WL[44]
-+ GWE bb[29] WL[27] WL[5] bb[20] b[13] saout_R_m2_3v512x8m81_1/GWE ypass[6] VDD_uq2
-+ bb[0] WL[57] WL[8] ypass[7] b[3] bb[28] bb[1] WL[21] VDD_uq4 bb[2] bb[19] WL[24]
-+ saout_R_m2_3v512x8m81_0/GWE bb[3] WL[2] b[2] saout_R_m2_3v512x8m81_0/vdd_uq3 b[22]
-+ b[10] WL[62] b[30] bb[10] bb[5] b[23] bb[11] WL[45] bb[6] bb[25] b[24] WL[15] b[21]
-+ bb[12] bb[7] WL[48] b[25] b[9] WL[18] bb[4] VDD_uq3 bb[13] b[29] bb[8] bb[30] VDD_uq1
-+ b[26] WL[31] bb[24] bb[14] bb[9] bb[31] WL[9] b[20] b[27] VDD_uq0 VDD WL[34] bb[15]
-+ VSS WL[42] VDD_uq6
++ b[1] WL[1] bb[21] WL[26] WL[61] bb[22] WL[4] b[28] WL[56] b[4] WL[39] b[5] WL[20]
++ WL[47] bb[23] bb[26] b[7] bb[27] b[8] b[6] WL[41] WL[44] bb[29] WL[27] WL[5] bb[20]
++ b[13] ypass[6] VDD_uq2 bb[0] WL[57] WL[8] ypass[7] b[3] bb[28] bb[1] WL[21] VDD_uq4
++ bb[2] bb[19] WL[24] GWE bb[3] WL[2] b[2] b[22] b[10] WL[62] b[30] bb[10] bb[5] b[23]
++ bb[11] WL[45] bb[6] bb[25] b[24] WL[15] b[21] bb[12] bb[7] WL[48] b[25] b[9] WL[18]
++ bb[4] VDD_uq3 bb[13] b[29] bb[8] bb[30] VDD_uq1 b[26] WL[31] bb[24] bb[14] bb[9]
++ bb[31] WL[9] b[20] b[27] VDD_uq0 VDD WL[34] bb[15] VSS WL[42] VDD_uq6
 XCell_array8x8_3v512x8m81_0 b[1] bb[17] b[22] b[7] bb[2] bb[5] b[8] b[6] bb[1] bb[9]
 + b[27] b[24] b[28] bb[20] WL[29] bb[8] b[3] bb[19] bb[7] bb[23] b[2] bb[26] bb[25]
 + b[21] b[9] b[10] bb[4] bb[28] WL[44] b[29] WL[35] bb[29] bb[24] b[20] b[13] bb[3]
@@ -8633,9 +8631,9 @@ XCell_array8x8_3v512x8m81_0 b[1] bb[17] b[22] b[7] bb[2] bb[5] b[8] b[6] bb[1] b
 + WL[42] VSS WL[23] WL[19] WL[8] WL[11] Cell_array8x8_3v512x8m81
 Xsaout_m2_3v512x8m81_4 ypass[2] ypass[4] ypass[5] saout_m2_3v512x8m81_4/GWEN din[2]
 + q[2] saout_m2_3v512x8m81_4/pcb b[15] b[14] b[13] b[10] bb[9] saout_m2_3v512x8m81_4/vss_uq4
-+ VDD_uq3 VDD_uq4 b[11] b[9] bb[13] bb[11] WEN[1] bb[15] saout_m2_3v512x8m81_4/GWE
-+ b[8] bb[10] VDD ypass[6] ypass[7] ypass[0] men bb[12] bb[14] ypass[1] b[12] VDD_uq0
-+ VDD_uq6 VDD_uq1 VDD_uq5 VSS bb[8] VDD_uq2 ypass[3] saout_m2_3v512x8m81
++ VDD_uq3 VDD_uq4 b[11] b[9] bb[13] bb[11] WEN[1] bb[15] GWE b[8] bb[10] VDD ypass[6]
++ ypass[7] ypass[0] men bb[12] bb[14] ypass[1] b[12] VDD_uq0 VDD_uq6 VDD_uq1 VDD_uq5
++ VSS bb[8] VDD_uq2 ypass[3] saout_m2_3v512x8m81
 Xsaout_m2_3v512x8m81_3 ypass[2] ypass[4] ypass[5] saout_m2_3v512x8m81_4/GWEN din[0]
 + q[0] saout_m2_3v512x8m81_3/pcb b[31] b[30] b[29] b[26] bb[25] saout_m2_3v512x8m81_3/vss_uq4
 + VDD_uq3 VDD_uq4 b[27] b[25] bb[29] bb[27] WEN[3] bb[31] GWE b[24] bb[26] VDD ypass[6]
@@ -8643,16 +8641,14 @@ Xsaout_m2_3v512x8m81_3 ypass[2] ypass[4] ypass[5] saout_m2_3v512x8m81_4/GWEN din
 + VSS bb[24] VDD_uq2 ypass[3] saout_m2_3v512x8m81
 Xsaout_R_m2_3v512x8m81_0 ypass[1] ypass[2] ypass[4] ypass[5] ypass[0] saout_m2_3v512x8m81_4/GWEN
 + din[3] b[6] b[1] b[0] bb[7] q[3] bb[4] saout_R_m2_3v512x8m81_0/vss_uq6 VDD_uq1 VDD
-+ saout_R_m2_3v512x8m81_0/vdd_uq3 saout_R_m2_3v512x8m81_0/vdd_uq5 bb[2] b[4] b[5]
-+ WEN[0] bb[6] saout_R_m2_3v512x8m81_0/GWE bb[0] ypass[7] ypass[6] b[7] bb[5] b[2]
-+ men bb[1] bb[3] b[3] VDD_uq0 VDD_uq4 VDD_uq3 VDD_uq6 saout_R_m2_3v512x8m81_0/pcb
++ saout_R_m2_3v512x8m81_0/vdd_uq4 bb[2] b[4] b[5] WEN[0] bb[6] GWE bb[0] ypass[7]
++ ypass[6] b[7] bb[5] b[2] men bb[1] bb[3] b[3] VDD_uq0 VDD_uq4 VDD_uq3 VDD_uq6 saout_R_m2_3v512x8m81_0/pcb
 + VDD_uq5 VSS VDD_uq2 ypass[3] saout_R_m2_3v512x8m81
 Xsaout_R_m2_3v512x8m81_1 ypass[1] ypass[2] ypass[4] ypass[5] ypass[0] saout_m2_3v512x8m81_4/GWEN
 + din[1] b[22] b[17] b[16] bb[23] q[1] bb[20] saout_R_m2_3v512x8m81_1/vss_uq6 VDD_uq1
-+ VDD saout_R_m2_3v512x8m81_1/vdd_uq3 saout_R_m2_3v512x8m81_1/vdd_uq5 bb[18] b[20]
-+ b[21] WEN[2] bb[22] saout_R_m2_3v512x8m81_1/GWE bb[16] ypass[7] ypass[6] b[23] bb[21]
-+ b[18] men bb[17] bb[19] b[19] VDD_uq0 VDD_uq4 VDD_uq3 VDD_uq6 saout_R_m2_3v512x8m81_1/pcb
-+ VDD_uq5 VSS VDD_uq2 ypass[3] saout_R_m2_3v512x8m81
++ VDD saout_R_m2_3v512x8m81_1/vdd_uq4 bb[18] b[20] b[21] WEN[2] bb[22] GWE bb[16]
++ ypass[7] ypass[6] b[23] bb[21] b[18] men bb[17] bb[19] b[19] VDD_uq0 VDD_uq4 VDD_uq3
++ VDD_uq6 saout_R_m2_3v512x8m81_1/pcb VDD_uq5 VSS VDD_uq2 ypass[3] saout_R_m2_3v512x8m81
 .ends
 
 .subckt lcol4_512_3v512x8m81 WL[32] WL[33] WL[34] WL[38] WL[39] WL[35] WL[36] WL[37]
@@ -8660,21 +8656,21 @@ Xsaout_R_m2_3v512x8m81_1 ypass[1] ypass[2] ypass[4] ypass[5] ypass[0] saout_m2_3
 + WL[54] WL[55] WL[56] WL[58] WL[60] WL[61] WL[62] WL[63] WL[25] WL[24] WL[23] WL[22]
 + WL[21] WL[20] WL[18] WL[17] WL[16] WL[15] WL[14] WL[13] WL[12] WL[11] WL[10] WL[8]
 + WL[6] WL[31] WL[30] WL[28] WL[27] WL[26] din[1] din[3] din[2] q[1] q[2] q[3] pcb[2]
-+ pcb[3] pcb[0] pcb[1] WEN[3] WEN[2] WEN[1] WEN[0] col_512a_3v512x8m81_0/WL[40] col_512a_3v512x8m81_0/WL[41]
-+ col_512a_3v512x8m81_0/WL[43] col_512a_3v512x8m81_0/WL[60] WL[59] col_512a_3v512x8m81_0/WL[45]
-+ col_512a_3v512x8m81_0/WL[62] col_512a_3v512x8m81_0/WL[47] col_512a_3v512x8m81_0/saout_m2_3v512x8m81_4/GWEN
-+ q[0] WL[0] col_512a_3v512x8m81_0/WL[10] col_512a_3v512x8m81_0/men WL[1] WL[2] col_512a_3v512x8m81_0/WL[12]
-+ WL[3] col_512a_3v512x8m81_0/WL[13] WL[29] WL[4] col_512a_3v512x8m81_0/WL[14] col_512a_3v512x8m81_0/ypass[0]
-+ WL[5] col_512a_3v512x8m81_0/WL[15] col_512a_3v512x8m81_0/ypass[1] col_512a_3v512x8m81_0/WL[32]
-+ col_512a_3v512x8m81_0/WL[6] col_512a_3v512x8m81_0/ypass[2] WL[48] WL[7] col_512a_3v512x8m81_0/WL[17]
-+ col_512a_3v512x8m81_0/ypass[3] col_512a_3v512x8m81_0/WL[34] WL[49] col_512a_3v512x8m81_0/WL[8]
-+ col_512a_3v512x8m81_0/ypass[4] WL[9] col_512a_3v512x8m81_0/WL[19] col_512a_3v512x8m81_0/ypass[5]
-+ col_512a_3v512x8m81_0/WL[36] col_512a_3v512x8m81_0/ypass[6] col_512a_3v512x8m81_0/ypass[7]
-+ col_512a_3v512x8m81_0/WL[38] din[0] col_512a_3v512x8m81_0/GWE col_512a_3v512x8m81_0/saout_R_m2_3v512x8m81_0/vdd_uq3
-+ col_512a_3v512x8m81_0/WL[39] col_512a_3v512x8m81_0/WL[58] WL[57] col_512a_3v512x8m81_0/VDD_uq4
-+ col_512a_3v512x8m81_0/VDD_uq3 col_512a_3v512x8m81_0/VDD_uq2 col_512a_3v512x8m81_0/VDD
-+ WL[19] VDD col_512a_3v512x8m81_0/VDD_uq1 col_512a_3v512x8m81_0/VDD_uq0 col_512a_3v512x8m81_0/VDD_uq5
-+ col_512a_3v512x8m81_0/WL[21] VSUBS
++ pcb[3] pcb[0] pcb[1] WEN[3] WEN[2] WEN[1] WEN[0] din[0] q[0] col_512a_3v512x8m81_0/WL[40]
++ col_512a_3v512x8m81_0/WL[41] col_512a_3v512x8m81_0/WL[43] col_512a_3v512x8m81_0/WL[60]
++ WL[59] col_512a_3v512x8m81_0/WL[45] col_512a_3v512x8m81_0/WL[62] col_512a_3v512x8m81_0/WL[47]
++ col_512a_3v512x8m81_0/saout_m2_3v512x8m81_4/GWEN WL[0] col_512a_3v512x8m81_0/WL[10]
++ col_512a_3v512x8m81_0/men WL[1] WL[2] col_512a_3v512x8m81_0/WL[12] WL[3] col_512a_3v512x8m81_0/WL[13]
++ WL[29] WL[4] col_512a_3v512x8m81_0/WL[14] col_512a_3v512x8m81_0/ypass[0] WL[5] col_512a_3v512x8m81_0/WL[15]
++ col_512a_3v512x8m81_0/ypass[1] col_512a_3v512x8m81_0/WL[32] col_512a_3v512x8m81_0/WL[6]
++ col_512a_3v512x8m81_0/ypass[2] WL[48] WL[7] col_512a_3v512x8m81_0/WL[17] col_512a_3v512x8m81_0/ypass[3]
++ col_512a_3v512x8m81_0/WL[34] WL[49] col_512a_3v512x8m81_0/WL[8] col_512a_3v512x8m81_0/ypass[4]
++ WL[9] col_512a_3v512x8m81_0/WL[19] col_512a_3v512x8m81_0/ypass[5] col_512a_3v512x8m81_0/WL[36]
++ col_512a_3v512x8m81_0/ypass[6] col_512a_3v512x8m81_0/ypass[7] col_512a_3v512x8m81_0/WL[38]
++ col_512a_3v512x8m81_0/GWE col_512a_3v512x8m81_0/WL[39] col_512a_3v512x8m81_0/WL[58]
++ WL[57] col_512a_3v512x8m81_0/VDD_uq4 col_512a_3v512x8m81_0/VDD_uq3 col_512a_3v512x8m81_0/VDD_uq2
++ col_512a_3v512x8m81_0/VDD WL[19] VDD col_512a_3v512x8m81_0/VDD_uq1 col_512a_3v512x8m81_0/VDD_uq0
++ col_512a_3v512x8m81_0/VDD_uq5 col_512a_3v512x8m81_0/WL[21] VSUBS
 Xldummy_3v512x4_3v512x8m81_0 VSUBS VSUBS col_512a_3v512x8m81_0/bb[22] VDD col_512a_3v512x8m81_0/b[13]
 + VDD col_512a_3v512x8m81_0/b[22] col_512a_3v512x8m81_0/bb[26] col_512a_3v512x8m81_0/WL[32]
 + VDD col_512a_3v512x8m81_0/bb[13] col_512a_3v512x8m81_0/bb[4] col_512a_3v512x8m81_0/b[26]
@@ -8786,30 +8782,28 @@ Xcol_512a_3v512x8m81_0 WL[3] col_512a_3v512x8m81_0/ypass[0] col_512a_3v512x8m81_
 + col_512a_3v512x8m81_0/bb[18] VSUBS WL[57] col_512a_3v512x8m81_0/men col_512a_3v512x8m81_0/WL[40]
 + col_512a_3v512x8m81_0/bb[17] WL[22] col_512a_3v512x8m81_0/b[1] WL[1] col_512a_3v512x8m81_0/bb[21]
 + WL[25] WL[59] col_512a_3v512x8m81_0/bb[22] WL[4] col_512a_3v512x8m81_0/b[28] WL[54]
-+ col_512a_3v512x8m81_0/GWE col_512a_3v512x8m81_0/b[4] col_512a_3v512x8m81_0/WL[39]
-+ col_512a_3v512x8m81_0/b[5] WL[19] col_512a_3v512x8m81_0/WL[47] col_512a_3v512x8m81_0/bb[23]
-+ col_512a_3v512x8m81_0/bb[26] col_512a_3v512x8m81_0/b[7] col_512a_3v512x8m81_0/bb[27]
-+ col_512a_3v512x8m81_0/b[8] col_512a_3v512x8m81_0/b[6] col_512a_3v512x8m81_0/WL[41]
-+ WL[42] col_512a_3v512x8m81_0/GWE col_512a_3v512x8m81_0/bb[29] WL[26] WL[5] col_512a_3v512x8m81_0/bb[20]
-+ col_512a_3v512x8m81_0/b[13] col_512a_3v512x8m81_0/GWE col_512a_3v512x8m81_0/ypass[6]
++ col_512a_3v512x8m81_0/b[4] col_512a_3v512x8m81_0/WL[39] col_512a_3v512x8m81_0/b[5]
++ WL[19] col_512a_3v512x8m81_0/WL[47] col_512a_3v512x8m81_0/bb[23] col_512a_3v512x8m81_0/bb[26]
++ col_512a_3v512x8m81_0/b[7] col_512a_3v512x8m81_0/bb[27] col_512a_3v512x8m81_0/b[8]
++ col_512a_3v512x8m81_0/b[6] col_512a_3v512x8m81_0/WL[41] WL[42] col_512a_3v512x8m81_0/bb[29]
++ WL[26] WL[5] col_512a_3v512x8m81_0/bb[20] col_512a_3v512x8m81_0/b[13] col_512a_3v512x8m81_0/ypass[6]
 + col_512a_3v512x8m81_0/VDD_uq2 col_512a_3v512x8m81_0/bb[0] WL[55] col_512a_3v512x8m81_0/WL[8]
 + col_512a_3v512x8m81_0/ypass[7] col_512a_3v512x8m81_0/b[3] col_512a_3v512x8m81_0/bb[28]
 + col_512a_3v512x8m81_0/bb[1] col_512a_3v512x8m81_0/WL[21] col_512a_3v512x8m81_0/VDD_uq4
 + col_512a_3v512x8m81_0/bb[2] col_512a_3v512x8m81_0/bb[19] WL[23] col_512a_3v512x8m81_0/GWE
-+ col_512a_3v512x8m81_0/bb[3] WL[2] col_512a_3v512x8m81_0/b[2] col_512a_3v512x8m81_0/saout_R_m2_3v512x8m81_0/vdd_uq3
-+ col_512a_3v512x8m81_0/b[22] col_512a_3v512x8m81_0/b[10] col_512a_3v512x8m81_0/WL[62]
-+ col_512a_3v512x8m81_0/b[30] col_512a_3v512x8m81_0/bb[10] col_512a_3v512x8m81_0/bb[5]
-+ col_512a_3v512x8m81_0/b[23] col_512a_3v512x8m81_0/bb[11] col_512a_3v512x8m81_0/WL[45]
-+ col_512a_3v512x8m81_0/bb[6] col_512a_3v512x8m81_0/bb[25] col_512a_3v512x8m81_0/b[24]
-+ col_512a_3v512x8m81_0/WL[15] col_512a_3v512x8m81_0/b[21] col_512a_3v512x8m81_0/bb[12]
-+ col_512a_3v512x8m81_0/bb[7] WL[46] col_512a_3v512x8m81_0/b[25] col_512a_3v512x8m81_0/b[9]
-+ WL[17] col_512a_3v512x8m81_0/bb[4] col_512a_3v512x8m81_0/VDD_uq3 col_512a_3v512x8m81_0/bb[13]
-+ col_512a_3v512x8m81_0/b[29] col_512a_3v512x8m81_0/bb[8] col_512a_3v512x8m81_0/bb[30]
-+ col_512a_3v512x8m81_0/VDD_uq1 col_512a_3v512x8m81_0/b[26] WL[30] col_512a_3v512x8m81_0/bb[24]
-+ col_512a_3v512x8m81_0/bb[14] col_512a_3v512x8m81_0/bb[9] col_512a_3v512x8m81_0/bb[31]
-+ WL[9] col_512a_3v512x8m81_0/b[20] col_512a_3v512x8m81_0/b[27] col_512a_3v512x8m81_0/VDD_uq0
-+ col_512a_3v512x8m81_0/VDD col_512a_3v512x8m81_0/WL[34] col_512a_3v512x8m81_0/bb[15]
-+ VSUBS WL[40] VDD col_512a_3v512x8m81
++ col_512a_3v512x8m81_0/bb[3] WL[2] col_512a_3v512x8m81_0/b[2] col_512a_3v512x8m81_0/b[22]
++ col_512a_3v512x8m81_0/b[10] col_512a_3v512x8m81_0/WL[62] col_512a_3v512x8m81_0/b[30]
++ col_512a_3v512x8m81_0/bb[10] col_512a_3v512x8m81_0/bb[5] col_512a_3v512x8m81_0/b[23]
++ col_512a_3v512x8m81_0/bb[11] col_512a_3v512x8m81_0/WL[45] col_512a_3v512x8m81_0/bb[6]
++ col_512a_3v512x8m81_0/bb[25] col_512a_3v512x8m81_0/b[24] col_512a_3v512x8m81_0/WL[15]
++ col_512a_3v512x8m81_0/b[21] col_512a_3v512x8m81_0/bb[12] col_512a_3v512x8m81_0/bb[7]
++ WL[46] col_512a_3v512x8m81_0/b[25] col_512a_3v512x8m81_0/b[9] WL[17] col_512a_3v512x8m81_0/bb[4]
++ col_512a_3v512x8m81_0/VDD_uq3 col_512a_3v512x8m81_0/bb[13] col_512a_3v512x8m81_0/b[29]
++ col_512a_3v512x8m81_0/bb[8] col_512a_3v512x8m81_0/bb[30] col_512a_3v512x8m81_0/VDD_uq1
++ col_512a_3v512x8m81_0/b[26] WL[30] col_512a_3v512x8m81_0/bb[24] col_512a_3v512x8m81_0/bb[14]
++ col_512a_3v512x8m81_0/bb[9] col_512a_3v512x8m81_0/bb[31] WL[9] col_512a_3v512x8m81_0/b[20]
++ col_512a_3v512x8m81_0/b[27] col_512a_3v512x8m81_0/VDD_uq0 col_512a_3v512x8m81_0/VDD
++ col_512a_3v512x8m81_0/WL[34] col_512a_3v512x8m81_0/bb[15] VSUBS WL[40] VDD col_512a_3v512x8m81
 .ends
 
 .subckt nmos_5p04310591302096_3v512x8m81 D a_n28_n44# a_132_n44# S_uq0 S VSUBS
@@ -15009,15 +15003,14 @@ X018SRAM_cell1_2x_3v512x8m81_790 m3_n1397_25747# 018SRAM_strap1_bndry_3v512x8m81
 + WL[50] WL[52] WL[54] WL[51] WL[29] WL[20] WL[27] WL[30] WL[15] WL[38] WL[43] WL[31]
 + WL[16] WL[19] WL[28] WL[21] WL[53] WL[55] WL[12] WL[7] WL[8] WL[5] WL[10] WL[6]
 + tblhl GWE WL[11] din[7] q[5] q[6] q[7] din[5] din[6] q[4] pcb[6] pcb[7] pcb[4] WEN[4]
-+ WEN[7] pcb[5] WEN[5] WEN[6] din[4] q[4]_uq0 WL[56] saout_m2_3v512x8m81_3/men WL[59]
-+ rdummy_3v512x4_3v512x8m81_0/m2_16574_21# WL[58] WL[57] saout_m2_3v512x8m81_3/vdd_uq2
-+ WL[1] WL[22] WL[61] WL[60] WL[9] WL[45] WL[2] WL[39] WL[0] WL[24] WL[23] rdummy_3v512x4_3v512x8m81_0/m2_16574_38797#
-+ saout_m2_3v512x8m81_3/GWEN WL[48] saout_m2_3v512x8m81_3/ypass[0] WL[62] saout_m2_3v512x8m81_3/ypass[1]
-+ WL[47] saout_m2_3v512x8m81_3/VDD_uq0 saout_m2_3v512x8m81_3/ypass[2] saout_R_m2_3v512x8m81_3/vdd
-+ WL[4] saout_m2_3v512x8m81_3/ypass[3] WL[26] WL[41] WL[3] WL[40] saout_m2_3v512x8m81_3/ypass[4]
-+ saout_m2_3v512x8m81_3/VDD_uq1 saout_m2_3v512x8m81_3/ypass[5] WL[25] saout_m2_3v512x8m81_3/ypass[6]
-+ WL[14] saout_m2_3v512x8m81_3/ypass[7] WL[49] WL[13] WL[18] saout_m2_3v512x8m81_3/vdd_uq0
-+ saout_m2_3v512x8m81_3/VDD WL[34] saout_m2_3v512x8m81_3/vdd WL[63] WL[17] VSS saout_m2_3v512x8m81_3/vdd_uq3
++ WEN[7] pcb[5] WEN[5] WEN[6] din[4] WL[56] saout_m2_3v512x8m81_3/men WL[59] rdummy_3v512x4_3v512x8m81_0/m2_16574_21#
++ WL[58] WL[57] VDD_uq4 WL[1] WL[22] WL[61] WL[60] WL[9] WL[45] WL[2] WL[39] WL[0]
++ WL[24] WL[23] rdummy_3v512x4_3v512x8m81_0/m2_16574_38797# saout_m2_3v512x8m81_3/GWEN
++ WL[48] saout_m2_3v512x8m81_3/ypass[0] WL[62] saout_m2_3v512x8m81_3/ypass[1] WL[47]
++ VDD_uq1 saout_m2_3v512x8m81_3/ypass[2] VDD_uq2 WL[4] saout_m2_3v512x8m81_3/ypass[3]
++ WL[26] WL[41] WL[3] WL[40] saout_m2_3v512x8m81_3/ypass[4] VDD saout_m2_3v512x8m81_3/ypass[5]
++ WL[25] saout_m2_3v512x8m81_3/ypass[6] WL[14] saout_m2_3v512x8m81_3/ypass[7] WL[49]
++ WL[13] WL[18] VDD_uq0 VDD_uq5 WL[34] WL[63] WL[17] VSS VDD_uq3 saout_m2_3v512x8m81_3/vdd_uq3
 Xdcap_103_novia_3v512x8m81_0[0] saout_m2_3v512x8m81_3/vdd_uq3 VSS saout_m2_3v512x8m81_3/vdd_uq3
 + dcap_103_novia_3v512x8m81
 Xdcap_103_novia_3v512x8m81_0[1] saout_m2_3v512x8m81_3/vdd_uq3 VSS saout_m2_3v512x8m81_3/vdd_uq3
@@ -15093,16 +15086,14 @@ Xdcap_103_novia_3v512x8m81_0[35] saout_m2_3v512x8m81_3/vdd_uq3 VSS saout_m2_3v51
 Xsaout_m2_3v512x8m81_2 saout_m2_3v512x8m81_3/ypass[2] saout_m2_3v512x8m81_3/ypass[4]
 + saout_m2_3v512x8m81_3/ypass[5] saout_m2_3v512x8m81_3/GWEN din[6] q[6] pcb[5] saout_m2_3v512x8m81_2/b[7]
 + saout_m2_3v512x8m81_2/b[6] saout_m2_3v512x8m81_2/b[5] saout_m2_3v512x8m81_2/b[2]
-+ saout_m2_3v512x8m81_2/bb[1] saout_m2_3v512x8m81_2/vss_uq4 saout_m2_3v512x8m81_3/vdd
-+ saout_m2_3v512x8m81_3/vdd_uq2 saout_m2_3v512x8m81_2/b[3] saout_m2_3v512x8m81_2/b[1]
-+ saout_m2_3v512x8m81_2/bb[5] saout_m2_3v512x8m81_2/bb[3] WEN[5] saout_m2_3v512x8m81_2/bb[7]
-+ GWE saout_m2_3v512x8m81_2/mux821_3v512x8m81_0/ypass_gate_a_3v512x8m81_0/pmos_5p0431059130201_3v512x8m81_0/D
-+ saout_m2_3v512x8m81_2/bb[2] saout_m2_3v512x8m81_3/VDD_uq1 saout_m2_3v512x8m81_3/ypass[6]
-+ saout_m2_3v512x8m81_3/ypass[7] saout_m2_3v512x8m81_3/ypass[0] saout_m2_3v512x8m81_3/men
-+ saout_m2_3v512x8m81_2/bb[4] saout_m2_3v512x8m81_2/bb[6] saout_m2_3v512x8m81_3/ypass[1]
-+ saout_m2_3v512x8m81_2/b[4] saout_m2_3v512x8m81_3/VDD saout_m2_3v512x8m81_3/vdd_uq3
-+ saout_m2_3v512x8m81_3/VDD_uq0 saout_m2_3v512x8m81_3/vdd_uq0 VSS saout_m2_3v512x8m81_2/mux821_3v512x8m81_0/ypass_gate_a_3v512x8m81_0/bb
-+ saout_R_m2_3v512x8m81_3/vdd saout_m2_3v512x8m81_3/ypass[3] saout_m2_3v512x8m81
++ saout_m2_3v512x8m81_2/bb[1] saout_m2_3v512x8m81_2/vss_uq4 VDD_uq3 VDD_uq4 saout_m2_3v512x8m81_2/b[3]
++ saout_m2_3v512x8m81_2/b[1] saout_m2_3v512x8m81_2/bb[5] saout_m2_3v512x8m81_2/bb[3]
++ WEN[5] saout_m2_3v512x8m81_2/bb[7] GWE saout_m2_3v512x8m81_2/mux821_3v512x8m81_0/ypass_gate_a_3v512x8m81_0/pmos_5p0431059130201_3v512x8m81_0/D
++ saout_m2_3v512x8m81_2/bb[2] VDD saout_m2_3v512x8m81_3/ypass[6] saout_m2_3v512x8m81_3/ypass[7]
++ saout_m2_3v512x8m81_3/ypass[0] saout_m2_3v512x8m81_3/men saout_m2_3v512x8m81_2/bb[4]
++ saout_m2_3v512x8m81_2/bb[6] saout_m2_3v512x8m81_3/ypass[1] saout_m2_3v512x8m81_2/b[4]
++ VDD_uq0 saout_m2_3v512x8m81_3/vdd_uq3 VDD_uq1 VDD_uq5 VSS saout_m2_3v512x8m81_2/mux821_3v512x8m81_0/ypass_gate_a_3v512x8m81_0/bb
++ VDD_uq2 saout_m2_3v512x8m81_3/ypass[3] saout_m2_3v512x8m81
 Xrdummy_3v512x4_3v512x8m81_0 saout_R_m2_3v512x8m81_1/b[5] saout_R_m2_3v512x8m81_3/bb[4]
 + saout_m2_3v512x8m81_3/vdd_uq3 saout_R_m2_3v512x8m81_1/bb[5] saout_R_m2_3v512x8m81_3/b[4]
 + WL[60] saout_m2_3v512x8m81_3/vdd_uq3 VSS WL[57] saout_m2_3v512x8m81_3/b[5] VSS saout_m2_3v512x8m81_3/bb[5]
@@ -15113,7 +15104,7 @@ Xrdummy_3v512x4_3v512x8m81_0 saout_R_m2_3v512x8m81_1/b[5] saout_R_m2_3v512x8m81_
 + VSS saout_m2_3v512x8m81_3/bb[1] WL[45] WL[36] VSS VSS saout_m2_3v512x8m81_3/vdd_uq3
 + saout_m2_3v512x8m81_3/vdd_uq3 WL[3] saout_m2_3v512x8m81_3/mux821_3v512x8m81_0/ypass_gate_a_3v512x8m81_0/bb
 + VSS saout_m2_3v512x8m81_3/mux821_3v512x8m81_0/ypass_gate_a_3v512x8m81_0/pmos_5p0431059130201_3v512x8m81_0/D
-+ WL[23] WL[23] saout_m2_3v512x8m81_3/vdd_uq3 saout_m2_3v512x8m81_3/vdd_uq3 VSS saout_m2_3v512x8m81_3/vdd
++ WL[23] WL[23] saout_m2_3v512x8m81_3/vdd_uq3 saout_m2_3v512x8m81_3/vdd_uq3 VSS VDD_uq3
 + VSS saout_m2_3v512x8m81_3/vdd_uq3 saout_m2_3v512x8m81_3/vdd_uq3 saout_R_m2_3v512x8m81_3/b[5]
 + saout_R_m2_3v512x8m81_1/bb[6] saout_m2_3v512x8m81_3/vdd_uq3 saout_m2_3v512x8m81_3/vdd_uq3
 + saout_R_m2_3v512x8m81_1/b[6] WL[62] saout_R_m2_3v512x8m81_3/bb[5] VSS WL[56] VSS
@@ -15146,16 +15137,15 @@ Xrdummy_3v512x4_3v512x8m81_0 saout_R_m2_3v512x8m81_1/b[5] saout_R_m2_3v512x8m81_
 + WL[53] saout_m2_3v512x8m81_3/vdd_uq3 VSS saout_m2_3v512x8m81_2/bb[7] saout_m2_3v512x8m81_3/bb[7]
 + WL[22] VSS saout_m2_3v512x8m81_3/vdd_uq3 WL[18] saout_R_m2_3v512x8m81_3/b[7] VSS
 + saout_R_m2_3v512x8m81_3/bb[7] WL[41] saout_m2_3v512x8m81_3/vdd_uq3 VSS WL[37] saout_m2_3v512x8m81_3/ypass[3]
-+ VSS saout_m2_3v512x8m81_3/vdd_uq2 saout_R_m2_3v512x8m81_1/b[5] saout_m2_3v512x8m81_2/b[7]
-+ WL[11] saout_m2_3v512x8m81_3/vdd_uq3 VSS saout_m2_3v512x8m81_2/bb[7] saout_R_m2_3v512x8m81_1/bb[5]
-+ WL[27] WL[62] saout_m2_3v512x8m81_3/vdd_uq3 VSS VSS saout_m2_3v512x8m81_3/vdd_uq3
-+ saout_R_m2_3v512x8m81_1/b[1] saout_m2_3v512x8m81_3/vdd_uq3 saout_R_m2_3v512x8m81_3/b[1]
-+ saout_R_m2_3v512x8m81_1/bb[1] WL[33] saout_m2_3v512x8m81_3/vdd_uq3 saout_R_m2_3v512x8m81_3/bb[1]
-+ VSS WL[50] WL[1] WL[55] VSS VSS VSS WL[14] saout_m2_3v512x8m81_3/ypass[4] VSS saout_m2_3v512x8m81_3/vdd_uq3
-+ saout_R_m2_3v512x8m81_1/b[7] saout_m2_3v512x8m81_3/vdd_uq3 saout_R_m2_3v512x8m81_3/b[7]
-+ saout_m2_3v512x8m81_3/vdd_uq3 saout_R_m2_3v512x8m81_3/bb[7] saout_R_m2_3v512x8m81_1/bb[7]
-+ saout_m2_3v512x8m81_3/vdd_uq0 saout_m2_3v512x8m81_3/vdd_uq3 WL[30] VSS WL[48] VSS
-+ WL[19] saout_R_m2_3v512x8m81_3/bb[0] VSS rdummy_3v512x4_3v512x8m81_0/m2_16574_38797#
++ VSS VDD_uq4 saout_R_m2_3v512x8m81_1/b[5] saout_m2_3v512x8m81_2/b[7] WL[11] saout_m2_3v512x8m81_3/vdd_uq3
++ VSS saout_m2_3v512x8m81_2/bb[7] saout_R_m2_3v512x8m81_1/bb[5] WL[27] WL[62] saout_m2_3v512x8m81_3/vdd_uq3
++ VSS VSS saout_m2_3v512x8m81_3/vdd_uq3 saout_R_m2_3v512x8m81_1/b[1] saout_m2_3v512x8m81_3/vdd_uq3
++ saout_R_m2_3v512x8m81_3/b[1] saout_R_m2_3v512x8m81_1/bb[1] WL[33] saout_m2_3v512x8m81_3/vdd_uq3
++ saout_R_m2_3v512x8m81_3/bb[1] VSS WL[50] WL[1] WL[55] VSS VSS VSS WL[14] saout_m2_3v512x8m81_3/ypass[4]
++ VSS saout_m2_3v512x8m81_3/vdd_uq3 saout_R_m2_3v512x8m81_1/b[7] saout_m2_3v512x8m81_3/vdd_uq3
++ saout_R_m2_3v512x8m81_3/b[7] saout_m2_3v512x8m81_3/vdd_uq3 saout_R_m2_3v512x8m81_3/bb[7]
++ saout_R_m2_3v512x8m81_1/bb[7] VDD_uq5 saout_m2_3v512x8m81_3/vdd_uq3 WL[30] VSS WL[48]
++ VSS WL[19] saout_R_m2_3v512x8m81_3/bb[0] VSS rdummy_3v512x4_3v512x8m81_0/m2_16574_38797#
 + saout_m2_3v512x8m81_3/vdd_uq3 saout_m2_3v512x8m81_3/vdd_uq3 saout_R_m2_3v512x8m81_3/b[0]
 + WL[21] VSS WL[36] VSS saout_m2_3v512x8m81_2/bb[6] saout_R_m2_3v512x8m81_1/b[3] saout_m2_3v512x8m81_2/b[6]
 + saout_R_m2_3v512x8m81_1/bb[3] WL[58] VSS WL[16] saout_m2_3v512x8m81_3/vdd_uq3 VSS
@@ -15176,13 +15166,13 @@ Xrdummy_3v512x4_3v512x8m81_0 saout_R_m2_3v512x8m81_1/b[5] saout_R_m2_3v512x8m81_
 + WL[1] WL[46] saout_m2_3v512x8m81_3/b[5] saout_m2_3v512x8m81_3/vdd_uq3 VSS VSS saout_m2_3v512x8m81_3/bb[5]
 + saout_m2_3v512x8m81_3/vdd_uq3 saout_m2_3v512x8m81_3/vdd_uq3 saout_R_m2_3v512x8m81_3/bb[4]
 + saout_m2_3v512x8m81_3/vdd_uq3 WL[44] VSS saout_R_m2_3v512x8m81_3/b[4] saout_m2_3v512x8m81_3/vdd_uq3
-+ saout_m2_3v512x8m81_3/vdd WL[43] VSS saout_m2_3v512x8m81_3/vdd_uq3 saout_m2_3v512x8m81_3/vdd_uq3
-+ saout_m2_3v512x8m81_2/bb[4] saout_R_m2_3v512x8m81_1/b[1] saout_m2_3v512x8m81_2/b[4]
-+ saout_R_m2_3v512x8m81_1/bb[1] WL[38] VSS saout_m2_3v512x8m81_3/vdd_uq3 saout_R_m2_3v512x8m81_1/b[7]
-+ saout_m2_3v512x8m81_3/b[1] WL[8] saout_R_m2_3v512x8m81_1/bb[7] VSS saout_m2_3v512x8m81_3/bb[1]
-+ WL[5] saout_m2_3v512x8m81_3/vdd_uq3 saout_m2_3v512x8m81_3/vdd_uq3 WL[28] VSS VSS
-+ saout_m2_3v512x8m81_3/vdd_uq3 WL[47] saout_m2_3v512x8m81_2/mux821_3v512x8m81_0/ypass_gate_a_3v512x8m81_0/bb
-+ saout_m2_3v512x8m81_3/vdd_uq3 saout_m2_3v512x8m81_3/bb[4] VSS saout_m2_3v512x8m81_2/mux821_3v512x8m81_0/ypass_gate_a_3v512x8m81_0/pmos_5p0431059130201_3v512x8m81_0/D
++ VDD_uq3 WL[43] VSS saout_m2_3v512x8m81_3/vdd_uq3 saout_m2_3v512x8m81_3/vdd_uq3 saout_m2_3v512x8m81_2/bb[4]
++ saout_R_m2_3v512x8m81_1/b[1] saout_m2_3v512x8m81_2/b[4] saout_R_m2_3v512x8m81_1/bb[1]
++ WL[38] VSS saout_m2_3v512x8m81_3/vdd_uq3 saout_R_m2_3v512x8m81_1/b[7] saout_m2_3v512x8m81_3/b[1]
++ WL[8] saout_R_m2_3v512x8m81_1/bb[7] VSS saout_m2_3v512x8m81_3/bb[1] WL[5] saout_m2_3v512x8m81_3/vdd_uq3
++ saout_m2_3v512x8m81_3/vdd_uq3 WL[28] VSS VSS saout_m2_3v512x8m81_3/vdd_uq3 WL[47]
++ saout_m2_3v512x8m81_2/mux821_3v512x8m81_0/ypass_gate_a_3v512x8m81_0/bb saout_m2_3v512x8m81_3/vdd_uq3
++ saout_m2_3v512x8m81_3/bb[4] VSS saout_m2_3v512x8m81_2/mux821_3v512x8m81_0/ypass_gate_a_3v512x8m81_0/pmos_5p0431059130201_3v512x8m81_0/D
 + saout_m2_3v512x8m81_3/b[4] WL[6] WL[40] VSS VSS saout_m2_3v512x8m81_3/vdd_uq3 rdummy_3v512x4_3v512x8m81_0/ypass_gate_3v512x8m81_0_0/b
 + saout_R_m2_3v512x8m81_3/b[5] WL[45] saout_m2_3v512x8m81_3/vdd_uq3 VSS saout_R_m2_3v512x8m81_3/bb[5]
 + WL[26] saout_m2_3v512x8m81_3/vdd_uq3 VSS saout_m2_3v512x8m81_3/vdd_uq3 saout_m2_3v512x8m81_3/vdd_uq3
@@ -15199,28 +15189,26 @@ Xrdummy_3v512x4_3v512x8m81_0 saout_R_m2_3v512x8m81_1/b[5] saout_R_m2_3v512x8m81_
 + saout_m2_3v512x8m81_3/vdd_uq3 VSS WL[58] saout_m2_3v512x8m81_3/vdd_uq3 VSS saout_m2_3v512x8m81_2/bb[2]
 + saout_R_m2_3v512x8m81_3/bb[6] saout_R_m2_3v512x8m81_3/b[6] saout_m2_3v512x8m81_2/b[2]
 + saout_m2_3v512x8m81_3/vdd_uq3 WL[41] VSS saout_m2_3v512x8m81_3/vdd_uq3 WL[56] VSS
-+ saout_m2_3v512x8m81_3/b[3] saout_m2_3v512x8m81_3/vdd saout_m2_3v512x8m81_3/bb[3]
-+ WL[48] saout_m2_3v512x8m81_3/vdd_uq3 WL[11] saout_m2_3v512x8m81_3/vdd_uq3 VSS WL[8]
-+ VSS WL[4] saout_m2_3v512x8m81_3/vdd_uq3 VSS saout_m2_3v512x8m81_3/vdd_uq3 VSS saout_m2_3v512x8m81_2/bb[2]
-+ saout_m2_3v512x8m81_3/vdd_uq3 saout_m2_3v512x8m81_3/b[7] saout_m2_3v512x8m81_2/b[2]
-+ WL[20] saout_m2_3v512x8m81_3/vdd_uq3 saout_m2_3v512x8m81_3/ypass[1] saout_m2_3v512x8m81_3/bb[7]
-+ VSS WL[38] WL[57] VSS VSS VSS saout_m2_3v512x8m81_3/vdd_uq3 tblhl saout_m2_3v512x8m81_3/vdd_uq3
-+ WL[2] saout_R_m2_3v512x8m81_3/bb[2] VSS saout_m2_3v512x8m81_3/vdd_uq3 WL[22] saout_R_m2_3v512x8m81_3/b[2]
++ saout_m2_3v512x8m81_3/b[3] VDD_uq3 saout_m2_3v512x8m81_3/bb[3] WL[48] saout_m2_3v512x8m81_3/vdd_uq3
++ WL[11] saout_m2_3v512x8m81_3/vdd_uq3 VSS WL[8] VSS WL[4] saout_m2_3v512x8m81_3/vdd_uq3
++ VSS saout_m2_3v512x8m81_3/vdd_uq3 VSS saout_m2_3v512x8m81_2/bb[2] saout_m2_3v512x8m81_3/vdd_uq3
++ saout_m2_3v512x8m81_3/b[7] saout_m2_3v512x8m81_2/b[2] WL[20] saout_m2_3v512x8m81_3/vdd_uq3
++ saout_m2_3v512x8m81_3/ypass[1] saout_m2_3v512x8m81_3/bb[7] VSS WL[38] WL[57] VSS
++ VSS VSS saout_m2_3v512x8m81_3/vdd_uq3 tblhl saout_m2_3v512x8m81_3/vdd_uq3 WL[2]
++ saout_R_m2_3v512x8m81_3/bb[2] VSS saout_m2_3v512x8m81_3/vdd_uq3 WL[22] saout_R_m2_3v512x8m81_3/b[2]
 + saout_m2_3v512x8m81_3/vdd_uq3 VSS VSS saout_m2_3v512x8m81_3/vdd_uq3 WL[33] VSS saout_m2_3v512x8m81_3/vdd_uq3
 + VSS WL[59] VSS saout_m2_3v512x8m81_3/vdd_uq3 saout_m2_3v512x8m81_3/ypass[2] rdummy_3v512x4_3v512x8m81
 Xsaout_m2_3v512x8m81_3 saout_m2_3v512x8m81_3/ypass[2] saout_m2_3v512x8m81_3/ypass[4]
-+ saout_m2_3v512x8m81_3/ypass[5] saout_m2_3v512x8m81_3/GWEN din[4] q[4]_uq0 pcb[7]
-+ saout_m2_3v512x8m81_3/b[7] saout_m2_3v512x8m81_3/b[6] saout_m2_3v512x8m81_3/b[5]
-+ saout_m2_3v512x8m81_3/b[2] saout_m2_3v512x8m81_3/bb[1] saout_m2_3v512x8m81_3/vss_uq4
-+ saout_m2_3v512x8m81_3/vdd saout_m2_3v512x8m81_3/vdd_uq2 saout_m2_3v512x8m81_3/b[3]
++ saout_m2_3v512x8m81_3/ypass[5] saout_m2_3v512x8m81_3/GWEN din[4] q[4] pcb[7] saout_m2_3v512x8m81_3/b[7]
++ saout_m2_3v512x8m81_3/b[6] saout_m2_3v512x8m81_3/b[5] saout_m2_3v512x8m81_3/b[2]
++ saout_m2_3v512x8m81_3/bb[1] saout_m2_3v512x8m81_3/vss_uq4 VDD_uq3 VDD_uq4 saout_m2_3v512x8m81_3/b[3]
 + saout_m2_3v512x8m81_3/b[1] saout_m2_3v512x8m81_3/bb[5] saout_m2_3v512x8m81_3/bb[3]
 + WEN[7] saout_m2_3v512x8m81_3/bb[7] GWE saout_m2_3v512x8m81_3/mux821_3v512x8m81_0/ypass_gate_a_3v512x8m81_0/pmos_5p0431059130201_3v512x8m81_0/D
-+ saout_m2_3v512x8m81_3/bb[2] saout_m2_3v512x8m81_3/VDD_uq1 saout_m2_3v512x8m81_3/ypass[6]
-+ saout_m2_3v512x8m81_3/ypass[7] saout_m2_3v512x8m81_3/ypass[0] saout_m2_3v512x8m81_3/men
-+ saout_m2_3v512x8m81_3/bb[4] saout_m2_3v512x8m81_3/bb[6] saout_m2_3v512x8m81_3/ypass[1]
-+ saout_m2_3v512x8m81_3/b[4] saout_m2_3v512x8m81_3/VDD saout_m2_3v512x8m81_3/vdd_uq3
-+ saout_m2_3v512x8m81_3/VDD_uq0 saout_m2_3v512x8m81_3/vdd_uq0 VSS saout_m2_3v512x8m81_3/mux821_3v512x8m81_0/ypass_gate_a_3v512x8m81_0/bb
-+ saout_R_m2_3v512x8m81_3/vdd saout_m2_3v512x8m81_3/ypass[3] saout_m2_3v512x8m81
++ saout_m2_3v512x8m81_3/bb[2] VDD saout_m2_3v512x8m81_3/ypass[6] saout_m2_3v512x8m81_3/ypass[7]
++ saout_m2_3v512x8m81_3/ypass[0] saout_m2_3v512x8m81_3/men saout_m2_3v512x8m81_3/bb[4]
++ saout_m2_3v512x8m81_3/bb[6] saout_m2_3v512x8m81_3/ypass[1] saout_m2_3v512x8m81_3/b[4]
++ VDD_uq0 saout_m2_3v512x8m81_3/vdd_uq3 VDD_uq1 VDD_uq5 VSS saout_m2_3v512x8m81_3/mux821_3v512x8m81_0/ypass_gate_a_3v512x8m81_0/bb
++ VDD_uq2 saout_m2_3v512x8m81_3/ypass[3] saout_m2_3v512x8m81
 Xrarray4_512_3v512x8m81_0 saout_m2_3v512x8m81_2/bb[6] saout_R_m2_3v512x8m81_3/bb[7]
 + saout_R_m2_3v512x8m81_1/bb[2] saout_m2_3v512x8m81_3/bb[5] saout_R_m2_3v512x8m81_1/bb[4]
 + saout_m2_3v512x8m81_2/bb[1] saout_R_m2_3v512x8m81_1/b[0] saout_m2_3v512x8m81_3/b[6]
@@ -15253,28 +15241,24 @@ Xsaout_R_m2_3v512x8m81_1 saout_m2_3v512x8m81_3/ypass[1] saout_m2_3v512x8m81_3/yp
 + saout_m2_3v512x8m81_3/ypass[4] saout_m2_3v512x8m81_3/ypass[5] saout_m2_3v512x8m81_3/ypass[0]
 + saout_m2_3v512x8m81_3/GWEN din[7] saout_R_m2_3v512x8m81_1/b[6] saout_R_m2_3v512x8m81_1/b[1]
 + saout_R_m2_3v512x8m81_1/b[0] saout_R_m2_3v512x8m81_1/bb[7] q[7] saout_R_m2_3v512x8m81_1/bb[4]
-+ saout_R_m2_3v512x8m81_1/vss_uq6 saout_m2_3v512x8m81_3/VDD_uq0 saout_m2_3v512x8m81_3/VDD_uq1
-+ saout_R_m2_3v512x8m81_1/vdd_uq3 saout_R_m2_3v512x8m81_1/vdd_uq5 saout_R_m2_3v512x8m81_1/bb[2]
++ saout_R_m2_3v512x8m81_1/vss_uq6 VDD_uq1 VDD saout_R_m2_3v512x8m81_1/vdd_uq4 saout_R_m2_3v512x8m81_1/bb[2]
 + saout_R_m2_3v512x8m81_1/b[4] saout_R_m2_3v512x8m81_1/b[5] WEN[4] saout_R_m2_3v512x8m81_1/bb[6]
 + GWE saout_R_m2_3v512x8m81_1/bb[0] saout_m2_3v512x8m81_3/ypass[7] saout_m2_3v512x8m81_3/ypass[6]
 + saout_R_m2_3v512x8m81_1/b[7] saout_R_m2_3v512x8m81_1/bb[5] saout_R_m2_3v512x8m81_1/b[2]
 + saout_m2_3v512x8m81_3/men saout_R_m2_3v512x8m81_1/bb[1] saout_R_m2_3v512x8m81_1/bb[3]
-+ saout_R_m2_3v512x8m81_1/b[3] saout_m2_3v512x8m81_3/VDD saout_m2_3v512x8m81_3/vdd_uq2
-+ saout_m2_3v512x8m81_3/vdd saout_m2_3v512x8m81_3/vdd_uq3 pcb[4] saout_m2_3v512x8m81_3/vdd_uq0
-+ VSS saout_R_m2_3v512x8m81_3/vdd saout_m2_3v512x8m81_3/ypass[3] saout_R_m2_3v512x8m81
++ saout_R_m2_3v512x8m81_1/b[3] VDD_uq0 VDD_uq4 VDD_uq3 saout_m2_3v512x8m81_3/vdd_uq3
++ pcb[4] VDD_uq5 VSS VDD_uq2 saout_m2_3v512x8m81_3/ypass[3] saout_R_m2_3v512x8m81
 Xsaout_R_m2_3v512x8m81_3 saout_m2_3v512x8m81_3/ypass[1] saout_m2_3v512x8m81_3/ypass[2]
 + saout_m2_3v512x8m81_3/ypass[4] saout_m2_3v512x8m81_3/ypass[5] saout_m2_3v512x8m81_3/ypass[0]
 + saout_m2_3v512x8m81_3/GWEN din[5] saout_R_m2_3v512x8m81_3/b[6] saout_R_m2_3v512x8m81_3/b[1]
 + saout_R_m2_3v512x8m81_3/b[0] saout_R_m2_3v512x8m81_3/bb[7] q[5] saout_R_m2_3v512x8m81_3/bb[4]
-+ saout_R_m2_3v512x8m81_3/vss_uq6 saout_m2_3v512x8m81_3/VDD_uq0 saout_m2_3v512x8m81_3/VDD_uq1
-+ saout_R_m2_3v512x8m81_3/vdd_uq3 saout_R_m2_3v512x8m81_3/vdd_uq5 saout_R_m2_3v512x8m81_3/bb[2]
++ saout_R_m2_3v512x8m81_3/vss_uq6 VDD_uq1 VDD saout_R_m2_3v512x8m81_3/vdd_uq4 saout_R_m2_3v512x8m81_3/bb[2]
 + saout_R_m2_3v512x8m81_3/b[4] saout_R_m2_3v512x8m81_3/b[5] WEN[6] saout_R_m2_3v512x8m81_3/bb[6]
 + GWE saout_R_m2_3v512x8m81_3/bb[0] saout_m2_3v512x8m81_3/ypass[7] saout_m2_3v512x8m81_3/ypass[6]
 + saout_R_m2_3v512x8m81_3/b[7] saout_R_m2_3v512x8m81_3/bb[5] saout_R_m2_3v512x8m81_3/b[2]
 + saout_m2_3v512x8m81_3/men saout_R_m2_3v512x8m81_3/bb[1] saout_R_m2_3v512x8m81_3/bb[3]
-+ saout_R_m2_3v512x8m81_3/b[3] saout_m2_3v512x8m81_3/VDD saout_m2_3v512x8m81_3/vdd_uq2
-+ saout_m2_3v512x8m81_3/vdd saout_m2_3v512x8m81_3/vdd_uq3 pcb[6] saout_m2_3v512x8m81_3/vdd_uq0
-+ VSS saout_R_m2_3v512x8m81_3/vdd saout_m2_3v512x8m81_3/ypass[3] saout_R_m2_3v512x8m81
++ saout_R_m2_3v512x8m81_3/b[3] VDD_uq0 VDD_uq4 VDD_uq3 saout_m2_3v512x8m81_3/vdd_uq3
++ pcb[6] VDD_uq5 VSS VDD_uq2 saout_m2_3v512x8m81_3/ypass[3] saout_R_m2_3v512x8m81
 .ends
 
 .subckt pmoscap_R270_3v512x8m81 m3_770_16# a_n126_928# a_n140_236# m3_152_0# w_n226_n219#
@@ -15736,10 +15720,10 @@ Xlcol4_512_3v512x8m81_0 xdec64_3v512x8m81_0/LWL[33] lcol4_512_3v512x8m81_0/WL[33
 + xdec64_3v512x8m81_0/LWL[31] xdec64_3v512x8m81_0/LWL[29] xdec64_3v512x8m81_0/LWL[28]
 + xdec64_3v512x8m81_0/LWL[27] D[1] D[3] D[2] Q[1] Q[2] Q[3] lcol4_512_3v512x8m81_0/pcb[2]
 + lcol4_512_3v512x8m81_0/pcb[3] lcol4_512_3v512x8m81_0/pcb[0] lcol4_512_3v512x8m81_0/pcb[1]
-+ WEN[0] WEN[1] WEN[2] WEN[3] xdec64_3v512x8m81_0/LWL[40] xdec64_3v512x8m81_0/LWL[41]
++ WEN[0] WEN[1] WEN[2] WEN[3] D[0] Q[0] xdec64_3v512x8m81_0/LWL[40] xdec64_3v512x8m81_0/LWL[41]
 + xdec64_3v512x8m81_0/LWL[43] xdec64_3v512x8m81_0/LWL[60] xdec64_3v512x8m81_0/LWL[61]
 + xdec64_3v512x8m81_0/LWL[45] xdec64_3v512x8m81_0/LWL[62] xdec64_3v512x8m81_0/LWL[47]
-+ control_3v512x8_3v512x8m81_0/IGWEN Q[0] xdec64_3v512x8m81_0/LWL[0] xdec64_3v512x8m81_0/LWL[10]
++ control_3v512x8_3v512x8m81_0/IGWEN xdec64_3v512x8m81_0/LWL[0] xdec64_3v512x8m81_0/LWL[10]
 + xdec64_3v512x8m81_0/men xdec64_3v512x8m81_0/LWL[1] xdec64_3v512x8m81_0/LWL[2] xdec64_3v512x8m81_0/LWL[12]
 + xdec64_3v512x8m81_0/LWL[3] xdec64_3v512x8m81_0/LWL[13] xdec64_3v512x8m81_0/LWL[30]
 + xdec64_3v512x8m81_0/LWL[4] xdec64_3v512x8m81_0/LWL[14] control_3v512x8_3v512x8m81_0/LYS[0]
@@ -15750,7 +15734,7 @@ Xlcol4_512_3v512x8m81_0 xdec64_3v512x8m81_0/LWL[33] lcol4_512_3v512x8m81_0/WL[33
 + xdec64_3v512x8m81_0/LWL[8] control_3v512x8_3v512x8m81_0/LYS[4] xdec64_3v512x8m81_0/LWL[9]
 + xdec64_3v512x8m81_0/LWL[19] control_3v512x8_3v512x8m81_0/LYS[5] xdec64_3v512x8m81_0/LWL[36]
 + control_3v512x8_3v512x8m81_0/LYS[6] control_3v512x8_3v512x8m81_0/LYS[7] xdec64_3v512x8m81_0/LWL[38]
-+ D[0] rcol4_512_3v512x8m81_0/GWE VDD xdec64_3v512x8m81_0/LWL[39] xdec64_3v512x8m81_0/LWL[58]
++ rcol4_512_3v512x8m81_0/GWE xdec64_3v512x8m81_0/LWL[39] xdec64_3v512x8m81_0/LWL[58]
 + xdec64_3v512x8m81_0/LWL[59] VDD VDD VDD VDD xdec64_3v512x8m81_0/LWL[20] VDD VDD
 + VDD VDD xdec64_3v512x8m81_0/LWL[21] VSS lcol4_512_3v512x8m81
 Xrcol4_512_3v512x8m81_0 xdec64_3v512x8m81_0/RWL[32] xdec64_3v512x8m81_0/RWL[33] xdec64_3v512x8m81_0/RWL[35]
@@ -15765,23 +15749,22 @@ Xrcol4_512_3v512x8m81_0 xdec64_3v512x8m81_0/RWL[32] xdec64_3v512x8m81_0/RWL[33] 
 + xdec64_3v512x8m81_0/RWL[7] xdec64_3v512x8m81_0/RWL[8] xdec64_3v512x8m81_0/RWL[5]
 + xdec64_3v512x8m81_0/RWL[10] xdec64_3v512x8m81_0/RWL[6] rcol4_512_3v512x8m81_0/tblhl
 + rcol4_512_3v512x8m81_0/GWE xdec64_3v512x8m81_0/RWL[11] D[7] Q[5] Q[6] Q[7] D[5]
-+ D[6] rcol4_512_3v512x8m81_0/q[4] rcol4_512_3v512x8m81_0/pcb[6] rcol4_512_3v512x8m81_0/pcb[7]
-+ rcol4_512_3v512x8m81_0/pcb[4] WEN[7] WEN[4] rcol4_512_3v512x8m81_0/pcb[5] WEN[6]
-+ WEN[5] D[4] Q[4] xdec64_3v512x8m81_0/RWL[56] xdec64_3v512x8m81_0/men xdec64_3v512x8m81_0/RWL[59]
-+ VSS xdec64_3v512x8m81_0/RWL[58] xdec64_3v512x8m81_0/RWL[57] VDD xdec64_3v512x8m81_0/RWL[1]
-+ xdec64_3v512x8m81_0/RWL[22] xdec64_3v512x8m81_0/RWL[61] xdec64_3v512x8m81_0/RWL[60]
-+ xdec64_3v512x8m81_0/RWL[9] xdec64_3v512x8m81_0/RWL[45] xdec64_3v512x8m81_0/RWL[2]
-+ xdec64_3v512x8m81_0/RWL[39] xdec64_3v512x8m81_0/RWL[0] xdec64_3v512x8m81_0/RWL[24]
-+ xdec64_3v512x8m81_0/RWL[23] xdec64_3v512x8m81_0/DRWL control_3v512x8_3v512x8m81_0/IGWEN
-+ xdec64_3v512x8m81_0/RWL[48] control_3v512x8_3v512x8m81_0/RYS[0] xdec64_3v512x8m81_0/RWL[62]
-+ control_3v512x8_3v512x8m81_0/RYS[1] xdec64_3v512x8m81_0/RWL[47] VDD control_3v512x8_3v512x8m81_0/RYS[2]
-+ VDD xdec64_3v512x8m81_0/RWL[4] control_3v512x8_3v512x8m81_0/RYS[3] xdec64_3v512x8m81_0/RWL[26]
-+ xdec64_3v512x8m81_0/RWL[41] xdec64_3v512x8m81_0/RWL[3] xdec64_3v512x8m81_0/RWL[40]
-+ control_3v512x8_3v512x8m81_0/RYS[4] VDD control_3v512x8_3v512x8m81_0/RYS[5] xdec64_3v512x8m81_0/RWL[25]
-+ control_3v512x8_3v512x8m81_0/RYS[6] xdec64_3v512x8m81_0/RWL[14] control_3v512x8_3v512x8m81_0/RYS[7]
-+ xdec64_3v512x8m81_0/RWL[49] xdec64_3v512x8m81_0/RWL[13] xdec64_3v512x8m81_0/RWL[18]
-+ VDD VDD xdec64_3v512x8m81_0/RWL[34] VDD xdec64_3v512x8m81_0/RWL[63] xdec64_3v512x8m81_0/RWL[17]
-+ VSS VDD rcol4_512_3v512x8m81
++ D[6] Q[4] rcol4_512_3v512x8m81_0/pcb[6] rcol4_512_3v512x8m81_0/pcb[7] rcol4_512_3v512x8m81_0/pcb[4]
++ WEN[7] WEN[4] rcol4_512_3v512x8m81_0/pcb[5] WEN[6] WEN[5] D[4] xdec64_3v512x8m81_0/RWL[56]
++ xdec64_3v512x8m81_0/men xdec64_3v512x8m81_0/RWL[59] VSS xdec64_3v512x8m81_0/RWL[58]
++ xdec64_3v512x8m81_0/RWL[57] VDD xdec64_3v512x8m81_0/RWL[1] xdec64_3v512x8m81_0/RWL[22]
++ xdec64_3v512x8m81_0/RWL[61] xdec64_3v512x8m81_0/RWL[60] xdec64_3v512x8m81_0/RWL[9]
++ xdec64_3v512x8m81_0/RWL[45] xdec64_3v512x8m81_0/RWL[2] xdec64_3v512x8m81_0/RWL[39]
++ xdec64_3v512x8m81_0/RWL[0] xdec64_3v512x8m81_0/RWL[24] xdec64_3v512x8m81_0/RWL[23]
++ xdec64_3v512x8m81_0/DRWL control_3v512x8_3v512x8m81_0/IGWEN xdec64_3v512x8m81_0/RWL[48]
++ control_3v512x8_3v512x8m81_0/RYS[0] xdec64_3v512x8m81_0/RWL[62] control_3v512x8_3v512x8m81_0/RYS[1]
++ xdec64_3v512x8m81_0/RWL[47] VDD control_3v512x8_3v512x8m81_0/RYS[2] VDD xdec64_3v512x8m81_0/RWL[4]
++ control_3v512x8_3v512x8m81_0/RYS[3] xdec64_3v512x8m81_0/RWL[26] xdec64_3v512x8m81_0/RWL[41]
++ xdec64_3v512x8m81_0/RWL[3] xdec64_3v512x8m81_0/RWL[40] control_3v512x8_3v512x8m81_0/RYS[4]
++ VDD control_3v512x8_3v512x8m81_0/RYS[5] xdec64_3v512x8m81_0/RWL[25] control_3v512x8_3v512x8m81_0/RYS[6]
++ xdec64_3v512x8m81_0/RWL[14] control_3v512x8_3v512x8m81_0/RYS[7] xdec64_3v512x8m81_0/RWL[49]
++ xdec64_3v512x8m81_0/RWL[13] xdec64_3v512x8m81_0/RWL[18] VDD VDD xdec64_3v512x8m81_0/RWL[34]
++ xdec64_3v512x8m81_0/RWL[63] xdec64_3v512x8m81_0/RWL[17] VSS VDD VDD rcol4_512_3v512x8m81
 Xxdec64_3v512x8m81_0 xdec64_3v512x8m81_0/DRWL xdec64_3v512x8m81_0/RWL[34] xdec64_3v512x8m81_0/RWL[35]
 + xdec64_3v512x8m81_0/RWL[36] xdec64_3v512x8m81_0/RWL[37] xdec64_3v512x8m81_0/RWL[38]
 + xdec64_3v512x8m81_0/RWL[39] xdec64_3v512x8m81_0/RWL[40] xdec64_3v512x8m81_0/RWL[42]

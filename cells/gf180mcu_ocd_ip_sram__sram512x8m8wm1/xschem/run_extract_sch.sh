@@ -11,5 +11,5 @@ echo ${PDK:=gf180mcuD} > /dev/null
 
 xschem -n -s -r -x -q --tcl "set top_is_subckt 1" \
 	--rcfile $PDK_ROOT/$PDK/libs.tech/xschem/xschemrc \
-	-o . -N $project.spice $project.sch
+	-o .. -N $project.spice $project.sch
 

@@ -11,5 +11,5 @@ export NETGEN_COLUMNS=75
 
 netgen -batch lvs \
 "../magic/gf180mcu_ocd_ip_sram__sram256x8m8wm1.spice gf180mcu_ocd_ip_sram__sram256x8m8wm1" \
-"../gf180mcu_ocd_ip_sram__sram256x8m8wm1.spice gf180mcu_ocd_ip_sram__sram256x8m8wm1" \
+"../gf180mcu_ocd_ip_sram__sram256x8m8wm1.cdl gf180mcu_ocd_ip_sram__sram256x8m8wm1" \
 ${PDK_ROOT}/${PDK}/libs.tech/netgen/${PDK}_setup.tcl comp_cdl.out
