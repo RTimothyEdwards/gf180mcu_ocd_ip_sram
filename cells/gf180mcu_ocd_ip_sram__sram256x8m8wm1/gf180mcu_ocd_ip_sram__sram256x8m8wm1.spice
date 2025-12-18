@@ -1,23 +1,23 @@
 ** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_ip_sram/cells/gf180mcu_ocd_ip_sram__sram256x8m8wm1/xschem/gf180mcu_ocd_ip_sram__sram256x8m8wm1.sch
-.subckt gf180mcu_ocd_ip_sram__sram256x8m8wm1 vss vdd A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] CLK GWEN Q[7] Q[6] Q[5] Q[4] Q[3]
+.subckt gf180mcu_ocd_ip_sram__sram256x8m8wm1 VSS VDD A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] CLK GWEN Q[7] Q[6] Q[5] Q[4] Q[3]
 + Q[2] Q[1] Q[0] WEN[7] WEN[6] WEN[5] WEN[4] WEN[3] WEN[2] WEN[1] WEN[0] D[7] D[6] D[5] D[4] D[3] D[2] D[1] D[0] CEN
-*.PININFO Q[7:0]:O WEN[7:0]:I D[7:0]:I A[7:0]:I CLK:I GWEN:I vdd:B vss:B CEN:I
-x1 vdd vss net2[31] net2[30] net2[29] net2[28] net2[27] net2[26] net2[25] net2[24] net2[23] net2[22] net2[21] net2[20] net2[19]
+*.PININFO Q[7:0]:O WEN[7:0]:I D[7:0]:I A[7:0]:I CLK:I GWEN:I VDD:B VSS:B CEN:I
+x1 VDD VSS net2[31] net2[30] net2[29] net2[28] net2[27] net2[26] net2[25] net2[24] net2[23] net2[22] net2[21] net2[20] net2[19]
 + net2[18] net2[17] net2[16] net2[15] net2[14] net2[13] net2[12] net2[11] net2[10] net2[9] net2[8] net2[7] net2[6] net2[5] net2[4] net2[3]
 + net2[2] net2[1] net2[0] ypassl[7] ypassl[6] ypassl[5] ypassl[4] ypassl[3] ypassl[2] ypassl[1] ypassl[0] D[3] D[2] D[1] D[0] Q[3] Q[2]
 + Q[1] Q[0] men GWE IGWEN WEN[3] WEN[2] WEN[1] WEN[0] lcol4_256_3v256x8m81
-x2 vdd vss net1[31] net1[30] net1[29] net1[28] net1[27] net1[26] net1[25] net1[24] net1[23] net1[22] net1[21] net1[20] net1[19]
+x2 VDD VSS net1[31] net1[30] net1[29] net1[28] net1[27] net1[26] net1[25] net1[24] net1[23] net1[22] net1[21] net1[20] net1[19]
 + net1[18] net1[17] net1[16] net1[15] net1[14] net1[13] net1[12] net1[11] net1[10] net1[9] net1[8] net1[7] net1[6] net1[5] net1[4] net1[3]
 + net1[2] net1[1] net1[0] ypassr[7] ypassr[6] ypassr[5] ypassr[4] ypassr[3] ypassr[2] ypassr[1] ypassr[0] D[7] D[6] D[5] D[4] Q[7] Q[6]
 + Q[5] Q[4] men GWE IGWEN WEN[7] WEN[6] WEN[5] WEN[4] net3 tblhl rcol4_256_3v256x8m81
-x3 vss vdd net6 net3 net4[7] net4[6] net4[5] net4[4] net4[3] net4[2] net4[1] net4[0] net2[31] net2[30] net2[29] net2[28] net2[27]
+x3 VSS VDD net6 net3 net4[7] net4[6] net4[5] net4[4] net4[3] net4[2] net4[1] net4[0] net2[31] net2[30] net2[29] net2[28] net2[27]
 + net2[26] net2[25] net2[24] net2[23] net2[22] net2[21] net2[20] net2[19] net2[18] net2[17] net2[16] net2[15] net2[14] net2[13] net2[12]
 + net2[11] net2[10] net2[9] net2[8] net2[7] net2[6] net2[5] net2[4] net2[3] net2[2] net2[1] net2[0] net5[3] net5[2] net5[1] net5[0] net1[31]
 + net1[30] net1[29] net1[28] net1[27] net1[26] net1[25] net1[24] net1[23] net1[22] net1[21] net1[20] net1[19] net1[18] net1[17] net1[16]
 + net1[15] net1[14] net1[13] net1[12] net1[11] net1[10] net1[9] net1[8] net1[7] net1[6] net1[5] net1[4] net1[3] net1[2] net1[1] net1[0] men
-+ xc[1] vdd xdec64_3v256x8m81
++ xc[1] VDD xdec64_3v256x8m81
 * noconn #net6
-x4 vss vdd vss vss A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] xc[3] xc[2] xc[1] xc[0] net5[3] net5[2] net5[1] net5[0] net4[7] net4[6]
+x4 VSS VDD VSS VSS A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] xc[3] xc[2] xc[1] xc[0] net5[3] net5[2] net5[1] net5[0] net4[7] net4[6]
 + net4[5] net4[4] net4[3] net4[2] net4[1] net4[0] CLK men IGWEN GWEN GWE ypassr[7] ypassr[6] ypassr[5] ypassr[4] ypassr[3] ypassr[2]
 + ypassr[1] ypassr[0] ypassl[7] ypassl[6] ypassl[5] ypassl[4] ypassl[3] ypassl[2] ypassl[1] ypassl[0] tblhl CEN control_3v256x8m81
 * noconn xc[2]

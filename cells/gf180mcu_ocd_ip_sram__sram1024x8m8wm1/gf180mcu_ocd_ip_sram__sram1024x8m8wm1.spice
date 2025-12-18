@@ -1,8 +1,8 @@
 ** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_ip_sram/cells/gf180mcu_ocd_ip_sram__sram1024x8m8wm1/xschem/gf180mcu_ocd_ip_sram__sram1024x8m8wm1.sch
-.subckt gf180mcu_ocd_ip_sram__sram1024x8m8wm1 vss vdd A[9] A[8] A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] CLK GWEN Q[7] Q[6] Q[5]
+.subckt gf180mcu_ocd_ip_sram__sram1024x8m8wm1 VSS VDD A[9] A[8] A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] CLK GWEN Q[7] Q[6] Q[5]
 + Q[4] Q[3] Q[2] Q[1] Q[0] WEN[7] WEN[6] WEN[5] WEN[4] WEN[3] WEN[2] WEN[1] WEN[0] D[7] D[6] D[5] D[4] D[3] D[2] D[1] D[0] CEN
-*.PININFO Q[7:0]:O WEN[7:0]:I D[7:0]:I A[9:0]:I CLK:I GWEN:I vdd:B vss:B CEN:I
-x1 vdd vss net2[127] net2[126] net2[125] net2[124] net2[123] net2[122] net2[121] net2[120] net2[119] net2[118] net2[117] net2[116]
+*.PININFO Q[7:0]:O WEN[7:0]:I D[7:0]:I A[9:0]:I CLK:I GWEN:I VDD:B VSS:B CEN:I
+x1 VDD VSS net2[127] net2[126] net2[125] net2[124] net2[123] net2[122] net2[121] net2[120] net2[119] net2[118] net2[117] net2[116]
 + net2[115] net2[114] net2[113] net2[112] net2[111] net2[110] net2[109] net2[108] net2[107] net2[106] net2[105] net2[104] net2[103] net2[102]
 + net2[101] net2[100] net2[99] net2[98] net2[97] net2[96] net2[95] net2[94] net2[93] net2[92] net2[91] net2[90] net2[89] net2[88] net2[87]
 + net2[86] net2[85] net2[84] net2[83] net2[82] net2[81] net2[80] net2[79] net2[78] net2[77] net2[76] net2[75] net2[74] net2[73] net2[72]
@@ -13,7 +13,7 @@ x1 vdd vss net2[127] net2[126] net2[125] net2[124] net2[123] net2[122] net2[121]
 + net2[11] net2[10] net2[9] net2[8] net2[7] net2[6] net2[5] net2[4] net2[3] net2[2] net2[1] net2[0] ypassl[7] ypassl[6] ypassl[5] ypassl[4]
 + ypassl[3] ypassl[2] ypassl[1] ypassl[0] D[3] D[2] D[1] D[0] Q[3] Q[2] Q[1] Q[0] men GWE IGWEN WEN[3] WEN[2] WEN[1] WEN[0]
 + lcol4_1024_3v1024x8m81
-x2 vdd vss net1[127] net1[126] net1[125] net1[124] net1[123] net1[122] net1[121] net1[120] net1[119] net1[118] net1[117] net1[116]
+x2 VDD VSS net1[127] net1[126] net1[125] net1[124] net1[123] net1[122] net1[121] net1[120] net1[119] net1[118] net1[117] net1[116]
 + net1[115] net1[114] net1[113] net1[112] net1[111] net1[110] net1[109] net1[108] net1[107] net1[106] net1[105] net1[104] net1[103] net1[102]
 + net1[101] net1[100] net1[99] net1[98] net1[97] net1[96] net1[95] net1[94] net1[93] net1[92] net1[91] net1[90] net1[89] net1[88] net1[87]
 + net1[86] net1[85] net1[84] net1[83] net1[82] net1[81] net1[80] net1[79] net1[78] net1[77] net1[76] net1[75] net1[74] net1[73] net1[72]
@@ -24,7 +24,7 @@ x2 vdd vss net1[127] net1[126] net1[125] net1[124] net1[123] net1[122] net1[121]
 + net1[11] net1[10] net1[9] net1[8] net1[7] net1[6] net1[5] net1[4] net1[3] net1[2] net1[1] net1[0] ypassr[7] ypassr[6] ypassr[5] ypassr[4]
 + ypassr[3] ypassr[2] ypassr[1] ypassr[0] D[7] D[6] D[5] D[4] Q[7] Q[6] Q[5] Q[4] men GWE IGWEN WEN[7] WEN[6] WEN[5] WEN[4] net3 tblhl
 + rcol4_1024_3v1024x8m81
-x3 vss vdd net7 net3 net4[7] net4[6] net4[5] net4[4] net4[3] net4[2] net4[1] net4[0] net2[127] net2[126] net2[125] net2[124]
+x3 VSS VDD net7 net3 net4[7] net4[6] net4[5] net4[4] net4[3] net4[2] net4[1] net4[0] net2[127] net2[126] net2[125] net2[124]
 + net2[123] net2[122] net2[121] net2[120] net2[119] net2[118] net2[117] net2[116] net2[115] net2[114] net2[113] net2[112] net2[111] net2[110]
 + net2[109] net2[108] net2[107] net2[106] net2[105] net2[104] net2[103] net2[102] net2[101] net2[100] net2[99] net2[98] net2[97] net2[96]
 + net2[95] net2[94] net2[93] net2[92] net2[91] net2[90] net2[89] net2[88] net2[87] net2[86] net2[85] net2[84] net2[83] net2[82] net2[81]
@@ -44,7 +44,7 @@ x3 vss vdd net7 net3 net4[7] net4[6] net4[5] net4[4] net4[3] net4[2] net4[1] net
 + net1[18] net1[17] net1[16] net1[15] net1[14] net1[13] net1[12] net1[11] net1[10] net1[9] net1[8] net1[7] net1[6] net1[5] net1[4] net1[3]
 + net1[2] net1[1] net1[0] men net6[3] net6[2] net6[1] net6[0] xdec128_3v1024x8m81
 * noconn #net7
-x4 vss vdd A[9] A[8] A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] net6[3] net6[2] net6[1] net6[0] net5[3] net5[2] net5[1] net5[0]
+x4 VSS VDD A[9] A[8] A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] net6[3] net6[2] net6[1] net6[0] net5[3] net5[2] net5[1] net5[0]
 + net4[7] net4[6] net4[5] net4[4] net4[3] net4[2] net4[1] net4[0] CLK men IGWEN GWEN GWE ypassr[7] ypassr[6] ypassr[5] ypassr[4] ypassr[3]
 + ypassr[2] ypassr[1] ypassr[0] ypassl[7] ypassl[6] ypassl[5] ypassl[4] ypassl[3] ypassl[2] ypassl[1] ypassl[0] tblhl CEN control_3v1024x8m81
 .ends

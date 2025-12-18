@@ -17,12 +17,12 @@ N -310 310 -170 310 {lab=#net2}
 N -170 90 -170 310 {lab=#net2}
 N -170 90 -50 90 {lab=#net2}
 N -350 450 -310 450 {lab=WEN[7:0]}
-N -310 210 -280 210 {lab=vss}
-N -310 230 -280 230 {lab=vdd}
-N 250 90 280 90 {lab=vdd}
-N 250 330 280 330 {lab=vdd}
-N 250 110 280 110 {lab=vss}
-N 250 350 280 350 {lab=vss}
+N -310 210 -280 210 {lab=VSS}
+N -310 230 -280 230 {lab=VDD}
+N 250 90 280 90 {lab=VDD}
+N 250 330 280 330 {lab=VDD}
+N 250 110 280 110 {lab=VSS}
+N 250 350 280 350 {lab=VSS}
 N -310 290 -190 290 {lab=#net3}
 N -190 470 -50 470 {lab=#net3}
 N -80 130 -50 130 {lab=D[3:0]}
@@ -57,10 +57,10 @@ N -490 100 -440 100 {lab=ypassl[7:0]}
 N -70 110 -50 110 {lab=ypassl[7:0]}
 N -70 350 -50 350 {lab=ypassr[7:0]}
 N -860 -100 -830 -100 {lab=A[9:0]}
-N -670 -160 -670 -90 {lab=vdd}
-N -790 -160 -670 -160 {lab=vdd}
-N -790 -190 -610 -190 {lab=vss}
-N -610 -190 -610 -90 {lab=vss}
+N -670 -160 -670 -90 {lab=VDD}
+N -790 -160 -670 -160 {lab=VDD}
+N -790 -190 -610 -190 {lab=VSS}
+N -610 -190 -610 -90 {lab=VSS}
 N -840 80 -790 80 {lab=CEN}
 N 250 450 290 450 {lab=tblhl}
 N -840 60 -790 60 {lab=tblhl}
@@ -80,12 +80,12 @@ C {lab_pin.sym} -70 210 0 0 {name=p5 sig_type=std_logic lab=WEN[3:0]}
 C {lab_pin.sym} -70 450 0 0 {name=p6 sig_type=std_logic lab=WEN[7:4]}
 C {ipin.sym} -350 450 0 0 {name=p7 lab=WEN[7:0]}
 C {lab_pin.sym} -310 450 0 1 {name=p8 sig_type=std_logic lab=WEN[7:0]}
-C {lab_pin.sym} -280 210 0 1 {name=p9 sig_type=std_logic lab=vss}
-C {lab_pin.sym} -280 230 0 1 {name=p10 sig_type=std_logic lab=vdd}
-C {lab_pin.sym} 280 90 0 1 {name=p11 sig_type=std_logic lab=vdd}
-C {lab_pin.sym} 280 330 0 1 {name=p12 sig_type=std_logic lab=vdd}
-C {lab_pin.sym} 280 110 0 1 {name=p13 sig_type=std_logic lab=vss}
-C {lab_pin.sym} 280 350 0 1 {name=p14 sig_type=std_logic lab=vss}
+C {lab_pin.sym} -280 210 0 1 {name=p9 sig_type=std_logic lab=VSS}
+C {lab_pin.sym} -280 230 0 1 {name=p10 sig_type=std_logic lab=VDD}
+C {lab_pin.sym} 280 90 0 1 {name=p11 sig_type=std_logic lab=VDD}
+C {lab_pin.sym} 280 330 0 1 {name=p12 sig_type=std_logic lab=VDD}
+C {lab_pin.sym} 280 110 0 1 {name=p13 sig_type=std_logic lab=VSS}
+C {lab_pin.sym} 280 350 0 1 {name=p14 sig_type=std_logic lab=VSS}
 C {noconn.sym} -310 270 0 1 {name=l1}
 C {lab_pin.sym} -80 130 0 0 {name=p15 sig_type=std_logic lab=D[3:0]}
 C {lab_pin.sym} -80 370 0 0 {name=p16 sig_type=std_logic lab=D[7:4]}
@@ -111,8 +111,8 @@ C {lab_pin.sym} -70 110 0 0 {name=p40 sig_type=std_logic lab=ypassl[7:0]}
 C {lab_pin.sym} -70 350 0 0 {name=p41 sig_type=std_logic lab=ypassr[7:0]}
 C {lab_pin.sym} -830 0 0 0 {name=p42 sig_type=std_logic lab=A[9:0]}
 C {lab_pin.sym} -830 -100 0 1 {name=p43 sig_type=std_logic lab=A[9:0]}
-C {iopin.sym} -790 -160 0 1 {name=p45 lab=vdd}
-C {iopin.sym} -790 -190 0 1 {name=p46 lab=vss}
+C {iopin.sym} -790 -160 0 1 {name=p45 lab=VDD}
+C {iopin.sym} -790 -190 0 1 {name=p46 lab=VSS}
 C {ipin.sym} -840 80 0 0 {name=p19 lab=CEN}
 C {lab_pin.sym} 290 450 0 1 {name=p20 sig_type=std_logic lab=tblhl}
 C {lab_pin.sym} -840 60 0 0 {name=p47 sig_type=std_logic lab=tblhl}

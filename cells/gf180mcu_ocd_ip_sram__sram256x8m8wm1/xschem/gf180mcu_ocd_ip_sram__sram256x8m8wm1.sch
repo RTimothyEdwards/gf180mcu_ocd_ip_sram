@@ -18,12 +18,12 @@ N -310 310 -170 310 {lab=#net2}
 N -170 90 -170 310 {lab=#net2}
 N -170 90 -50 90 {lab=#net2}
 N -350 450 -310 450 {lab=WEN[7:0]}
-N -310 210 -280 210 {lab=vss}
-N -310 230 -280 230 {lab=vdd}
-N 250 90 280 90 {lab=vdd}
-N 250 330 280 330 {lab=vdd}
-N 250 110 280 110 {lab=vss}
-N 250 350 280 350 {lab=vss}
+N -310 210 -280 210 {lab=VSS}
+N -310 230 -280 230 {lab=VDD}
+N 250 90 280 90 {lab=VDD}
+N 250 330 280 330 {lab=VDD}
+N 250 110 280 110 {lab=VSS}
+N 250 350 280 350 {lab=VSS}
 N -310 290 -190 290 {lab=#net3}
 N -190 470 -50 470 {lab=#net3}
 N -80 130 -50 130 {lab=D[3:0]}
@@ -43,7 +43,7 @@ N -330 -20 -330 150 {lab=#net5}
 N -660 150 -330 150 {lab=#net5}
 N -660 150 -660 230 {lab=#net5}
 N -660 230 -610 230 {lab=#net5}
-N -650 270 -610 270 {lab=xc[1],vss}
+N -650 270 -610 270 {lab=xc[1],VSS}
 N -490 -40 -330 -40 {lab=xc[3:0]}
 N -680 440 -660 440 {lab=xc[2]}
 N -680 460 -660 460 {lab=xc[3]}
@@ -51,7 +51,7 @@ N -90 390 -50 390 {lab=men}
 N -90 150 -50 150 {lab=men}
 N -830 40 -790 40 {lab=GWEN}
 N -830 20 -790 20 {lab=CLK}
-N -830 -0 -790 -0 {lab=vss,vss,A[7:0]}
+N -830 -0 -790 -0 {lab=VSS,VSS,A[7:0]}
 N -490 40 -440 40 {lab=IGWEN}
 N -80 170 -50 170 {lab=GWE}
 N -80 190 -50 190 {lab=IGWEN}
@@ -63,10 +63,10 @@ N -70 110 -50 110 {lab=ypassl[7:0]}
 N -70 350 -50 350 {lab=ypassr[7:0]}
 N -860 -100 -830 -100 {lab=A[7:0]}
 N -680 420 -660 420 {lab=xc[0]}
-N -670 -160 -670 -90 {lab=vdd}
-N -790 -160 -670 -160 {lab=vdd}
-N -790 -190 -610 -190 {lab=vss}
-N -610 -190 -610 -90 {lab=vss}
+N -670 -160 -670 -90 {lab=VDD}
+N -790 -160 -670 -160 {lab=VDD}
+N -790 -190 -610 -190 {lab=VSS}
+N -610 -190 -610 -90 {lab=VSS}
 N -840 80 -790 80 {lab=CEN}
 N 250 450 290 450 {lab=tblhl}
 N -840 60 -790 60 {lab=tblhl}
@@ -81,12 +81,12 @@ C {lab_pin.sym} -70 210 0 0 {name=p5 sig_type=std_logic lab=WEN[3:0]}
 C {lab_pin.sym} -70 450 0 0 {name=p6 sig_type=std_logic lab=WEN[7:4]}
 C {ipin.sym} -350 450 0 0 {name=p7 lab=WEN[7:0]}
 C {lab_pin.sym} -310 450 0 1 {name=p8 sig_type=std_logic lab=WEN[7:0]}
-C {lab_pin.sym} -280 210 0 1 {name=p9 sig_type=std_logic lab=vss}
-C {lab_pin.sym} -280 230 0 1 {name=p10 sig_type=std_logic lab=vdd}
-C {lab_pin.sym} 280 90 0 1 {name=p11 sig_type=std_logic lab=vdd}
-C {lab_pin.sym} 280 330 0 1 {name=p12 sig_type=std_logic lab=vdd}
-C {lab_pin.sym} 280 110 0 1 {name=p13 sig_type=std_logic lab=vss}
-C {lab_pin.sym} 280 350 0 1 {name=p14 sig_type=std_logic lab=vss}
+C {lab_pin.sym} -280 210 0 1 {name=p9 sig_type=std_logic lab=VSS}
+C {lab_pin.sym} -280 230 0 1 {name=p10 sig_type=std_logic lab=VDD}
+C {lab_pin.sym} 280 90 0 1 {name=p11 sig_type=std_logic lab=VDD}
+C {lab_pin.sym} 280 330 0 1 {name=p12 sig_type=std_logic lab=VDD}
+C {lab_pin.sym} 280 110 0 1 {name=p13 sig_type=std_logic lab=VSS}
+C {lab_pin.sym} 280 350 0 1 {name=p14 sig_type=std_logic lab=VSS}
 C {noconn.sym} -310 270 0 1 {name=l1}
 C {lab_pin.sym} -80 130 0 0 {name=p15 sig_type=std_logic lab=D[3:0]}
 C {lab_pin.sym} -80 370 0 0 {name=p16 sig_type=std_logic lab=D[7:4]}
@@ -96,7 +96,7 @@ C {control_3v256x8m81.sym} -640 30 0 0 {name=x4}
 C {lab_pin.sym} -440 20 0 1 {name=p21 sig_type=std_logic lab=men}
 C {lab_pin.sym} -440 60 0 1 {name=p22 sig_type=std_logic lab=GWE}
 C {lab_pin.sym} -650 250 0 0 {name=p23 sig_type=std_logic lab=men}
-C {lab_pin.sym} -650 270 0 0 {name=p24 sig_type=std_logic lab=xc[1],vdd}
+C {lab_pin.sym} -650 270 0 0 {name=p24 sig_type=std_logic lab=xc[1],VDD}
 C {lab_pin.sym} -330 -40 0 1 {name=p25 sig_type=std_logic lab=xc[3:0]}
 C {lab_pin.sym} -680 440 0 0 {name=p26 sig_type=std_logic lab=xc[2]}
 C {lab_pin.sym} -680 460 0 0 {name=p27 sig_type=std_logic lab=xc[3]}
@@ -116,12 +116,12 @@ C {lab_pin.sym} -440 100 0 1 {name=p38 sig_type=std_logic lab=ypassl[7:0]}
 C {lab_pin.sym} -440 80 0 1 {name=p39 sig_type=std_logic lab=ypassr[7:0]}
 C {lab_pin.sym} -70 110 0 0 {name=p40 sig_type=std_logic lab=ypassl[7:0]}
 C {lab_pin.sym} -70 350 0 0 {name=p41 sig_type=std_logic lab=ypassr[7:0]}
-C {lab_pin.sym} -830 0 0 0 {name=p42 sig_type=std_logic lab=vss,vss,A[7:0]}
+C {lab_pin.sym} -830 0 0 0 {name=p42 sig_type=std_logic lab=VSS,VSS,A[7:0]}
 C {lab_pin.sym} -830 -100 0 1 {name=p43 sig_type=std_logic lab=A[7:0]}
 C {lab_pin.sym} -680 420 0 0 {name=p44 sig_type=std_logic lab=xc[0]}
 C {noconn.sym} -660 420 0 1 {name=l4}
-C {iopin.sym} -790 -160 0 1 {name=p45 lab=vdd}
-C {iopin.sym} -790 -190 0 1 {name=p46 lab=vss}
+C {iopin.sym} -790 -160 0 1 {name=p45 lab=VDD}
+C {iopin.sym} -790 -190 0 1 {name=p46 lab=VSS}
 C {ipin.sym} -840 80 0 0 {name=p19 lab=CEN}
 C {lab_pin.sym} 290 450 0 1 {name=p20 sig_type=std_logic lab=tblhl}
 C {lab_pin.sym} -840 60 0 0 {name=p47 sig_type=std_logic lab=tblhl}

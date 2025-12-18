@@ -3244,7 +3244,7 @@ A[2]                                                                         |A[
 A[1]                                                                         |A[1]                                                                         
 A[0]                                                                         |A[0]                                                                         
 GWEN                                                                         |GWEN                                                                         
-VSS                                                                          |vss                                                                          
+VSS                                                                          |VSS                                                                          
 D[0]                                                                         |D[0]                                                                         
 D[2]                                                                         |D[2]                                                                         
 D[3]                                                                         |D[3]                                                                         
@@ -3262,7 +3262,7 @@ WEN[2]                                                                       |WE
 WEN[1]                                                                       |WEN[1]                                                                       
 WEN[0]                                                                       |WEN[0]                                                                       
 CEN                                                                          |CEN                                                                          
-VDD                                                                          |vdd                                                                          
+VDD                                                                          |VDD                                                                          
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes gf180mcu_ocd_ip_sram__sram256x8m8wm1 and gf180mcu_ocd_ip_sram__sram256x8m8wm1 are equivalent.
