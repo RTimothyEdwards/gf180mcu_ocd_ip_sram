@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1765982216
+timestamp 1766784746
 << nwell >>
 rect 8121 20390 8391 20405
 rect 939 17073 15865 20390
@@ -137,19 +137,19 @@ timestamp 1765981949
 transform 1 0 214 0 1 21064
 box -631 -16314 16729 20854
 use saout_m2_3v256x8m81  saout_m2_3v256x8m81_2
-timestamp 1765901156
+timestamp 1766784746
 transform 1 0 8164 0 1 0
 box -188 -475 5343 21797
 use saout_m2_3v256x8m81  saout_m2_3v256x8m81_3
-timestamp 1765901156
+timestamp 1766784746
 transform 1 0 348 0 1 -1
 box -188 -475 5343 21797
 use saout_R_m2_3v256x8m81  saout_R_m2_3v256x8m81_1
-timestamp 1765901156
+timestamp 1766784746
 transform -1 0 16164 0 1 5
 box -188 -482 5343 21793
 use saout_R_m2_3v256x8m81  saout_R_m2_3v256x8m81_3
-timestamp 1765901156
+timestamp 1766784746
 transform -1 0 8348 0 1 4
 box -188 -482 5343 21793
 << labels >>
@@ -219,14 +219,6 @@ rlabel metal3 s 1125 29027 1125 29027 4 WL[11]
 port 79 nsew
 rlabel metal3 s 168 21213 168 21213 4 VSS
 port 18 nsew
-rlabel metal1 s 5139 11069 5139 11069 4 pcb[6]
-port 88 nsew
-rlabel metal1 s 4144 11069 4144 11069 4 pcb[7]
-port 89 nsew
-rlabel metal1 s 12746 11069 12746 11069 4 pcb[4]
-port 90 nsew
-rlabel metal1 s 11611 11069 11611 11069 4 pcb[5]
-port 94 nsew
 rlabel metal3 s 942 4999 942 4999 4 GWE
 port 78 nsew
 rlabel metal3 s 942 4819 942 4819 4 tblhl
@@ -255,4 +247,21 @@ rlabel metal2 s 15183 1922 15183 1922 4 q[7]
 port 84 nsew
 rlabel metal2 s 15814 1922 15814 1922 4 din[7]
 port 81 nsew
+rlabel metal3 780 19700 780 19700 4 VDD
+port 98 se
+rlabel metal3 4320 -230 4320 -230 0 VDD
+rlabel metal3 4210 1380 4210 1380 0 VDD
+rlabel metal3 4180 2090 4180 2090 0 VDD
+rlabel metal3 4260 4200 4260 4200 0 VDD
+rlabel metal3 4350 6710 4350 6710 0 VDD
+rlabel metal3 4290 10760 4290 10760 0 VDD
+rlabel metal3 4230 13510 4230 13510 0 VDD
+rlabel metal1 s 3184 11809 3184 11809 4 pcb[7]
+port 89 nsew
+rlabel metal1 s 5489 11789 5489 11789 4 pcb[6]
+port 88 nsew
+rlabel metal1 s 11001 11799 11001 11799 4 pcb[5]
+port 94 nsew
+rlabel metal1 s 13306 11799 13306 11799 4 pcb[4]
+port 90 nsew
 << end >>

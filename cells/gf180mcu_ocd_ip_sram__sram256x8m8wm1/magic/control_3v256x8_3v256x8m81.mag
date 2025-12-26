@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1765847097
+timestamp 1766766415
 << nwell >>
 rect 17442 19330 18301 19778
 rect 17262 8699 17293 8720
@@ -253,8 +253,6 @@ flabel metal3 s 4365 16804 4365 16804 0 FreeSans 313 0 0 0 VDD
 port 2 nsew
 flabel metal3 s 4365 19672 4365 19672 0 FreeSans 313 0 0 0 VSS
 port 1 nsew
-flabel metal3 s 4365 18246 4365 18246 0 FreeSans 313 0 0 0 VSS
-port 1 nsew
 flabel metal3 s 4365 18978 4365 18978 0 FreeSans 313 0 0 0 VDD
 port 2 nsew
 flabel metal3 s 4365 14201 4365 14201 0 FreeSans 313 0 0 0 VSS
@@ -337,16 +335,12 @@ flabel metal3 s 4365 3413 4365 3413 0 FreeSans 313 0 0 0 VDD
 port 2 nsew
 flabel metal3 s 5796 2441 5796 2441 0 FreeSans 313 0 0 0 VDD
 port 2 nsew
-flabel metal3 s 4365 2676 4365 2676 0 FreeSans 313 0 0 0 VSS
-port 1 nsew
 flabel metal3 s 4365 4149 4365 4149 0 FreeSans 313 0 0 0 VSS
 port 1 nsew
 flabel metal3 s 4365 8014 4365 8014 0 FreeSans 313 0 0 0 VSS
 port 1 nsew
 rlabel metal3 s 19569 5213 19569 5213 4 tblhl
 port 20 nsew
-flabel metal3 s 5796 1454 5796 1454 0 FreeSans 313 0 0 0 VDD
-port 2 nsew
 rlabel metal3 s 19722 12144 19722 12144 4 RYS[7]
 port 3 nsew
 rlabel metal3 s 19722 11905 19722 11905 4 RYS[6]
@@ -383,6 +377,12 @@ rlabel metal3 s 1263 10695 1263 10695 4 LYS[1]
 port 12 nsew
 rlabel metal3 s 1263 10457 1263 10457 4 LYS[0]
 port 11 nsew
+flabel metal3 s 6616 1794 6616 1794 0 FreeSans 313 0 0 0 VDD
+port 2 nsew
+flabel metal3 s 5305 2996 5305 2996 0 FreeSans 313 0 0 0 VSS
+port 1 nsew
+flabel metal3 s 4555 18516 4555 18516 0 FreeSans 313 0 0 0 VSS
+port 1 nsew
 << properties >>
 string path 81.095 8.115 81.735 8.115 81.735 -9.165 
 << end >>

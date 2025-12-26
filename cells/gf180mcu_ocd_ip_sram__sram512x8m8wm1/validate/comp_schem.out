@@ -2036,10 +2036,6 @@ Cell pin lists for dcap_103_novia_3v512x8m81 and dcap_103_novia_3v512x8m81 alter
 Device classes dcap_103_novia_3v512x8m81 and dcap_103_novia_3v512x8m81 are equivalent.
 Flattening unmatched subcell saout_R_m2_3v512x8m81 in circuit col_512a_3v512x8m81 (0)(2 instances)
 
-Cell col_512a_3v512x8m81 (0) disconnected node: pcb[0]
-Cell col_512a_3v512x8m81 (0) disconnected node: pcb[1]
-Cell col_512a_3v512x8m81 (0) disconnected node: pcb[3]
-Cell col_512a_3v512x8m81 (0) disconnected node: pcb[2]
 Cell col_512a_3v512x8m81 (0) disconnected node: m3_n771_22409#
 Subcircuit summary:
 Circuit 1: col_512a_3v512x8m81                                               |Circuit 2: col_512a_3v512x8m81                                               
@@ -3773,6 +3769,57 @@ xdec8_3v512x8m81_3/xdec_3v512x8m81_7/m2_7219_n156#                           |(n
 Cell pin lists are equivalent.
 Device classes xdec32_3v512x8m81 and xdec32_3v512x8m81 are equivalent.
 
+Cell control_3v512x8_3v512x8m81 (0) disconnected node: VSS_uq2
+Cell control_3v512x8_3v512x8m81 (0) disconnected node: VDD_uq6
+Subcircuit summary:
+Circuit 1: control_3v512x8_3v512x8m81                                        |Circuit 2: control_3v512x8_3v512x8m81                                        
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+pfet_03v3 (260->149)                                                         |pfet_03v3 (149)                                                              
+nfet_03v3 (241->145)                                                         |nfet_03v3 (145)                                                              
+alatch_3v512x8m81 (10)                                                       |alatch_3v512x8m81 (10)                                                       
+xpredec1_xa_3v512x8m81 (8)                                                   |xpredec1_xa_3v512x8m81 (8)                                                   
+wen_v2_3v512x8m81 (1)                                                        |wen_v2_3v512x8m81 (1)                                                        
+Number of devices: 313                                                       |Number of devices: 313                                                       
+Number of nets: 188 **Mismatch**                                             |Number of nets: 182 **Mismatch**                                             
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: control_3v512x8_3v512x8m81                                        |Circuit 2: control_3v512x8_3v512x8m81                                        
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Net: VDD                                                                     |Net: vdd                                                                     
+  pfet_03v3/(1|3) = 8                                                        |  pfet_03v3/(1|3) = 138                                                      
+  pfet_03v3/4 = 10                                                           |  pfet_03v3/4 = 149                                                          
+  wen_v2_3v512x8m81/vdd = 1                                                  |  wen_v2_3v512x8m81/vdd = 1                                                  
+                                                                             |  alatch_3v512x8m81/vdd = 10                                                 
+                                                                             |  xpredec1_xa_3v512x8m81/vdd = 8                                             
+                                                                             |                                                                             
+Net: VDD_uq4                                                                 |(no matching net)                                                            
+  pfet_03v3/(1|3) = 38                                                       |                                                                             
+  pfet_03v3/4 = 38                                                           |                                                                             
+                                                                             |                                                                             
+Net: VDD_uq3                                                                 |(no matching net)                                                            
+  alatch_3v512x8m81/vdd = 3                                                  |                                                                             
+                                                                             |                                                                             
+Net: VDD_uq1                                                                 |(no matching net)                                                            
+  pfet_03v3/(1|3) = 34                                                       |                                                                             
+  pfet_03v3/4 = 34                                                           |                                                                             
+                                                                             |                                                                             
+Net: VDD_uq5                                                                 |(no matching net)                                                            
+  pfet_03v3/(1|3) = 47                                                       |                                                                             
+  pfet_03v3/4 = 53                                                           |                                                                             
+  xpredec1_xa_3v512x8m81/pmos_1p2$$47513644_3v512x8m81_2/pmos_5p043105913020 |                                                                             
+                                                                             |                                                                             
+Net: VDD_uq0                                                                 |(no matching net)                                                            
+  alatch_3v512x8m81/vdd = 7                                                  |                                                                             
+                                                                             |                                                                             
+Net: gen_3v512x8_3v512x8m81_0/VDD_uq2                                        |(no matching net)                                                            
+  pfet_03v3/(1|3) = 11                                                       |                                                                             
+  pfet_03v3/4 = 14                                                           |                                                                             
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits control_3v512x8_3v512x8m81 control_3v512x8_3v512x8m81
+
 Cell lcol4_512_3v512x8m81 (0) disconnected node: WL[33]
 Cell lcol4_512_3v512x8m81 (0) disconnected node: WL[38]
 Cell lcol4_512_3v512x8m81 (0) disconnected node: WL[39]
@@ -4097,8 +4144,6 @@ RWL[6]                                                                       |RW
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Cell pin lists are equivalent.
 Device classes xdec64_3v512x8m81 and xdec64_3v512x8m81 are equivalent.
-Flattening unmatched subcell control_3v512x8_3v512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (0)(1 instance)
-Flattening unmatched subcell control_3v512x8m81 in circuit gf180mcu_ocd_ip_sram__sram512x8m8wm1 (1)(1 instance)
 
 Subcircuit summary:
 Circuit 1: gf180mcu_ocd_ip_sram__sram512x8m8wm1                              |Circuit 2: gf180mcu_ocd_ip_sram__sram512x8m8wm1                              

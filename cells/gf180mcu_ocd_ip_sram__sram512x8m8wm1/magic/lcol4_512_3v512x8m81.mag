@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1765983829
+timestamp 1766784742
 << metal1 >>
 rect -614 20863 -450 21160
 rect -661 20744 448 20863
@@ -29,7 +29,7 @@ rect -741 28331 -581 28436
 rect 0 20799 448 20892
 rect 640 4957 14060 5018
 use col_512a_3v512x8m81  col_512a_3v512x8m81_0
-timestamp 1765983829
+timestamp 1766784742
 transform 1 0 -9 0 1 -1003
 box -821 525 15976 61655
 use dcap_103_novia_3v512x8m81  dcap_103_novia_3v512x8m81_0
@@ -174,14 +174,6 @@ rlabel metal3 s 490 39107 490 39107 4 WL[27]
 port 63 nsew
 rlabel metal3 s 490 38477 490 38477 4 WL[26]
 port 64 nsew
-rlabel metal1 s 3983 11149 3983 11149 4 pcb[2]
-port 86 nsew
-rlabel metal1 s 2562 11149 2562 11149 4 pcb[3]
-port 87 nsew
-rlabel metal1 s 11547 11149 11547 11149 4 pcb[0]
-port 88 nsew
-rlabel metal1 s 9908 11149 9908 11149 4 pcb[1]
-port 89 nsew
 flabel metal1 s -565 21774 -565 21774 0 FreeSans 257 0 0 0 VDD
 port 74 nsew
 flabel metal1 s 6981 -445 6981 -445 0 FreeSans 420 0 0 0 WEN[2]
@@ -208,4 +200,12 @@ rlabel metal2 s 370 1880 370 1880 4 q[0]
 port 96 se
 rlabel metal2 -240 1830 -240 1830 4 din[0]
 port 95 se
+rlabel metal1 s 2242 11799 2242 11799 4 pcb[3]
+port 87 nsew
+rlabel metal1 s 4553 11789 4553 11789 4 pcb[2]
+port 86 nsew
+rlabel metal1 s 10018 11799 10018 11799 4 pcb[1]
+port 89 nsew
+rlabel metal1 s 12327 11799 12327 11799 4 pcb[0]
+port 88 nsew
 << end >>

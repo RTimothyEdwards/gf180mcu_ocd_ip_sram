@@ -91,7 +91,7 @@ C {lab_pin.sym} -80 130 0 0 {name=p15 sig_type=std_logic lab=D[3:0]}
 C {lab_pin.sym} -80 370 0 0 {name=p16 sig_type=std_logic lab=D[7:4]}
 C {ipin.sym} -350 490 0 0 {name=p17 lab=D[7:0]}
 C {lab_pin.sym} -310 490 0 1 {name=p18 sig_type=std_logic lab=D[7:0]}
-C {control_3v512x8m81.sym} -640 30 0 0 {name=x4}
+C {control_3v512x8_3v512x8m81.sym} -640 30 0 0 {name=x4}
 C {lab_pin.sym} -440 20 0 1 {name=p21 sig_type=std_logic lab=men}
 C {lab_pin.sym} -440 60 0 1 {name=p22 sig_type=std_logic lab=GWE}
 C {lab_pin.sym} -650 250 0 0 {name=p23 sig_type=std_logic lab=men}

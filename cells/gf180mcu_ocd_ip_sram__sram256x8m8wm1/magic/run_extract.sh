@@ -9,7 +9,8 @@ echo "Running netlist extraction on gf180mcu_ocd_ip_sram__sram256x8m8wm1"
 magic -dnull -noconsole -rcfile ${PDK_ROOT}/${PDK}/libs.tech/magic/${PDK}.magicrc << EOF
 load gf180mcu_ocd_ip_sram__sram256x8m8wm1
 select top cell
-extract unique notopports
+# extract unique notopports
+extract unique
 extract path extfiles
 extract no all
 extract all

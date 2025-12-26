@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1765981949
+timestamp 1766784746
 << nwell >>
 rect -365 21493 15173 21547
 rect 7182 21393 7401 21493
@@ -225,19 +225,19 @@ timestamp 1765833244
 transform 1 0 15250 0 1 21835
 box -35 -165 35 165
 use saout_m2_3v256x8m81  saout_m2_3v256x8m81_3
-timestamp 1765901156
+timestamp 1766784746
 transform 1 0 -591 0 1 1002
 box -188 -475 5343 21797
 use saout_m2_3v256x8m81  saout_m2_3v256x8m81_4
-timestamp 1765901156
+timestamp 1766784746
 transform 1 0 7175 0 1 1002
 box -188 -475 5343 21797
 use saout_R_m2_3v256x8m81  saout_R_m2_3v256x8m81_0
-timestamp 1765901156
+timestamp 1766784746
 transform -1 0 15175 0 1 1007
 box -188 -482 5343 21793
 use saout_R_m2_3v256x8m81  saout_R_m2_3v256x8m81_1
-timestamp 1765901156
+timestamp 1766784746
 transform -1 0 7409 0 1 1007
 box -188 -482 5343 21793
 << labels >>
@@ -245,14 +245,6 @@ flabel metal3 s -219 21842 -219 21842 0 FreeSans 313 0 0 0 VSS
 port 76 nsew
 flabel metal3 s -219 17082 -219 17082 0 FreeSans 313 0 0 0 VSS
 port 76 nsew
-rlabel metal1 s 11515 12152 11515 12152 4 pcb[0]
-port 149 nsew
-rlabel metal1 s 9965 12152 9965 12152 4 pcb[1]
-port 150 nsew
-rlabel metal1 s 2579 12152 2579 12152 4 pcb[3]
-port 151 nsew
-rlabel metal1 s 3939 12152 3939 12152 4 pcb[2]
-port 152 nsew
 rlabel metal3 s -500 23132 -500 23132 4 WL[0]
 port 72 nsew
 rlabel metal3 s -500 23714 -500 23714 4 WL[1]
@@ -517,4 +509,12 @@ rlabel metal2 s 14204 2935 14204 2935 4 q[3]
 port 95 nsew
 rlabel metal2 s 14820 2925 14820 2925 4 din[3]
 port 89 nsew
+rlabel metal1 s 2249 12792 2249 12792 4 pcb[3]
+port 151 nsew
+rlabel metal1 s 4569 12792 4569 12792 4 pcb[2]
+port 152 nsew
+rlabel metal1 s 10025 12792 10025 12792 4 pcb[1]
+port 150 nsew
+rlabel metal1 s 12335 12792 12335 12792 4 pcb[0]
+port 149 nsew
 << end >>

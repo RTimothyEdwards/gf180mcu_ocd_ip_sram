@@ -8627,25 +8627,25 @@ XCell_array8x8_3v512x8m81_0 b[1] bb[17] b[22] b[7] bb[2] bb[5] b[8] b[6] bb[1] b
 + WL[10] b[31] WL[53] WL[6] WL[38] WL[62] WL[16] WL[1] WL[39] bb[16] WL[60] b[0] WL[37]
 + WL[42] VSS WL[23] WL[19] WL[8] WL[11] Cell_array8x8_3v512x8m81
 Xsaout_m2_3v512x8m81_4 ypass[2] ypass[4] ypass[5] saout_m2_3v512x8m81_4/GWEN din[2]
-+ q[2] saout_m2_3v512x8m81_4/pcb b[15] b[14] b[13] b[10] bb[9] saout_m2_3v512x8m81_4/vss_uq4
-+ VDD_uq3 VDD_uq4 b[11] b[9] bb[13] bb[11] WEN[1] bb[15] GWE b[8] bb[10] VDD ypass[6]
-+ ypass[7] ypass[0] men bb[12] bb[14] ypass[1] b[12] VDD_uq0 VDD_uq6 VDD_uq1 VDD_uq5
-+ VSS bb[8] VDD_uq2 ypass[3] saout_m2_3v512x8m81
++ q[2] pcb[1] b[15] b[14] b[13] b[10] bb[9] saout_m2_3v512x8m81_4/vss_uq4 VDD_uq3
++ VDD_uq4 b[11] b[9] bb[13] bb[11] WEN[1] bb[15] GWE b[8] bb[10] VDD ypass[6] ypass[7]
++ ypass[0] men bb[12] bb[14] ypass[1] b[12] VDD_uq0 VDD_uq6 VDD_uq1 VDD_uq5 VSS bb[8]
++ VDD_uq2 ypass[3] saout_m2_3v512x8m81
 Xsaout_m2_3v512x8m81_3 ypass[2] ypass[4] ypass[5] saout_m2_3v512x8m81_4/GWEN din[0]
-+ q[0] saout_m2_3v512x8m81_3/pcb b[31] b[30] b[29] b[26] bb[25] saout_m2_3v512x8m81_3/vss_uq4
-+ VDD_uq3 VDD_uq4 b[27] b[25] bb[29] bb[27] WEN[3] bb[31] GWE b[24] bb[26] VDD ypass[6]
-+ ypass[7] ypass[0] men bb[28] bb[30] ypass[1] b[28] VDD_uq0 VDD_uq6 VDD_uq1 VDD_uq5
-+ VSS bb[24] VDD_uq2 ypass[3] saout_m2_3v512x8m81
++ q[0] pcb[3] b[31] b[30] b[29] b[26] bb[25] saout_m2_3v512x8m81_3/vss_uq4 VDD_uq3
++ VDD_uq4 b[27] b[25] bb[29] bb[27] WEN[3] bb[31] GWE b[24] bb[26] VDD ypass[6] ypass[7]
++ ypass[0] men bb[28] bb[30] ypass[1] b[28] VDD_uq0 VDD_uq6 VDD_uq1 VDD_uq5 VSS bb[24]
++ VDD_uq2 ypass[3] saout_m2_3v512x8m81
 Xsaout_R_m2_3v512x8m81_0 ypass[1] ypass[2] ypass[4] ypass[5] ypass[0] saout_m2_3v512x8m81_4/GWEN
 + din[3] b[6] b[1] b[0] bb[7] q[3] bb[4] saout_R_m2_3v512x8m81_0/vss_uq6 VDD_uq1 VDD
 + saout_R_m2_3v512x8m81_0/vdd_uq4 bb[2] b[4] b[5] WEN[0] bb[6] GWE bb[0] ypass[7]
-+ ypass[6] b[7] bb[5] b[2] men bb[1] bb[3] b[3] VDD_uq0 VDD_uq4 VDD_uq3 VDD_uq6 saout_R_m2_3v512x8m81_0/pcb
++ ypass[6] b[7] bb[5] b[2] men bb[1] bb[3] b[3] VDD_uq0 VDD_uq4 VDD_uq3 VDD_uq6 pcb[0]
 + VDD_uq5 VSS VDD_uq2 ypass[3] saout_R_m2_3v512x8m81
 Xsaout_R_m2_3v512x8m81_1 ypass[1] ypass[2] ypass[4] ypass[5] ypass[0] saout_m2_3v512x8m81_4/GWEN
 + din[1] b[22] b[17] b[16] bb[23] q[1] bb[20] saout_R_m2_3v512x8m81_1/vss_uq6 VDD_uq1
 + VDD saout_R_m2_3v512x8m81_1/vdd_uq4 bb[18] b[20] b[21] WEN[2] bb[22] GWE bb[16]
 + ypass[7] ypass[6] b[23] bb[21] b[18] men bb[17] bb[19] b[19] VDD_uq0 VDD_uq4 VDD_uq3
-+ VDD_uq6 saout_R_m2_3v512x8m81_1/pcb VDD_uq5 VSS VDD_uq2 ypass[3] saout_R_m2_3v512x8m81
++ VDD_uq6 pcb[2] VDD_uq5 VSS VDD_uq2 ypass[3] saout_R_m2_3v512x8m81
 .ends
 
 .subckt lcol4_512_3v512x8m81 WL[32] WL[33] WL[34] WL[38] WL[39] WL[35] WL[36] WL[37]

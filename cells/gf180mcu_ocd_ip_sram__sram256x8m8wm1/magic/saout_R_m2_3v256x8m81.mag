@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1765901156
+timestamp 1766784746
 << nwell >>
 rect 225 20120 4028 20386
 rect 225 20100 510 20120
@@ -90,7 +90,7 @@ rect 3845 10033 4055 11939
 rect 418 4947 1518 5018
 rect 3938 3699 4055 4653
 use din_3v256x8m81  din_3v256x8m81_0
-timestamp 1765833452
+timestamp 1766782530
 transform 1 0 226 0 1 6403
 box -156 560 1824 6415
 use M2_M1$$45012012_3v256x8m81  M2_M1$$45012012_3v256x8m81_0
@@ -134,7 +134,7 @@ timestamp 1765833244
 transform 1 0 1554 0 1 4982
 box -63 -35 63 35
 use mux821_3v256x8m81  mux821_3v256x8m81_0
-timestamp 1765901156
+timestamp 1766784746
 transform 1 0 387 0 1 12003
 box -575 634 4956 8484
 use outbuf_oe_3v256x8m81  outbuf_oe_3v256x8m81_0
@@ -292,22 +292,16 @@ rlabel metal1 s 695 19292 695 19292 4 pcb
 port 32 nsew
 rlabel metal1 s 695 19291 695 19291 4 pcb
 port 32 nsew
-rlabel metal1 s 653 13049 653 13049 4 vdd
-port 10 nsew
 rlabel metal3 s 326 10574 326 10574 4 vdd
 port 10 nsew
 rlabel metal3 s 307 8660 307 8660 4 vss
 port 9 nsew
-rlabel metal3 s 280 7109 280 7109 4 vdd
-port 10 nsew
 rlabel metal1 s 488 7320 488 7320 4 datain
 port 14 nsew
 rlabel metal3 s 234 6658 234 6658 4 vdd
 port 10 nsew
 rlabel metal3 s 317 5809 317 5809 4 vss
 port 9 nsew
-rlabel metal3 s 275 1780 275 1780 4 vdd
-port 10 nsew
 flabel metal3 s 493 502 493 502 0 FreeSans 420 0 0 0 GWEN
 port 13 nsew
 rlabel metal3 s 261 943 261 943 4 vss
@@ -328,14 +322,8 @@ rlabel metal2 s 965 2320 965 2320 4 q
 port 26 nsew
 flabel metal3 s 450 4981 450 4981 0 FreeSans 420 0 0 0 GWE
 port 12 nsew
-rlabel metal3 s 278 2530 278 2530 4 men
-port 8 nsew
 rlabel metal3 s 381 4200 381 4200 4 vdd
 port 10 nsew
-rlabel metal3 s 616 2532 616 2532 4 men
-port 8 nsew
-rlabel metal3 s 261 2370 261 2370 4 vss
-port 9 nsew
 rlabel metal3 s 308 3135 308 3135 4 vss
 port 9 nsew
 flabel metal1 s 396 -445 396 -445 0 FreeSans 420 0 0 0 WEN
@@ -378,6 +366,12 @@ rlabel metal2 s 753 20107 753 20107 4 bb[0]
 port 30 nsew
 rlabel metal2 s 425 20108 425 20108 4 b[0]
 port 22 nsew
+rlabel metal3 s 305 2100 305 2100 4 vdd
+port 10 nsew
+rlabel metal3 s 301 2470 301 2470 4 vss
+port 9 nsew
+rlabel metal3 s 256 2892 256 2892 4 men
+port 8 nsew
 << properties >>
 string path 10.130 4.930 10.130 -9.675 15.190 -9.675 15.190 -12.125 
 << end >>

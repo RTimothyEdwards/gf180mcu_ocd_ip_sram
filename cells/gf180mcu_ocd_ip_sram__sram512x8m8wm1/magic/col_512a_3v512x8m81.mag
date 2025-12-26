@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1765983829
+timestamp 1766784742
 << nwell >>
 rect -365 21493 15173 21547
 rect 7182 21393 7401 21493
@@ -177,14 +177,6 @@ rlabel metal2 s 707 21313 707 21313 4 b[29]
 port 96 nsew
 rlabel metal2 s 273 21313 273 21313 4 bb[30]
 port 136 nsew
-rlabel metal1 s 11515 12152 11515 12152 4 pcb[0]
-port 149 nsew
-rlabel metal1 s 9965 12152 9965 12152 4 pcb[1]
-port 150 nsew
-rlabel metal1 s 2579 12152 2579 12152 4 pcb[3]
-port 151 nsew
-rlabel metal1 s 3939 12152 3939 12152 4 pcb[2]
-port 152 nsew
 rlabel metal3 s -500 23132 -500 23132 4 WL[0]
 port 72 nsew
 rlabel metal3 s -500 23714 -500 23714 4 WL[1]
@@ -505,4 +497,12 @@ rlabel metal2 s 8389 21313 8389 21313 4 b[14]
 port 101 nsew
 rlabel metal2 s 8500 21313 8500 21313 4 b[13]
 port 81 nsew
+rlabel metal1 s 2249 12802 2249 12802 4 pcb[3]
+port 151 nsew
+rlabel metal1 s 4559 12802 4559 12802 4 pcb[2]
+port 152 nsew
+rlabel metal1 s 10025 12802 10025 12802 4 pcb[1]
+port 150 nsew
+rlabel metal1 s 12335 12802 12335 12802 4 pcb[0]
+port 149 nsew
 << end >>

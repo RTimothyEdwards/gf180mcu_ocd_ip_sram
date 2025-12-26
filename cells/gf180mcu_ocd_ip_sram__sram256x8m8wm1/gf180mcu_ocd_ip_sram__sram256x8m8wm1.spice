@@ -19,7 +19,7 @@ x3 VSS VDD net6 net3 net4[7] net4[6] net4[5] net4[4] net4[3] net4[2] net4[1] net
 * noconn #net6
 x4 VSS VDD VSS VSS A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] xc[3] xc[2] xc[1] xc[0] net5[3] net5[2] net5[1] net5[0] net4[7] net4[6]
 + net4[5] net4[4] net4[3] net4[2] net4[1] net4[0] CLK men IGWEN GWEN GWE ypassr[7] ypassr[6] ypassr[5] ypassr[4] ypassr[3] ypassr[2]
-+ ypassr[1] ypassr[0] ypassl[7] ypassl[6] ypassl[5] ypassl[4] ypassl[3] ypassl[2] ypassl[1] ypassl[0] tblhl CEN control_3v256x8m81
++ ypassr[1] ypassr[0] ypassl[7] ypassl[6] ypassl[5] ypassl[4] ypassl[3] ypassl[2] ypassl[1] ypassl[0] tblhl CEN control_3v256x8_3v256x8m81
 * noconn xc[2]
 * noconn xc[3]
 * noconn xc[0]
@@ -182,12 +182,12 @@ x2 vdd DLWL vss men DRWL ddec_3v256x8m81
 .ends
 
 
-* expanding   symbol:  control_3v256x8m81.sym # of pins=15
-** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_ip_sram/cells/gf180mcu_ocd_ip_sram__sram256x8m8wm1/xschem/control_3v256x8m81.sym
-** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_ip_sram/cells/gf180mcu_ocd_ip_sram__sram256x8m8wm1/xschem/control_3v256x8m81.sch
-.subckt control_3v256x8m81 vss vdd A[9] A[8] A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] xc[3] xc[2] xc[1] xc[0] xb[3] xb[2] xb[1]
-+ xb[0] xa[7] xa[6] xa[5] xa[4] xa[3] xa[2] xa[1] xa[0] clk men IGWEN GWEN GWE RYS[7] RYS[6] RYS[5] RYS[4] RYS[3] RYS[2] RYS[1] RYS[0]
-+ LYS[7] LYS[6] LYS[5] LYS[4] LYS[3] LYS[2] LYS[1] LYS[0] tblhl CEN
+* expanding   symbol:  control_3v256x8_3v256x8m81.sym # of pins=15
+** sym_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_ip_sram/cells/gf180mcu_ocd_ip_sram__sram256x8m8wm1/xschem/control_3v256x8_3v256x8m81.sym
+** sch_path: /home/tim/gitsrc/open_pdks/sources/gf180mcu_ocd_ip_sram/cells/gf180mcu_ocd_ip_sram__sram256x8m8wm1/xschem/control_3v256x8_3v256x8m81.sch
+.subckt control_3v256x8_3v256x8m81 vss vdd A[9] A[8] A[7] A[6] A[5] A[4] A[3] A[2] A[1] A[0] xc[3] xc[2] xc[1] xc[0] xb[3] xb[2]
++ xb[1] xb[0] xa[7] xa[6] xa[5] xa[4] xa[3] xa[2] xa[1] xa[0] clk men IGWEN GWEN GWE RYS[7] RYS[6] RYS[5] RYS[4] RYS[3] RYS[2] RYS[1]
++ RYS[0] LYS[7] LYS[6] LYS[5] LYS[4] LYS[3] LYS[2] LYS[1] LYS[0] tblhl CEN
 *.PININFO clk:I GWEN:I IGWEN:O GWE:O A[9:0]:I xc[3:0]:O xb[3:0]:O xa[7:0]:O men:O RYS[7:0]:O LYS[7:0]:O vss:B vdd:B tblhl:I CEN:I
 x1 RYS[7] RYS[6] RYS[5] RYS[4] RYS[3] RYS[2] RYS[1] RYS[0] LYS[7] LYS[6] LYS[5] LYS[4] LYS[3] LYS[2] LYS[1] LYS[0] vdd clk men vss
 + A[2] A[1] A[0] ypredec1_3v256x8m81

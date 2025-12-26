@@ -1947,6 +1947,57 @@ Net: col_1024a_3v1024x8m81_0/VDD_uq2                                         |(n
 Netlists do not match.
 Port matching may fail to disambiguate symmetries.
   Flattening non-matched subcircuits lcol4_1024_3v1024x8m81 lcol4_1024_3v1024x8m81
+
+Cell control_3v1024x8_3v1024x8m81 (0) disconnected node: VDD_uq0
+Cell control_3v1024x8_3v1024x8m81 (0) disconnected node: VSS_uq2
+Subcircuit summary:
+Circuit 1: control_3v1024x8_3v1024x8m81                                      |Circuit 2: control_3v1024x8_3v1024x8m81                                      
+-----------------------------------------------------------------------------|-----------------------------------------------------------------------------
+xpredec1_xa_3v1024x8m81 (8)                                                  |xpredec1_xa_3v1024x8m81 (8)                                                  
+nfet_03v3 (241->145)                                                         |nfet_03v3 (145)                                                              
+pfet_03v3 (260->149)                                                         |pfet_03v3 (149)                                                              
+alatch_3v1024x8m81 (10)                                                      |alatch_3v1024x8m81 (10)                                                      
+wen_v2_3v1024x8m81 (1)                                                       |wen_v2_3v1024x8m81 (1)                                                       
+Number of devices: 313                                                       |Number of devices: 313                                                       
+Number of nets: 188 **Mismatch**                                             |Number of nets: 182 **Mismatch**                                             
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+NET mismatches: Class fragments follow (with fanout counts):
+Circuit 1: control_3v1024x8_3v1024x8m81                                      |Circuit 2: control_3v1024x8_3v1024x8m81                                      
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Net: VDD                                                                     |Net: vdd                                                                     
+  xpredec1_xa_3v1024x8m81/pmos_1p2$$47513644_3v1024x8m81_2/pmos_5p0431059130 |  alatch_3v1024x8m81/vdd = 10                                                
+  pfet_03v3/(1|3) = 47                                                       |  pfet_03v3/(1|3) = 138                                                      
+  pfet_03v3/4 = 53                                                           |  pfet_03v3/4 = 149                                                          
+                                                                             |  wen_v2_3v1024x8m81/vdd = 1                                                 
+                                                                             |  xpredec1_xa_3v1024x8m81/vdd = 8                                            
+                                                                             |                                                                             
+Net: VDD_uq4                                                                 |(no matching net)                                                            
+  pfet_03v3/(1|3) = 8                                                        |                                                                             
+  pfet_03v3/4 = 10                                                           |                                                                             
+  wen_v2_3v1024x8m81/vdd = 1                                                 |                                                                             
+                                                                             |                                                                             
+Net: VDD_uq1                                                                 |(no matching net)                                                            
+  alatch_3v1024x8m81/vdd = 7                                                 |                                                                             
+                                                                             |                                                                             
+Net: VDD_uq5                                                                 |(no matching net)                                                            
+  alatch_3v1024x8m81/vdd = 3                                                 |                                                                             
+                                                                             |                                                                             
+Net: VDD_uq2                                                                 |(no matching net)                                                            
+  pfet_03v3/(1|3) = 34                                                       |                                                                             
+  pfet_03v3/4 = 34                                                           |                                                                             
+                                                                             |                                                                             
+Net: gen_3v1024x8_3v1024x8m81_0/VDD_uq2                                      |(no matching net)                                                            
+  pfet_03v3/(1|3) = 11                                                       |                                                                             
+  pfet_03v3/4 = 14                                                           |                                                                             
+                                                                             |                                                                             
+Net: VDD_uq6                                                                 |(no matching net)                                                            
+  pfet_03v3/(1|3) = 38                                                       |                                                                             
+  pfet_03v3/4 = 38                                                           |                                                                             
+-----------------------------------------------------------------------------------------------------------------------------------------------------------
+Netlists do not match.
+Port matching may fail to disambiguate symmetries.
+  Flattening non-matched subcircuits control_3v1024x8_3v1024x8m81 control_3v1024x8_3v1024x8m81
 Flattening unmatched subcell xdec64_468_3v1024x8m81 in circuit xdec128_3v1024x8m81 (0)(1 instance)
 Flattening unmatched subcell xdec8_3v1024x8m81 in circuit xdec128_3v1024x8m81 (0)(4 instances)
 Flattening unmatched subcell nmos_5p043105913020111_3v1024x8m81 in circuit xdec128_3v1024x8m81 (0)(2 instances)
@@ -2270,8 +2321,6 @@ RWL[114]                                                                     |RW
 -----------------------------------------------------------------------------------------------------------------------------------------------------------
 Cell pin lists for xdec128_3v1024x8m81 and xdec128_3v1024x8m81 altered to match.
 Device classes xdec128_3v1024x8m81 and xdec128_3v1024x8m81 are equivalent.
-Flattening unmatched subcell control_3v1024x8_3v1024x8m81 in circuit gf180mcu_ocd_ip_sram__sram1024x8m8wm1 (0)(1 instance)
-Flattening unmatched subcell control_3v1024x8m81 in circuit gf180mcu_ocd_ip_sram__sram1024x8m8wm1 (1)(1 instance)
 
 Subcircuit summary:
 Circuit 1: gf180mcu_ocd_ip_sram__sram1024x8m8wm1                             |Circuit 2: gf180mcu_ocd_ip_sram__sram1024x8m8wm1                             
