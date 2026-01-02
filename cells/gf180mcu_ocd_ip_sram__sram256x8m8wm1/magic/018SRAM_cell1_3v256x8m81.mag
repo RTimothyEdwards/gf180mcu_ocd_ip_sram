@@ -1,7 +1,7 @@
 magic
 tech gf180mcuD
 magscale 1 10
-timestamp 1765833244
+timestamp 1767366337
 << nwell >>
 rect 30 512 570 797
 << pwell >>
@@ -149,5 +149,7 @@ rect 346 89 466 100
 rect 82 330 518 690
 << properties >>
 string FIXED_BBOX 82 126 518 732
+string MASKHINTS_NPLUS 64 64 536 478
+string MASKHINTS_PPLUS 78 546 522 798
 string MASKHINTS_SRAMDEF 24 89 576 797
 << end >>
