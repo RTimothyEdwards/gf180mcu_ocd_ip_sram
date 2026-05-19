@@ -5,14 +5,18 @@
  * Based on work done by the GlobalFoundries PDK Authors.
  * Original copyright notice is below.
  *
- * Currently, this is a copy of gf180mcu_fd_ip_sram__sram512x8m8wm1.
- * Timing (in the "specify" blocks) needs to be revised for the
- * 3.3V version.
+ * Originally a copy of gf180mcu_fd_ip_sram__sram512x8m8wm1; the
+ * specify-block timing has been re-derived from the per-corner data
+ * in specs/5_AC_Characteristics{2,3}.csv (which match this macro's
+ * recharacterised Liberty files).
+ *
+ * Define `SRAM_VDD_1V8` at compile time to select the 1.8V drooped
+ * timing model; default is 3.3V (the IP's nominal operating point).
  *
  * Project:             018 3.3V SRAM
  * Author:              Open Circuit Design, LLC
  * Data Created:        December 11, 2025
- * Revision:		0.0
+ * Revision:		0.1
  *
  * Description:         gf180mcu_ocd_ip_sram__sram1024x8m8wm1 Simulation Model
  */
@@ -153,25 +157,61 @@ reg cen_flag_dly;
 always @(cen_flag) cen_flag_dly = #100 cen_flag;
 
 specify
-  specparam Tcyc = 55600 : 55600 : 55600;
-  specparam Tckh = 25000 : 25000 : 25000;
-  specparam Tckl = 25000 : 25000 : 25000;
+`ifdef SRAM_VDD_1V8
+  // -----------------------------------------------------------------------
+  // 1.8 V drooped operation. Source: specs/5_AC_Characteristics3.csv.
+  // Triplet = ff_n40C_1v98 (best) : tt_025C_1v80 (typ) : worst-of-all.
+  // All values in ps (timescale = 1 ps / 1 ps).
+  // -----------------------------------------------------------------------
+  specparam Tcyc = 10945 : 23561 : 56571;
+  specparam Tckh =  4254 : 11779 : 17821;
+  specparam Tckl =  4340 : 10061 : 27105;
 
-  specparam tcs  = 5000 : 5000 : 5000;
-  specparam tas  = 5000 : 5000 : 5000;
-  specparam tds  = 5000 : 5000 : 5000;
-  specparam tws  = 5000 : 5000 : 5000;
-  specparam twis = 5000 : 5000 : 5000;
+  specparam tcs  =   797 :  1556 :  3584;   // max(Tcsl, Tcsh) per corner
+  specparam tas  =  1483 :  2592 :  4186;   // max(Tasl, Tash)
+  specparam tds  =   884 :  1745 :  3198;   // max(Tdsl, Tdsh)
+  specparam tws  =  1193 :  2412 :  5580;   // max(Twsl, Twsh)
+  specparam twis =     0 :   558 :   558;   // max(Twisl, Twish); SS corners report 0
 
-  specparam tch  = 10000 : 10000 : 10000;
-  specparam tah  = 10000 : 10000 : 10000;
-  specparam tdh  = 10000 : 10000 : 10000;
-  specparam twh  = 10000 : 10000 : 10000;
-  specparam twih = 10000 : 10000 : 10000;
+  specparam tch  =  2056 :  4047 :  8854;   // max(Tchl, Tchh)
+  specparam tah  =   844 :  1518 :  3260;   // max(Tahl, Tahh)
+  specparam tdh  =  1104 :  2235 :  6309;   // max(Tdhl, Tdhh)
+  specparam twh  =  1376 :  2723 :  7368;   // max(Twhl, Twhh)
+  specparam twih =  1379 :  2732 :  7391;   // max(Twihl, Twihh)
 
-  specparam ta   = 45000 : 45000 : 45000;
+  specparam ta   =  8702 : 18202 : 42840;   // max(Tah, Tal); CLK->Q delay
+`else
+  // -----------------------------------------------------------------------
+  // 3.3 V nominal operation (default). Source: specs/5_AC_Characteristics2.csv.
+  // Triplet = ff_n40C_3v60 (best) : tt_025C_3v30 (typ) : worst-of-all.
+  // All values in ps (timescale = 1 ps / 1 ps).
+  // -----------------------------------------------------------------------
+  specparam Tcyc =  5480 :  9241 : 18260;
+  specparam Tckh =  2124 :  3580 :  5665;
+  specparam Tckl =  2526 :  3334 :  5824;
 
-  specparam Tdly  = 100 : 100: 100;
+  specparam tcs  =   426 :   613 :  1076;   // max(Tcsl, Tcsh) per corner
+  specparam tas  =   854 :  1282 :  2208;   // max(Tasl, Tash)
+  specparam tds  =   451 :   674 :  1187;   // max(Tdsl, Tdsh)
+  specparam tws  =   600 :   918 :  1645;   // max(Twsl, Twsh)
+  specparam twis =   266 :   337 :   444;   // max(Twisl, Twish)
+
+  specparam tch  =  1037 :  1640 :  2977;   // max(Tchl, Tchh)
+  specparam tah  =   509 :   732 :  1239;   // max(Tahl, Tahh)
+  specparam tdh  =   620 :   906 :  1612;   // max(Tdhl, Tdhh)
+  specparam twh  =   779 :  1182 :  2152;   // max(Twhl, Twhh)
+  specparam twih =   779 :  1183 :  2155;   // max(Twihl, Twihh)
+
+  // NOTE: 5_AC_Characteristics2.csv reports identical values for the
+  // ss_n40C and ff_n40C corners of both Tah and Tal (13.974 / 13.974 ns),
+  // which is monotonically impossible. Almost certainly a transcription
+  // artefact in the CSV. We use ss_125C_3v00 (7177 ps) as the "max"
+  // pending upstream review; the 5V CSV1 data shows the expected
+  // monotonic spread, so the bug is isolated to CSV2 Tah/Tal.
+  specparam ta   =  4230 :  6215 :  7177;   // max(Tah, Tal); CLK->Q delay
+`endif
+
+  specparam Tdly = 100 : 100 : 100;
 
 //---- CLK period/pulse timing
   $period (negedge CLK, Tcyc, ntf_Tcyc);
