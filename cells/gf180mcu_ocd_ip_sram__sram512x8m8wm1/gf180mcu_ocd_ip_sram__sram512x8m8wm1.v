@@ -5,7 +5,7 @@
  * Based on work done by the GlobalFoundries PDK Authors.
  * Original copyright notice is below.
  *
- * Currently, this is a copy of gf180mcu_fd_ip_sram__sra512x8m8wm1.
+ * Currently, this is a copy of gf180mcu_fd_ip_sram__sram512x8m8wm1.
  * Timing (in the "specify" blocks) needs to be revised for the
  * 3.3V version.
  *
@@ -58,9 +58,9 @@ module gf180mcu_ocd_ip_sram__sram512x8m8wm1 (
 );
 
 input           CLK;
-input           CEN;    //Chip Enable
-input           GWEN;   //Global Write Enable
-input   [7:0]  	WEN;    //Write Enable
+input           CEN;    //Chip Enable Negative
+input           GWEN;   //Global Write Enable Negative
+input   [7:0]  	WEN;    //Write Enable Negative
 input   [8:0]   A;
 input   [7:0]  	D;
 output	[7:0]	Q;

@@ -1,9 +1,23 @@
 /*
- * Copyright 2025 Open Circuit Design, LLC
- * 3.3V SRAM based on the GlobalFoundries PDK Authors 5V SRAM
- * Licensed under the Apache License, Version 2.0 (the "License");
- * See original license, below.
  *
+ * Copyright 2025 Open Circuit Design, LLC
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * Based on work done by the GlobalFoundries PDK Authors.
+ * Original copyright notice is below.
+ *
+ * Currently, this is a copy of gf180mcu_fd_ip_sram__sram256x8m8wm1.
+ * Timing (in the "specify" blocks) needs to be revised for the
+ * 3.3V version.
+ *
+ * Project:             018 3.3V SRAM
+ * Author:              Open Circuit Design, LLC
+ * Data Created:        November 18, 2025
+ * Revision:		0.0
+ *
+ * Description:         gf180mcu_ocd_ip_sram__sram256x8m8wm1 Simulation Model
+ */
+
+/*
  * $Id: $
  * Copyright 2022 GlobalFoundries PDK Authors
  *
@@ -44,9 +58,9 @@ module gf180mcu_ocd_ip_sram__sram256x8m8wm1 (
 );
 
 input           CLK;
-input           CEN;    //Chip Enable
-input           GWEN;   //Global Write Enable
-input   [7:0]  	WEN;    //Write Enable
+input           CEN;    //Chip Enable Negative
+input           GWEN;   //Global Write Enable Negative
+input   [7:0]  	WEN;    //Write Enable Negative
 input   [7:0]   A;
 input   [7:0]  	D;
 output	[7:0]	Q;
