@@ -479,7 +479,7 @@ initial begin			//initialization
   cen_not_rst    = 0;
 
   for(i=0; i<256; i=i+1) begin
-    mem[i] = 8'd0;
+    mem[i] = 8'bx;
   end
 end
 
