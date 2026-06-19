@@ -616,6 +616,6 @@ port 1 nsew
 flabel metal3 s 58373 30377 58373 30377 0 FreeSans 280 0 0 0 VDD
 port 2 nsew
 << properties >>
-string FIXED_BBOX 0 0 60260 44986
+string FIXED_BBOX 0 0 60260 30442
 string path 63.580 0.000 63.580 1.000 
 << end >>
