@@ -1,0 +1,38 @@
+v {xschem version=3.4.6 file_version=3.3}
+G {}
+K {type=primitive
+format="@name @pinlist @symname"
+template="name=x1"
+}
+V {}
+S {}
+E {}
+P 4 5 0 0 0 -180 260 -180 260 0 0 0 {}
+T {gf180mcu_ocd_ip_sram__sram64x8m8wm1} 130.0 -198.0 0 0 0.3 0.3 {hcenter=true}
+L 4 -20 -20 0 -20 {}
+T {VSS} 5 -20.0 0 0 0.25 0.25 {vcenter=true}
+B 5 -22.5 -22.5 -17.5 -17.5 {name=VSS dir=inout}
+L 4 -20 -40 0 -40 {}
+T {VDD} 5 -40.0 0 0 0.25 0.25 {vcenter=true}
+B 5 -22.5 -42.5 -17.5 -37.5 {name=VDD dir=inout}
+L 4 -20 -60 0 -60 {}
+T {A[5:0]} 5 -60.0 0 0 0.25 0.25 {vcenter=true}
+B 5 -22.5 -62.5 -17.5 -57.5 {name=A[5:0] dir=in}
+L 4 -20 -80 0 -80 {}
+T {CLK} 5 -80.0 0 0 0.25 0.25 {vcenter=true}
+B 5 -22.5 -82.5 -17.5 -77.5 {name=CLK dir=in}
+L 4 -20 -100 0 -100 {}
+T {GWEN} 5 -100.0 0 0 0.25 0.25 {vcenter=true}
+B 5 -22.5 -102.5 -17.5 -97.5 {name=GWEN dir=in}
+L 4 260 -20 280 -20 {}
+T {Q[7:0]} 255 -20.0 0 1 0.25 0.25 {vcenter=true}
+B 5 277.5 -22.5 282.5 -17.5 {name=Q[7:0] dir=out}
+L 4 -20 -120 0 -120 {}
+T {WEN[7:0]} 5 -120.0 0 0 0.25 0.25 {vcenter=true}
+B 5 -22.5 -122.5 -17.5 -117.5 {name=WEN[7:0] dir=in}
+L 4 -20 -140 0 -140 {}
+T {D[7:0]} 5 -140.0 0 0 0.25 0.25 {vcenter=true}
+B 5 -22.5 -142.5 -17.5 -137.5 {name=D[7:0] dir=in}
+L 4 -20 -160 0 -160 {}
+T {CEN} 5 -160.0 0 0 0.25 0.25 {vcenter=true}
+B 5 -22.5 -162.5 -17.5 -157.5 {name=CEN dir=in}
